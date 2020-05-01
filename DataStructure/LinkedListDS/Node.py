@@ -1,0 +1,2 @@
+class Node:
+    pass
