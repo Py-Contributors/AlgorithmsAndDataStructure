@@ -1,9 +1,9 @@
-#  Date   1/5/2020.
+#  __Date__     : 1/5/2020.
 #  __Author__   :  CodePerfectPlus
 #  __Package__  :  Python 3
-#  __GitHub__  : https://www.github.com/codeperfectplus
+#  __GitHub__   : https://www.github.com/codeperfectplus
 #
-from DataStructure.LinkedListDS.LinkedList import LinkedList
+from DataStructures import LinkedList
 
 myList = LinkedList()
 

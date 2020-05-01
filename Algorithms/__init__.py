@@ -1,1 +1,3 @@
-from Algorithms.MachineLearningAlgorithms.LinearRegression import LinearRegression
+from .MachineLearningAlgorithms.LinearRegression import LinearRegression
+from .MachineLearningAlgorithms.LogisticRegression import LogisticRegression
+from .SortingAlgorithms.BubbleSort import BubbleSort
