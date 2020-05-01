@@ -1,0 +1,11 @@
+<component name="CopyrightManager">
+  <settings default="CodePerfectPlus">
+    <module2copyright>
+      <element module="All" copyright="CodePerfectPlus" />
+    </module2copyright>
+    <LanguageOptions name="Python">
+      <option name="fileTypeOverride" value="3" />
+      <option name="block" value="false" />
+    </LanguageOptions>
+  </settings>
+</component>

@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fb771ad-38ed-464d-bd12-4ea8470005b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/AlgorithmsAndDataStructure.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure/LinkedListDS/App.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/LinkedListDS/App.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure/LinkedListDS/LinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/LinkedListDS/LinkedList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure/LinkedListDS/Node.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure/LinkedListDS/Node.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +30,37 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="copyright.profiles" />
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmsAndDataStructure" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataStructure/LinkedListDS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructure/LinkedListDS/App.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.App" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -45,5 +74,39 @@
       <updated>1588310776642</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="324" y="141" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1588316564281">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="324" y="141" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/-1360.-110.1360.738/0.0.1366.738@0.0.1366.738" timestamp="1588316564281" />
+    <state width="1345" height="182" key="GridCell.Tab.0.bottom" timestamp="1588317211365">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1345" height="182" key="GridCell.Tab.0.bottom/-1360.-110.1360.738/0.0.1366.738@0.0.1366.738" timestamp="1588316211935" />
+    <state width="1345" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588317211365" />
+    <state width="1345" height="182" key="GridCell.Tab.0.center" timestamp="1588317211365">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1345" height="182" key="GridCell.Tab.0.center/-1360.-110.1360.738/0.0.1366.738@0.0.1366.738" timestamp="1588316211935" />
+    <state width="1345" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1588317211365" />
+    <state width="1345" height="182" key="GridCell.Tab.0.left" timestamp="1588317211364">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1345" height="182" key="GridCell.Tab.0.left/-1360.-110.1360.738/0.0.1366.738@0.0.1366.738" timestamp="1588316211934" />
+    <state width="1345" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1588317211364" />
+    <state width="1345" height="182" key="GridCell.Tab.0.right" timestamp="1588317211365">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1345" height="182" key="GridCell.Tab.0.right/-1360.-110.1360.738/0.0.1366.738@0.0.1366.738" timestamp="1588316211935" />
+    <state width="1345" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1588317211365" />
+    <state x="160" y="11" key="SettingsEditor" timestamp="1588316461399">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="160" y="11" key="SettingsEditor/-1360.-110.1360.738/0.0.1366.738@0.0.1366.738" timestamp="1588316461399" />
+    <state x="463" y="176" key="save.file.as.template.dialog" timestamp="1588313276231">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="176" key="save.file.as.template.dialog/-1360.-110.1360.738/0.0.1366.738@0.0.1366.738" timestamp="1588313276231" />
   </component>
 </project>
