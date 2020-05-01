@@ -1,6 +1,6 @@
-# [AlgorithmsImplementation](/ALGORITHM.md)
+# [AlgorithmsAndDataStructure](/Algorithms/README.md)
 
-- [AlgorithmsImplementation](#algorithmsimplementation)
+- [AlgorithmsAndDataStructure](#algorithmsanddatastructure)
   - [Introduction](#introduction)
   - [Support](#support)
   - [Contributing](#contributing)
@@ -13,16 +13,17 @@
 
 Algorithm is a step-by-step procedure, which defines a set of instructions to be executed in a certain order to get the desired output.Algorithms are generally created independet of underlying langugae.
 
-Check [Algorithm-Here](/ALGORITHM.md)
+Check [Algorithm-Here](/Algorithms/README.md)
+Check [Data Structure](/DataStructure/README.md)
 
 ## Support
 
-Check [Contribution](/contributing.md) Guide Before Contribution.
+Check [Contribution](/CONTRIBUTING.md) Guide Before Contribution.
 
 ## Contributing
 
 Before submitting a bug, please do the following:
-Check [Contribution](/contributing.md) Guide Before Contribution.
+Check [Contribution](/CONTRIBUTING.md) Guide Before Contribution.
 
 Perform basic troubleshooting steps:
 
@@ -34,9 +35,9 @@ Perform basic troubleshooting steps:
 
 Show your appreciation to those who have contributed to the project.
 
-## License
+## [License](/LICENSE)
 
-For open-source projects, Under MIT License.
+For open-source projects, Under [MIT License](/LICENSE).
 
 ## Project status
 
