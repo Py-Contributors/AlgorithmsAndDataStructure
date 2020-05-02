@@ -4,7 +4,6 @@ __Author__           :  CodePerfectPlus
 __Package__         :  Python 3
 __GitHub__         : https://www.github.com/codeperfectplus
 '''
-from Algorithms.SortingAlgorithms.BubbleSort import BubbleSort
+from Algorithms import bubbleSort
 
-obj = BubbleSort()
-obj.sort()
+bubbleSort([8,6,1])

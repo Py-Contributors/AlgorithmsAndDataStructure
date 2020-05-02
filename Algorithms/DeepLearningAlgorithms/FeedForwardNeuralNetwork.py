@@ -94,7 +94,7 @@ class Network:
             #that Python can use negative indices in lists.
             for l in range(2, self.num_layers):
                 z = zs[-1]
-                sp.sigmoid_primes(z)
+                np.sigmoid_primes(z)
                 delta = np.dot(self.weights[-1+1].transpose(), delta) * sp
                 nabla_b[-1] = delta
                 nabla_w[-1] = np.dot(delta, activations[-1-1].transpose())
