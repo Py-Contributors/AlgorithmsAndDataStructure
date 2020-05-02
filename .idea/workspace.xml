@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fb771ad-38ed-464d-bd12-4ea8470005b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/copyright/CodePerfectPlus.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copyright/CodePerfectPlus.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/SortingAlgorithms/BubbleSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/SortingAlgorithms/BubbleSort.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithms/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/LinkedListDS/LinkedList.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/LinkedListDS/Node.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/LinkedListDS/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Example/Algorithms/LinearRegression.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Example/DataStructure/LinkedList-Test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example/Algo/bubbleSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Example/Algo/bubbleSort.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +44,7 @@
       <recent name="C:\Users\Flash\Documents\GitHub\AlgorithmsAndDataStructure\DataStructure\LinkedListDS" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.LinearRegressionTest">
+  <component name="RunManager" selected="Python.LinearRegression (1)">
     <configuration name="LinearRegression (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmsAndDataStructure" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,27 +58,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms/MachineLearningAlgorithms/LinearRegression.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="LinearRegression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AlgorithmsAndDataStructure" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Flash\Anaconda3\envs\PythonAlgorithms\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Example/Algorithms" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example/Algorithms/LinearRegression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,20 +129,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="insertionSortTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmsAndDataStructure" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Example/Algo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example/Algo/insertionSortTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.LinearRegression" />
       <item itemvalue="Python.LinearRegression (1)" />
       <item itemvalue="Python.LinkedListTest" />
       <item itemvalue="Python.bubbleSort" />
       <item itemvalue="Python.LinearRegressionTest" />
+      <item itemvalue="Python.insertionSortTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.insertionSortTest" />
         <item itemvalue="Python.LinearRegressionTest" />
         <item itemvalue="Python.LinkedListTest" />
         <item itemvalue="Python.bubbleSort" />
         <item itemvalue="Python.LinearRegression (1)" />
-        <item itemvalue="Python.LinearRegression" />
       </list>
     </recent_temporary>
   </component>
@@ -208,26 +201,26 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="126" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1588326192694" />
-    <state width="1345" height="182" key="GridCell.Tab.0.bottom" timestamp="1588336940934">
+    <state width="1345" height="182" key="GridCell.Tab.0.bottom" timestamp="1588404605510">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="182" key="GridCell.Tab.0.bottom/-1360.-110.1360.738/0.0.1366.738@0.0.1366.738" timestamp="1588316211935" />
-    <state width="1345" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588336940934" />
-    <state width="1345" height="182" key="GridCell.Tab.0.center" timestamp="1588336940934">
+    <state width="1345" height="182" key="GridCell.Tab.0.bottom/-1360.-110.1360.738/0.0.1366.738@0.0.1366.738" timestamp="1588402789517" />
+    <state width="1345" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588404605510" />
+    <state width="1345" height="182" key="GridCell.Tab.0.center" timestamp="1588404605510">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="182" key="GridCell.Tab.0.center/-1360.-110.1360.738/0.0.1366.738@0.0.1366.738" timestamp="1588316211935" />
-    <state width="1345" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1588336940934" />
-    <state width="1345" height="182" key="GridCell.Tab.0.left" timestamp="1588336940934">
+    <state width="1345" height="182" key="GridCell.Tab.0.center/-1360.-110.1360.738/0.0.1366.738@0.0.1366.738" timestamp="1588402789517" />
+    <state width="1345" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1588404605510" />
+    <state width="1345" height="182" key="GridCell.Tab.0.left" timestamp="1588404605510">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="182" key="GridCell.Tab.0.left/-1360.-110.1360.738/0.0.1366.738@0.0.1366.738" timestamp="1588316211934" />
-    <state width="1345" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1588336940934" />
-    <state width="1345" height="182" key="GridCell.Tab.0.right" timestamp="1588336940934">
+    <state width="1345" height="182" key="GridCell.Tab.0.left/-1360.-110.1360.738/0.0.1366.738@0.0.1366.738" timestamp="1588402789517" />
+    <state width="1345" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1588404605510" />
+    <state width="1345" height="182" key="GridCell.Tab.0.right" timestamp="1588404605510">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="182" key="GridCell.Tab.0.right/-1360.-110.1360.738/0.0.1366.738@0.0.1366.738" timestamp="1588316211935" />
-    <state width="1345" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1588336940934" />
+    <state width="1345" height="182" key="GridCell.Tab.0.right/-1360.-110.1360.738/0.0.1366.738@0.0.1366.738" timestamp="1588402789517" />
+    <state width="1345" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1588404605510" />
     <state x="263" y="106" key="IDE.errors.dialog" timestamp="1588326245157">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
