@@ -4,6 +4,7 @@ import random
 
 #third-party libraries
 import numpy as np
+from .ActivationFunction import Sigmoid
 
 class Network:
     """ A module to implement the stochastic gradient descent learning

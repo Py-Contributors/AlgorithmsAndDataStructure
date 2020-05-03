@@ -8,6 +8,7 @@ class GradientDescent:
         self.b = b 
         self.x = x
         self.y = y
+        self.z = (w*x + b)
         
     def sigmoid(self,w,b,x):
         return 1.0/(1.0 + np.exp(-w*x + b))

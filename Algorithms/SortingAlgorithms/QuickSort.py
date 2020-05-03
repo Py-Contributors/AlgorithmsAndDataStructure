@@ -1,2 +1,2 @@
-def quickSort():
+class QuickSort():
     pass

@@ -1,5 +1,7 @@
 import numpy as np
 
+# Call Method : https://www.geeksforgeeks.org/__call__-in-python/
+
 class Sigmoid():
     ''' Softmax gives the probability of output function 
         Range : 0 to 1
@@ -10,21 +12,29 @@ class Sigmoid():
     def gradient(self,x):
         return self.__call__(x) * (1-self.__call__(x))
 
-class tanH():
-    ''' '''
-    pass
+class TanH():
+    '''TanH Gives the probability of output function
+        Range : - 1 to 1     
+     '''
+    def __call__(self,x):
+        pass
 
 class ReLU():
-    pass
+    def __call__(self,x):
+        pass
 
 class LeakyReLU():
-    pass
+    def __call__(self,x):
+        pass
 
 class Softmax():
-    pass
+    def __call__(self,x):
+        pass
 
 class BinaryStepFunction():
-    pass
+    def __call__(self,x):
+        pass
 
 class IdentityFunction():
-    pass
+    def __call__(self,x):
+        pass

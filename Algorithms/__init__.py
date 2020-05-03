@@ -3,7 +3,8 @@ from .MachineLearningAlgorithms.LinearRegression import LinearRegression
 from .MachineLearningAlgorithms.LogisticRegression import LogisticRegression
 
 # Sorting Algorithms
-from .SortingAlgorithms.BubbleSort import bubbleSort
-from .SortingAlgorithms.InsertionSort import insertionSort
-from .SortingAlgorithms.MergeSort import mergeSort
-from .SortingAlgorithms.QuickSort import quickSort
+from .SortingAlgorithms.BubbleSort import BubbleSort
+from .SortingAlgorithms.InsertionSort import InsertionSort
+from .SortingAlgorithms.MergeSort import MergeSort
+from .SortingAlgorithms.QuickSort import QuickSort
+
