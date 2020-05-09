@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4fb771ad-38ed-464d-bd12-4ea8470005b9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/DeepLearningAlgorithms/ActivationFunction.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/DeepLearningAlgorithms/ActivationFunction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/DeepLearningAlgorithms/FeedForwardNeuralNetwork.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/DeepLearningAlgorithms/FeedForwardNeuralNetwork.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/DeepLearningAlgorithms/Optimizers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/DeepLearningAlgorithms/Optimizers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/SortingAlgorithms/BubbleSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/SortingAlgorithms/BubbleSort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/SortingAlgorithms/InsertionSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/SortingAlgorithms/InsertionSort.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithms/SortingAlgorithms/MergeSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/SortingAlgorithms/MergeSort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/SortingAlgorithms/QuickSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/SortingAlgorithms/QuickSort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Example/Algo/bubbleSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Example/Algo/bubbleSort.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,17 +34,18 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowPython Console.ShowToolbar" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Example/Algo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Algorithms/DivideAndConquer" />
     <property name="settings.editor.selected.configurable" value="copyright.filetypes.Python" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Flash\Documents\GitHub\AlgorithmsAndDataStructure\Algorithms\DivideAndConquer" />
       <recent name="C:\Users\Flash\Documents\GitHub\AlgorithmsAndDataStructure\Example\Algo" />
       <recent name="C:\Users\Flash\Documents\GitHub\AlgorithmsAndDataStructure\DataStructure\LinkedListDS" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.bubbleSort">
-    <configuration name="LinearRegression (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.FibonacciList">
+    <configuration name="FibonacciList" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmsAndDataStructure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,11 +53,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms/MachineLearningAlgorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms/RecursionAlgorithms" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms/MachineLearningAlgorithms/LinearRegression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms/RecursionAlgorithms/FibonacciList.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,7 +66,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="LinearRegressionTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="FibonacciNumber" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmsAndDataStructure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,11 +74,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Example/Algo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms/RecursionAlgorithms" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example/Algo/LinearRegressionTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms/RecursionAlgorithms/FibonacciNumber.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +87,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="LinkedListTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="RecursionSumOfList" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmsAndDataStructure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,11 +95,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Example/DS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms/RecursionAlgorithms" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example/DS/LinkedListTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms/RecursionAlgorithms/RecursionSumOfList.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RecursiveSum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmsAndDataStructure" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms/RecursionAlgorithms" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms/RecursionAlgorithms/RecursiveSum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,6 +133,9 @@
       <module name="AlgorithmsAndDataStructure" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Example/Algo" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -133,41 +150,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="insertionSortTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AlgorithmsAndDataStructure" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Example/Algo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example/Algo/insertionSortTest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.LinearRegression (1)" />
-      <item itemvalue="Python.LinkedListTest" />
       <item itemvalue="Python.bubbleSort" />
-      <item itemvalue="Python.LinearRegressionTest" />
-      <item itemvalue="Python.insertionSortTest" />
+      <item itemvalue="Python.RecursiveSum" />
+      <item itemvalue="Python.RecursionSumOfList" />
+      <item itemvalue="Python.FibonacciNumber" />
+      <item itemvalue="Python.FibonacciList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.FibonacciList" />
+        <item itemvalue="Python.FibonacciNumber" />
+        <item itemvalue="Python.RecursionSumOfList" />
+        <item itemvalue="Python.RecursiveSum" />
         <item itemvalue="Python.bubbleSort" />
-        <item itemvalue="Python.insertionSortTest" />
-        <item itemvalue="Python.LinearRegressionTest" />
-        <item itemvalue="Python.LinkedListTest" />
-        <item itemvalue="Python.LinearRegression (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -205,26 +201,26 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="126" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1588326192694" />
-    <state width="1345" height="182" key="GridCell.Tab.0.bottom" timestamp="1588404605510">
+    <state width="1345" height="182" key="GridCell.Tab.0.bottom" timestamp="1588585940253">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1345" height="182" key="GridCell.Tab.0.bottom/-1360.-110.1360.738/0.0.1366.738@0.0.1366.738" timestamp="1588402789517" />
-    <state width="1345" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588404605510" />
-    <state width="1345" height="182" key="GridCell.Tab.0.center" timestamp="1588404605510">
+    <state width="1345" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588585940253" />
+    <state width="1345" height="182" key="GridCell.Tab.0.center" timestamp="1588585940253">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1345" height="182" key="GridCell.Tab.0.center/-1360.-110.1360.738/0.0.1366.738@0.0.1366.738" timestamp="1588402789517" />
-    <state width="1345" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1588404605510" />
-    <state width="1345" height="182" key="GridCell.Tab.0.left" timestamp="1588404605510">
+    <state width="1345" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1588585940253" />
+    <state width="1345" height="182" key="GridCell.Tab.0.left" timestamp="1588585940253">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1345" height="182" key="GridCell.Tab.0.left/-1360.-110.1360.738/0.0.1366.738@0.0.1366.738" timestamp="1588402789517" />
-    <state width="1345" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1588404605510" />
-    <state width="1345" height="182" key="GridCell.Tab.0.right" timestamp="1588404605510">
+    <state width="1345" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1588585940253" />
+    <state width="1345" height="182" key="GridCell.Tab.0.right" timestamp="1588585940253">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1345" height="182" key="GridCell.Tab.0.right/-1360.-110.1360.738/0.0.1366.738@0.0.1366.738" timestamp="1588402789517" />
-    <state width="1345" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1588404605510" />
+    <state width="1345" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1588585940253" />
     <state x="263" y="106" key="IDE.errors.dialog" timestamp="1588326245157">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
