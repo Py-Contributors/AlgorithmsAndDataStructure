@@ -13,4 +13,4 @@ myList.insertEnd(10)
 
 
 myList.treaverse()
-print(f'Linked List Size : {myList.size()}')
+print(f"Linked List Size : {myList.size()}")

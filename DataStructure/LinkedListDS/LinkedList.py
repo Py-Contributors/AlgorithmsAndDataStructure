@@ -5,6 +5,7 @@
 #
 from .Node import Node
 
+
 class LinkedList:
     def __init__(self):
         self.head = None
@@ -19,11 +20,11 @@ class LinkedList:
             actualNode = actualNode.nextNode
 
     # O(1)
-    def insertStart(self,data):
+    def insertStart(self, data):
 
         self.counter += 1
 
-        newNode =  Node(data)
+        newNode = Node(data)
 
         if not self.head:
             self.head = newNode
@@ -33,10 +34,10 @@ class LinkedList:
 
     # O(1)
     def size(self):
-         return self.counter
+        return self.counter
 
     # O(N) LinearTime
-    def insertEnd(self,data):
+    def insertEnd(self, data):
         if self.head is None:
             self.insertStart(data)
             return
@@ -50,8 +51,9 @@ class LinkedList:
             actualNode = actualNode.nextNode
 
         actualNode.nextNode = newNode
-     # O(N)
-    def remove(self,data):
+
+    # O(N)
+    def remove(self, data):
 
         self.counter -= 1
 
@@ -59,4 +61,4 @@ class LinkedList:
             if data == self.head.data:
                 self.head = self.head.nextNode
             else:
-                self.head.remove(data,self.head)
+                self.head.remove(data, self.head)

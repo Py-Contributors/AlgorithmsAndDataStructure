@@ -27,7 +27,7 @@ def merge(self, left, right):
 
 
 def mergeSort(self, arr):
-    ''' mergeSort Algorithm Implementation in Python 3
+    """ mergeSort Algorithm Implementation in Python 3
 
         arr : Unorded list
         output : Return list in ascending order.
@@ -36,14 +36,11 @@ def mergeSort(self, arr):
 
         Example :
         >>> mergeSort([4,2,6,5,9,8])
-        [2, 4, 5, 6, 8, 9]'''
+        [2, 4, 5, 6, 8, 9]"""
 
     if len(arr) < 2:
         return arr
 
     midpoint = len(arr) // 2
 
-    return merge(
-        left=mergeSort(arr[:midpoint]),
-        right=mergeSort(arr[midpoint:])
-    )
+    return merge(left=mergeSort(arr[:midpoint]), right=mergeSort(arr[midpoint:]))

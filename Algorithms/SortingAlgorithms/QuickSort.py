@@ -1,2 +1,2 @@
-class QuickSort():
+class QuickSort:
     pass

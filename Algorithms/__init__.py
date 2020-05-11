@@ -7,4 +7,3 @@ from .SortingAlgorithms.BubbleSort import BubbleSort
 from .SortingAlgorithms.InsertionSort import InsertionSort
 from .SortingAlgorithms.MergeSort import MergeSort
 from .SortingAlgorithms.QuickSort import QuickSort
-
