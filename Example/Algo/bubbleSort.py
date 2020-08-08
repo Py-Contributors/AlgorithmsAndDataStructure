@@ -5,6 +5,7 @@ __Package__         :  Python 3
 __GitHub__         : https://www.github.com/codeperfectplus
 """
 
-from Algorithms import BubbleSort
+from Python.Algorithms.SortingAlgorithms.BubbleSort import BubbleSort
 
-BubbleSort([8, 6, 1])
+sort = BubbleSort()
+print(sort([4,3,1]))

@@ -24,3 +24,6 @@ class BubbleSort:
             if already_sorted:
                 break
         return arr
+
+sort = BubbleSort()
+print(sort([10,9, 5, 11, 2]))
