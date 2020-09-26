@@ -13,15 +13,13 @@ Please fill all details for a better explanation of the issue. Add files to the 
 
 **what will change** -
 
-**Assignees** -
-
 ### Type of Issue -
 
 Please add/delete options that are not relevant.
 
+- [x] Adding New Code
 - [x] Improving Code
 - [x] Improving Documentation
-- [x] Adding New Code
 - [x] Bug Fix
 
 ### Programming Language
