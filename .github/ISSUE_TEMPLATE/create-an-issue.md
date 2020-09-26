@@ -6,7 +6,7 @@ labels: Hacktoberfest
 assignees: ''
 
 ---
-Please fill all details for a better explanation of the issue. Add files to the proper folder.
+Please fill all details for a better explanation of the issue. Add files to the proper folder. 
 
 **Title** -
 
@@ -30,4 +30,5 @@ Please add/delete options that are not relevant.
 - [x] Python
 - [x] C++
 
+**Note** - One Change in one Pull Request
 Happy Coding,
