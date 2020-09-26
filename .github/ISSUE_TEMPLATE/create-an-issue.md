@@ -6,7 +6,7 @@ labels: Hacktoberfest
 assignees: ''
 
 ---
-Please fill all detils for better explanation of issue. Add files to proper folder.
+Please fill all details for a better explanation of the issue. Add files to the proper folder.
 
 **Title** -
 
