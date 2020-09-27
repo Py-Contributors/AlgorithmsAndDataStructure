@@ -31,10 +31,8 @@ Please add/delete options that are not relevant.
 
 **Note** - One Change in one Pull Request
 
-:star2: Star it 
+:star2: Star it :fork_and_knife:Fork it :handshake: Contribute to it!
 
-:fork_and_knife:Fork it
-
-:handshake: Contribute to it!
+Discord server ✉️ - https://discord.gg/FXyh2S3
 
 Happy Coding,
