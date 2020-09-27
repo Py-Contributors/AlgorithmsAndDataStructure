@@ -29,11 +29,10 @@ Please add/delete options that are not relevant.
 
 ### Self Check 
 
-- One Change in one Pull Request
-- Ask for issue assignment before making PR
-- Add file in proper folder
+- Ask for issue assignment before making Pull Request.
+- Add you file in proper folder
 - clean code and documentation for better readability
-- add title and what program will do first in the file
+- Add title and descrption of program in file
 
 :star2: Star it :fork_and_knife:Fork it :handshake: Contribute to it!
 
