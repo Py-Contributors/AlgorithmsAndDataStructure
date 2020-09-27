@@ -30,4 +30,11 @@ Please add/delete options that are not relevant.
 - [x] C++
 
 **Note** - One Change in one Pull Request
+
+:star2: Star it 
+
+:fork_and_knife:Fork it
+
+:handshake: Contribute to it!
+
 Happy Coding,
