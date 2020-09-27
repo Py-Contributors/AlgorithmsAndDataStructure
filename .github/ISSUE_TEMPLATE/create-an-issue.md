@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-Please fill all details for a better explanation of the issue. Add files to the proper folder. Ask for Assigned before making PR.
+Please fill all details for a better explanation of the issue. Add files to the proper folder. Ask for Assigned before making PR. **Add Proper Documentation, Problem statement, any refernce link**
 
 **Title** -
 
