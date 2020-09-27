@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-**Title** -
+`Title` -
 
 **what will change** -
 
@@ -30,9 +30,9 @@ Please add/delete options that are not relevant.
 ### Self Check 
 
 - Ask for issue assignment before making Pull Request.
-- Add you file in proper folder
-- clean code and documentation for better readability
-- Add title and descrption of program in file
+- Add your file in the proper folder
+- `Clean Code` and `Documentation` for better readability
+- Add `Title` and `Description` of the program in the file
 
 :star2: Star it :fork_and_knife:Fork it :handshake: Contribute to it!
 
