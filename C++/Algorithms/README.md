@@ -1,5 +1,6 @@
 # [AlgorithmsImplementation](/ALGORITHM.md)
 
+There are various algorithms in Data Structures.
 Data Structure and Algorithm Implementation in Python.
 
 - [AlgorithmsImplementation](#algorithmsimplementation)
