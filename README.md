@@ -9,7 +9,7 @@
   - [Authors and acknowledgment](#authors-and-acknowledgment)
   - [License](#license)
   - [Project status](#project-status)
-  - [Author](#author)
+  - [Maintainers](#maintainers)
 
 ## Introduction
 
@@ -18,6 +18,7 @@ Data structures & Algorithms are an essential part of programming. It comes unde
 :star2: Star it 
 :fork_and_knife:Fork it
 :handshake: Contribute to it!
+
 
 ## Data Structure
 
@@ -29,12 +30,79 @@ An algorithm is a set of instructions that are used to accomplish a task, such a
 
 Algorithms are not limited to computers. They are like a set of step-by-step instructions or an even a recipe, containing things you need, steps to do, the order to do them, conditions to look for, and expected results.
 
-Check [Algorithm-Here](/Algorithms/README.md)
-Check [Data Structure](/DataStructure/README.md)
+## Languages 
+- C++
+- Python
 
 ## Support
 
 Check [Contribution](/CONTRIBUTING.md) Guide Before Contribution.
+
+## Project Progress
+
+### Data Structures
+| Data Structure 	| C++            	| Python          	| Status/Remarks     	|
+|----------------	|----------------	|-----------------	|--------------------	|
+| Linked List    	| Yes            	| Yes             	| Being improved #23 	|
+| Sets           	| Yes            	| Yes             	| Implemented        	|
+| Stack          	| No             	| In progress #13 	|                    	|
+| Queue          	| In progress #7 	| In progress #12 	|                    	|
+
+
+### Algorithms
+| Algorithm                      	| C++             	| Python          	| Remarks 	      |
+|--------------------------------	|-----------------	|-----------------	|-----------------|
+| **Searching**                   |                 	|                 	|                	|
+| Binary Search                  	| No              	| In progress #9  	|                	|
+| Jump Search                    	| In progress #39 	| In progress #10 	|                	|
+| Fibonacci Search               	| No              	| In progress #11 	|                	|
+|                                	|                 	|                 	|                	|
+| **Sorting**                     |                 	|                 	|                	|
+| Selection Sort                 	| In progress #29 	| In progress #30 	|                	|
+| Bubble Sort                    	| Yes             	| Yes             	|                	|
+| Insertion Sort                 	| In progress #2  	| Yes             	|                	|
+| Merge Sort                     	| In progress #3  	| Yes             	|                	|
+| Quick Sort                     	| In progress #4  	| Yes             	|                	|
+| Heap Sort                      	| In progress #5  	| In progress #6  	|                	|
+|                                	|                 	|                 	|                	|
+| **Recursion**                   |                 	|                 	|                	|
+| Fibonacci Numbers              	| No              	| Yes             	|                	|
+| Fibonacci List                 	| No              	| Yes             	|                	|
+| Factors                        	| No              	| Yes             	|                	|
+| Recursion                      	| No              	| Yes             	|                	|
+| Recursive Sum                  	| No              	| Yes             	|                	|
+|                                	|                 	|                 	|                	|
+| **Sieve**                       |                 	|                 	|                	|
+| Sieve of Erosothenes           	| No              	| Yes             	|                	|
+|                                	|                 	|                 	|                	|
+| **Dynamic Programming**         |                 	|                 	|                	|
+| Knapsack Problem               	| No              	| Yes             	|                	|
+| Longest Common Subsequence     	| No              	| Yes             	|                	|
+| Longest Increasing Subsequence 	| No              	| Yes             	|                	|
+| Merge Sort                     	| No              	| Yes             	| Duplicate      	|
+| Fibonacci Number               	| No              	| Yes             	| Duplicate      	|
+| Naive Pattern Search           	| In progress #18 	| In progress #17 	|                	|
+| Rabin-Karp Algorithm           	| No              	|                 	|                	|
+|                                	|                 	|                 	|                	|
+| **Backtracking**                |                 	|                 	|                	|
+| Suduko Solver                  	| In progress #21 	| No              	|                	|
+| The Knight's Tour              	| In progress #33 	| In progress #32 	|                	|
+| Subset Sum                     	| In progress #36 	| In progress #35 	|                	|
+|                                	|                 	|                 	|                	|
+| **Deep Learning**               |                   |                   |	                |
+| Activation Function            	| No              	| Yes             	|                	|
+| Feed Forward Normal Function   	| No              	| Yes             	|                	|
+| Layers                         	| No              	| Yes             	|                	|
+| Loss Function                  	| No              	| Yes             	|                	|
+| Optimizers                  	  | No              	| Yes             	|                	|
+|                                	|                 	|                 	|                	|
+| **Machine Learning**            |                 	|                 	|                	|
+| Gradient Descent               	| No              	| Yes             	|                	|
+| Linear Regression              	| No              	| Yes             	|                	|
+| Logistic Regression            	| No              	| Yes             	|                	|
+| Decision Tree                  	| No              	| In progress #37 	|                	|
+| K-Nearest Neighbours           	| No              	| In progress #38 	|                	|
+
 
 ## Contributing
 
@@ -55,12 +123,7 @@ Show your appreciation to those who have contributed to the project.
 
 For open-source projects, Under [MIT License](/LICENSE).
 
-## Project status
+## Maintainers
 
-## Author
-
-- Project: [AlgorithmsImplementation](https://github.com/codePerfectPlus)
-- Author: CodePerfectPlus
-- Language: Python, CPP
-- Github: <https://github.com/codePerfectPlus>
-- Website: [http://codeperfectplus.com/](http://codeperfectplus.herokuapp.com)
+- [CodePerfectPlus](https://github.com/codePerfectPlus)
+- [ExpressHermes](https://github.com/ExpressHermes)
