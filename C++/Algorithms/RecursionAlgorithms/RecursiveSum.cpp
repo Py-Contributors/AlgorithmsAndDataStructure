@@ -1,4 +1,7 @@
-// Program to recursively calculate sum of numbers from 1 to n
+/* Title - Recusive Sum
+Program to recursively calculate sum of numbers from 1 to n
+Time complexity - O(n)
+*/
 
 #include<iostream>
 using namespace std;
