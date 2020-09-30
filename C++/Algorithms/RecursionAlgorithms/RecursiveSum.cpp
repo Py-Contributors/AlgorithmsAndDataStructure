@@ -1,3 +1,5 @@
+// Program to recursively calculate sum of numbers from 1 to n
+
 #include<iostream>
 using namespace std;
 
