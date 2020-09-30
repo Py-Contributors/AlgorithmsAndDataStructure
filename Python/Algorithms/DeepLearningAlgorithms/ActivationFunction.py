@@ -54,8 +54,15 @@ class LeakyReLU:
 
 
 class Softmax:
+    """
+    Arguments x -> type of x is np.array
+    x represents 1*m output vector of a neural network to passed into softmax function
+
+    RETURNS : 1*m vector containing probability (confidence score) between 0 and 1 inclusive
+    """
     def __call__(self, x):
-        pass
+        return np.exp(x)/np.sum(np.exp(x))
+        
 
 
 class BinaryStepFunction:
