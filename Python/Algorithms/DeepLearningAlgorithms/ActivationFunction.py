@@ -32,12 +32,25 @@ class TanH:
 
 class ReLU:
     def __call__(self, x):
+        
         pass
-
 
 class LeakyReLU:
-    def __call__(self, x):
-        pass
+    """
+    Here LeakyRelu's call method has following parameters
+    a:The value of the negative slope 
+    """
+
+    def __call__(self, x, a):
+        if x <= 0:
+            return a*x
+        else:
+            return x
+    def gradient(self, x, a):
+        if x <= 0:
+            return a
+        else:
+            return 1
 
 
 class Softmax:
