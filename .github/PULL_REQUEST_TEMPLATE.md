@@ -19,6 +19,6 @@ Title - Bubble sort Algorithm
 It will sort array
 time complexity - 
 """
-
 ```
 
+Become a maintainer on this repo - https://discord.gg/D4YmRxY
