@@ -1,4 +1,7 @@
-//Perform Binary search on an array
+/*Title - Binary Search
+It will perform binary search for the accepted element from the user.
+time complexity - o(log(n))*/
+
 #include<iostream>
 using namespace std;
 int binary(int start,int endd,int arr[],int no)
