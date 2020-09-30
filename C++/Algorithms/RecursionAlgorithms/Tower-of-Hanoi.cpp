@@ -1,3 +1,12 @@
+//Problem-Tower of Hanoi
+// Tower of hanoi is a problem in which we have 3 rods and n disks.
+// The objective of the problem is to move the entire stack to another rod, by following the below rules:-
+// 1)Only one disk can be moved at a time.
+// 2)Each move consists of taking the upper disk from one of the stacks and placing it on top of another stack 
+// i.e. a disk can only be moved if it is the uppermost disk on a stack.
+// 3)No disk may be placed on top of a smaller disk
+
+
 #include <bits/stdc++.h> 
 using namespace std; 
   
