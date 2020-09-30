@@ -66,8 +66,24 @@ class Softmax:
 
 
 class BinaryStepFunction:
+    """
+    Argument x:
+    Return 0 if x<0
+    Otherwise Return 1
+
+    """
     def __call__(self, x):
-        pass
+        if x < 0:
+            return 0
+        if x >= 0:
+            return 1
+    """
+    Gradient function
+    
+    """
+    def gradient(self , x):
+        return 0
+
 
 
 class IdentityFunction:
