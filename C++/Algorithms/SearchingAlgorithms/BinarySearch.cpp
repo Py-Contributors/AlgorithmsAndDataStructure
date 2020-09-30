@@ -1,16 +1,15 @@
-//Perform Binary search on an array
+/*Title - Binary Search
+It will perform binary search for the accepted element from the user.
+time complexity - o(log(n))*/
+
 #include<iostream>
 using namespace std;
 int binary(int start,int endd,int arr[],int no)
 {
-
-
-
 int midd=(start+endd)/2;
    if(start>=endd)
     {
         cout<<"Element not found!";
-
         return -1;
     }
 
@@ -29,10 +28,8 @@ int midd=(start+endd)/2;
     }
     else
         {
-
-            return binary(start,midd-1,arr,no);
+          return binary(start,midd-1,arr,no);
         }
-
 
 }
 
