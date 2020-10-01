@@ -1,5 +1,8 @@
 
 /*
+    title: all permutation of a string
+    what will it do: It will generate all permutation of a string
+    time complexity: O(n*n!) 
     code written and tested by: https://github.com/rafu01
     date: 10-oct-2020
 */
@@ -30,7 +33,7 @@ void permutation(string s, int left, int right)
 // 2nd approach
 void permutationWithSTL(string s)
 {
-    // We first sort the string, so that it is converted to lexicographically smallest permutatio
+    // We first sort the string, so that it is converted to lexicographically smallest permutation
     // ascennding order
     sort(s.begin(), s.end());
     // Keep printing next permutation while there next permutation exists
