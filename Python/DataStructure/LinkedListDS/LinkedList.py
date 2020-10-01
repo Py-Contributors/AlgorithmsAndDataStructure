@@ -57,7 +57,10 @@ class LinkedList:
     # O(N)
     def remove(self, value):
         if self.head is None:
-            raise ValueError("LinkedLis.remove(value): value not in LinkedList")
+            raise ValueError(
+                "LinkedList.remove(value): \
+                value not in LinkedList"
+            )
         current = self.head
         prev = self.head
         while current:
@@ -71,4 +74,7 @@ class LinkedList:
                 return
             prev = current
             current = current.next
-        raise ValueError("LinkedLis.remove(value): value not in LinkedList")
+        raise ValueError(
+            "LinkedLis.remove(value): \
+            value not in LinkedList"
+        )

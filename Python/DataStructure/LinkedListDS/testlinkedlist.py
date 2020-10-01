@@ -42,8 +42,10 @@ class TestLinkedList(unittest.TestCase):
         llist = LinkedList()
         for i in range(10):
             llist.insert_end(i)
-        self.assertEqual(llist.traverse(), "0 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9")
-    
+        self.assertEqual(
+            llist.traverse(), "0 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9"
+        )
+
     def test_linked_list_remove_error(self):
         llist = LinkedList()
         for i in range(10):
@@ -57,6 +59,7 @@ class TestLinkedList(unittest.TestCase):
             llist.insert_end(i)
         llist.remove(4)
         self.assertEqual(str(llist), "[0, 1, 2, 3, 5, 6, 7, 8, 9]")
+
 
 if __name__ == "__main__":
     unittest.main()
