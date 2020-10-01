@@ -45,7 +45,7 @@ Check [Contribution](/CONTRIBUTING.md) Guide Before Contribution.
 |----------------	|----------------	|-----------------	|--------------------	|
 | Linked List    	| Yes            	| Yes             	| Being improved #23 	|
 | Sets           	| Yes            	| Yes             	| Implemented        	|
-| Stack          	| No             	| In progress #13 	|                    	|
+| Stack          	| Yes            	| In progress #13 	|                    	|
 | Queue          	| In progress #7 	| In progress #12 	|                    	|
 
 
