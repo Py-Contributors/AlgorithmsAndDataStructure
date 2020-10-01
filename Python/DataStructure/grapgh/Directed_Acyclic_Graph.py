@@ -47,7 +47,7 @@ class DAG:
         plt.clf()
         return "Graph generated"
 
-    
+
 graph = DAG()
 
 
