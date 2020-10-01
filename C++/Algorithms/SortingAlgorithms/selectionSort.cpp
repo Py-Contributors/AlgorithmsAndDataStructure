@@ -1,3 +1,6 @@
+/*
+    * Selection Sort Implementation in C++    
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -38,6 +41,12 @@ void printArray(int arr[], int size)
 // Driver program to test above functions
 int main()
 {
+    /* 
+    Selection Sort Algorithm Implementation in C++
+        input : Unordered array
+        output : Return list in ascending order.
+        time complexity : O(n^2)
+    */
     int n;
     cout << "Enter the number of Elements: ";
     cin >> n;
@@ -50,3 +59,16 @@ int main()
     printArray(arr, n);
     return 0;
 }
+
+/*
+
+Test Case: 
+
+4
+56 76 32 90
+
+Output:
+
+32 56 76 90
+
+*/
