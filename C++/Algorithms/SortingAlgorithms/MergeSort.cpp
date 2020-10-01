@@ -69,17 +69,10 @@ void MergeSort(int *a, int low, int high)
  
 int main()
 {
-	int n, i;
-	cout<<"\nEnter the number of data element to be sorted: ";
-	cin>>n;
- 
-	int arr[n];
-	for(i = 0; i < n; i++)
-	{
-		cout<<"Enter element "<<i+1<<": ";
-		cin>>arr[i];
-	}
- 
+// 	Title - Bubble sort Algorithm
+//         It will sort array
+//         time complexity -O(nlogn) 
+	int arr[5]={5,1,3,4,2};
 	MergeSort(arr, 0, n-1);
  
 	// Printing the sorted data.
