@@ -30,7 +30,7 @@ class Graph:
             # detecting negative cycle. Negatve cycle exits when after looping above loop also their is condition that distance is currently less
             if dist[u] != float("Inf") and dist[u]+w<dist[v]:
                 print("Graph contains negative cycle!!")
-                return
+                # return
         # if no negative cycle exits, printing each distance.
         self._PrintGraph(dist)
        
@@ -39,8 +39,8 @@ vertices=int(input("Enter number of vertices:\n"))
 edges=int(input("Enter number of edges:\n"))
 g=Graph(vertices)
 for i in range(edges):
-    u=int(input())
-    v=int(input())
-    w=int(input())
+    u=int(input("Source vertex:\n"))
+    v=int(input("Destination vertex:\n"))
+    w=int(input("weight of Edge:\n"))
     g.AddEdge(u,v,w)
 g.BellmanFord(0) 
