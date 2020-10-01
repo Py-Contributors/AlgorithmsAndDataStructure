@@ -1,3 +1,6 @@
+#Python Program to Compute Sum of Digits of a Number
+#Issue 114
+
 def compute(n):
     sum = 0
     while (n / 10 != 0):
