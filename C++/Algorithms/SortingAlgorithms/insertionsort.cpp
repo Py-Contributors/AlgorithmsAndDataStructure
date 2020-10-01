@@ -27,7 +27,7 @@ void print(int a[], int n)
 
 int main() 
 { 
-	int a[] = { 12, 11, 13, 5, 6 }; 
+	int a[] = { 78, 45, 3, 9, 7 }; 
 	int n = sizeof(a) / sizeof(a[0]); 
 	insertion(a, n); 
 	print(a, n); 
