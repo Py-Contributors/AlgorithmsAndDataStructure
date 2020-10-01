@@ -2,11 +2,12 @@
 	Language - C++
 
 	The Knights Tour Backtracking Problem
+
 	Statement - The knight is placed on the first block 
 	of an empty board and, moving according to the rules of chess, 
 	must visit each square exactly once.
 
-	Define the size of the chess board in the #define at line 16. 
+	Define the size of the chess board in the #define at line 17. 
 */
 
 #include <iostream>
