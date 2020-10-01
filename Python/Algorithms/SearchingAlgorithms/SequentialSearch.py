@@ -1,3 +1,10 @@
+#Implementation of SequentialSearch in python
+
+# Python3 code to sequentially search key in arr[]. 
+# If key is present then return its position, 
+# otherwise return -1
+# If return value -1 then print "Not Found!" else print position at which element found
+
 def Sequential_Search(dlist, item):
     pos = 0
     found = False
@@ -11,6 +18,7 @@ def Sequential_Search(dlist, item):
     else:
         return -1
 
+# Driver Code
 list = input("Enter list elements (space seperated): ").split()
 list = [int(i) for i in list]
 
