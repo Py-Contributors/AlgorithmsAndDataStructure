@@ -2,7 +2,7 @@
 # Python program to find the factorial of a number provided by the user.
 
 # accepting the number from user
-num = int(input())
+num = int(input("Please enter the number: "))
 factorial = 1
 
 # check if the number is negative, positive or zero
