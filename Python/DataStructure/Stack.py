@@ -18,8 +18,7 @@ class stack:
         if(len(self.ls)>0):
             return self.ls.pop()
         else:
-            # when stack is empty
-            return -1
+            return -1 # when stack is empty
         
     # Function to return the top
     # Time Complexity : O(1)
@@ -27,8 +26,7 @@ class stack:
         if(len(self.ls)>0):
             return self.ls[len(self.ls)-1]
         else:
-            # when stack is empty
-            return -1
+            return -1 # when stack is empty
 
 s = stack() #LIFO 
 s.push(2)
