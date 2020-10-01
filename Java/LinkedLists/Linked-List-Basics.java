@@ -1,3 +1,9 @@
+"""
+Title - Bsics of Linked Lists (Creation, Insertion, Deletion)
+Creating a linked List, Inserting a node, Deleting a node from a linked List
+time complexity - O(n)
+"""
+
 class node{
    int data;
    node next;   
