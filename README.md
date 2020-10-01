@@ -9,7 +9,8 @@
 ![last commit](https://img.shields.io/github/last-commit/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
 ![contributors](https://img.shields.io/github/contributors/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
 
-![python](https://img.shields.io/badge/language-python-blue?style=for-the-badge)
+![python](https://img.shields.io/badge/language-Python-blue?style=for-the-badge)
+![python](https://img.shields.io/badge/language-C++-blue?style=for-the-badge)
 ![open issues](https://img.shields.io/github/issues-raw/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge)
 ![close issue](https://img.shields.io/github/issues-closed-raw/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
 ![open_pr](https://img.shields.io/github/issues-pr-raw/Py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
