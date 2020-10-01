@@ -46,7 +46,6 @@ int binarySearchIterative(int a[], int l, int r, int t) {
 }
 
 int main() {
-    // for binary search the element should be sorted
     int n = 10;
     int a[n] = {23, 37, 45, 67, 76, 78, 90, 93, 99, 100};
     int t = 37;
