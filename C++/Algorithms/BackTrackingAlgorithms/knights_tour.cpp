@@ -53,7 +53,7 @@ int solveKTUtil(int x, int y, int movei, int sol[n][n])
 } 
 
 void solveKT(){
-	// An array to represent the moves
+	// An array to represent the moves of the knight 
 	int sol[n][n]; 
 
 	// Initialising the board
