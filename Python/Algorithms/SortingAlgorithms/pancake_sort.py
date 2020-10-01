@@ -17,7 +17,6 @@ def pancakesort(data):
             data[:size] = reversed(data[:size])
     if tutor: print()
 
-
 if __name__ == '__main__':
     import random
 
