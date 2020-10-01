@@ -1,5 +1,9 @@
 // Binary search algorithm
 // This algorithm finds the index of an element in a sorted array
+// Time complexity : O(log n)
+// Space complexity :
+//      1. Recursive approach : O(log n)
+//      2. Iterative approach : O(1)
 
 #include <iostream>
 using namespace std;
