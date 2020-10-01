@@ -1,3 +1,5 @@
+//Fibonacci Series upto n terms using Recursion
+
 #include <iostream>
 using namespace std;
 int fib(int x) {
@@ -18,3 +20,19 @@ int main() {
    }
    return 0;
 }
+
+/*  TEST CASES
+
+Test Case - 1
+
+Enter the number of terms of series : 10
+
+Fibonnaci Series :  0 1 1 2 3 5 8 13 21 34
+
+Test Case - 2
+
+Enter the number of terms of series : 30
+
+Fibonnaci Series :  0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 6765 10946 17711 28657 46368 75025 121393 196418 317811 514229
+
+*/
