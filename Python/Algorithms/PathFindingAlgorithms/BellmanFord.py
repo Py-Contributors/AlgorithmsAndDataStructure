@@ -1,5 +1,10 @@
-'''The purpose of this module is to demonstrate the
-Bellman Ford Algorithm in Graph Search'''
+"""
+Title - Bellman Ford Algorithm
+Pupose - Finds the shortest path in a
+         directed cyclic graph
+         with no negative cycles
+Time Complexity - O(VE)
+"""
 import math
 
 
