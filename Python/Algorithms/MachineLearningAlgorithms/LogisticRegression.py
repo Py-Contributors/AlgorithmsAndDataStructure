@@ -1,4 +1,6 @@
 import numpy as np
+
+
 class LogisticRegression:
     def __init__(self, lr=0.01, num_iter=100000, fit_intercept=True, verbose=False):
         self.lr = lr
@@ -31,7 +33,7 @@ class LogisticRegression:
             gradient = np.dot(X.T, (h - y)) / y.size
             self.theta -= self.lr * gradient
 
-            if self.verbose == True and i % 10000 == 0:
+            if self.verbose is True and i % 10000 == 0:
                 z = np.dot(X, self.theta)
                 h = self.__sigmoid(z)
                 print(f"Loss :{self.__loss(h,y)} \t")
@@ -40,7 +42,7 @@ class LogisticRegression:
         if self.fit_intercept:
             x = self.__add_intercept(X)
 
-        return self.__sigmoid(np.dot(X, self.theta))
+        return self.__sigmoid(np.dot(x, self.theta))
 
     def predict(self, X, threshold):
         """

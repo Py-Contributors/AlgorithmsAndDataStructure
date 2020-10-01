@@ -33,7 +33,7 @@ def mergeSort(self, arr):
         output : Return list in ascending order.
         time complexity : O(n log2n)
         Note : O(n log2n) is the best possible worst-case runtime that can be achieved by a sorting algorithm.
-        
+
         Example :
         >>> mergeSort([4,2,6,5,9,8])
         [2, 4, 5, 6, 8, 9]"""

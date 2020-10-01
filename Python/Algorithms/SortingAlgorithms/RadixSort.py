@@ -1,6 +1,6 @@
 class RadixSort:
     """ RadixSort Algoritm Implementation in Python 3.0+
-    
+
         arr: Unorded list
         output: Return list in ascending order.
         time complexity: O(kn)
@@ -11,7 +11,7 @@ class RadixSort:
         [1, 2, 5, 6, 10]"""
 
     def __init__(self):
-        print('Radix sort algorithm is initialized');
+        print('Radix sort algorithm is initialized')
 
     def __call__(self, arr):
         maxLength = False
@@ -36,6 +36,7 @@ class RadixSort:
             placement *= 10
 
         return arr
+
 
 sort = RadixSort()
 print(sort([5, 2, 1, 6, 10]))

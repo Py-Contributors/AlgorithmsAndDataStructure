@@ -1,3 +1,13 @@
+![header](https://capsule-render.vercel.app/api?type=rect&color=666666&height=100&section=header&text=Algorithms%20And%20DS&fontSize=90%&fontColor=ffffff)
+
+![python](https://img.shields.io/badge/language-Python-blue)
+![Cpp](https://img.shields.io/badge/language-C++-blue)
+![issues](https://img.shields.io/github/issues/Py-Contributors/AlgorithmsAndDataStructure)
+![forks](https://img.shields.io/github/forks/Py-Contributors/AlgorithmsAndDataStructure)
+![stars](https://img.shields.io/github/stars/Py-Contributors/AlgorithmsAndDataStructure)
+![license](https://img.shields.io/github/license/Py-Contributors/AlgorithmsAndDataStructure)
+![twitter](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FPy-Contributors%2FawesomeScripts)
+
 ![header](https://capsule-render.vercel.app/api?type=rect&color=666666&height=100&section=header&text=Algorithms%20And%20Data%20Structures&fontSize=55%&fontColor=ffffff)
 
 ![python](https://img.shields.io/badge/language-Python-blue?style=for-the-badge)
@@ -62,6 +72,7 @@ Check [Contribution](/CONTRIBUTING.md) Guide Before Contribution.
 <details>
 
 <!-- Restrctions:maintainers only access -->
+
 
 | Data Structure 	| C++            	| Python          	| Status/Remarks     	|
 |         :---    |        :----:   |  :---:            |  ---:               |
