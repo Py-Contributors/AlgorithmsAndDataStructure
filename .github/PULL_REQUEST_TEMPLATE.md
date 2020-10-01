@@ -21,4 +21,4 @@ time complexity -
 """
 ```
 
-Become a maintainer on this repo - https://discord.gg/D4YmRxY
+### README - [How to Contribute](https://github.com/Py-Contributors/AlgorithmsAndDataStructure/blob/master/CONTRIBUTING.md)
