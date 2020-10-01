@@ -4,11 +4,12 @@ class BubbleSort:
         arr : Unorded list
         output : Return list in ascending order.
         time complexity : O(n2)
-        
-        Example : 
+
+        Example :
         >>> sort = BubbleSort()
-        >>> sort([4,2,6,5,9,8])
-        [2, 4, 5, 6, 8, 9]"""
+        >>> sort([4, 2, 6, 5, 9, 8])
+        [2, 4, 5, 6, 8, 9]
+    """
 
     def __init__(self):
         print("Bubble Sort Algorithm is Initialized")
@@ -25,5 +26,6 @@ class BubbleSort:
                 break
         return arr
 
+
 sort = BubbleSort()
-print(sort([10,9, 5, 11, 2]))
+print(sort([10, 9, 5, 11, 2]))

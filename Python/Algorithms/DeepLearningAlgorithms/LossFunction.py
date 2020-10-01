@@ -4,6 +4,7 @@ __Author__           :  CodePerfectPlus
 __Package__         :  Python 3
 __GitHub__         : https://www.github.com/codeperfectplus
 """
+"""
 import numpy as np
 
 
@@ -16,3 +17,4 @@ class SquareLoss(Loss):
 
     def gradient(self, y, y_pred):
         return -(y - y_pred)
+"""
