@@ -1,5 +1,6 @@
 # Kadane's Algorithm
 # Returns the largest sum in a contiguous subarray
+# O(n) time complexity
 
 def maxSubArray(a):
 
