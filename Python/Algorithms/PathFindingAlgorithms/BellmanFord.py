@@ -1,3 +1,5 @@
+'''The purpose of this module is to demonstrate the
+Bellman Ford Algorithm in Graph Search'''
 import math
 
 
