@@ -1,4 +1,4 @@
-# Contributing to Transcriptase
+# Contributing to Algorithms and Data Structures
 
 We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
 
@@ -8,48 +8,69 @@ We love your input! We want to make contributing to this project as easy and tra
 - Proposing new features
 - Becoming a maintainer
 
-## We Develop with Github
 
-We use github to host code, to track issues and feature requests, as well as accept pull requests.
+## Steps to contribute
 
-## We Use [Github Flow](https://guides.github.com/introduction/flow/index.html), So All Code Changes Happen Through Pull Requests
+* Comment on the issue you want to work on. Make sure it's not assigned to someone else.
 
-Pull requests are the best way to propose changes to the codebase (we use [Github Flow](https://guides.github.com/introduction/flow/index.html)). We actively welcome your pull requests:
+* If you think an algorithm is missing, create an issue.
 
-1. Fork the repo and create your branch from `master`.
-2. If you've added code that should be tested, add tests.
-3. If you've changed APIs, update the documentation.
-4. Ensure the test suite passes.
-5. Make sure your code lints.
-6. Issue that pull request!
+### Making a PR
 
-## Any contributions you make will be under the MIT Software License
+> - Make sure you have been assigned the issue to which you are making a PR.
+> - If you make PR before being assigned, It will be labeled `invalid` and closed without merging.
 
-In short, when you submit code changes, your submissions are understood to be under the same [MIT License](http://choosealicense.com/licenses/mit/) that covers the project. Feel free to contact the maintainers if that's a concern.
+* Fork the repo and clone it on your machine.
+* Add a upstream link to main branch in your cloned repo
+    ```
+    git remote add upstream https://github.com/Py-Contributors/AlgorithmsAndDataStructure.git
+    ```
+* Keep your cloned repo upto date by pulling from upstream (this will also avoid any merge conflicts while committing new changes)
+    ```
+    git pull upstream master
+    ```
+* Create your feature branch
+    ```
+    git checkout -b <feature-name>
+    ```
+* Commit all the changes
+    ```
+    git commit -am "Meaningful commit message"
+    ```
+* Push the changes for review
+    ```
+    git push origin <branch-name>
+    ```
+* Create a PR from our repo on Github.
 
-## Report bugs using Github's [issues](https://github.com/briandk/transcriptase-atom/issues)
+### Additional Notes
 
-We use GitHub issues to track public bugs. Report a bug by [opening a new issue](/ALGORITHM.md); it's that easy!
+* Code should be properly commented to ensure it's readability.
+* If you've added code that should be tested, add tests as comments. 
+* In python use docstrings to provide tests.
+* Make sure your code properly formatted.
+* Issue that pull request!
 
-## Write bug reports with detail, background, and sample code
 
-[This is an example](http://stackoverflow.com/q/12488905/180626) of a bug report I wrote, and I think it's not a bad model. Here's [another example from Craig Hockenberry](http://www.openradar.me/11905408), an app developer whom I greatly respect.
+## Issue suggestions/Bug reporting
 
-**Great Bug Reports** tend to have:
+When you are creating an issue, make sure it's not already present. Furthermore, provide a proper description of the changes. If you are suggesting any code improvements, provide through details about the improvements.
 
-- A quick summary and/or background
-- Steps to reproduce
+**Great Issue suggestions** tend to have:
+
+- A quick summary of the changes.
+- In case of any bug provide steps to reproduce
   - Be specific!
-  - Give sample code if you can. [My stackoverflow question](http://stackoverflow.com/q/12488905/180626) includes sample code that *anyone* with a base R setup can run to reproduce what I was seeing
-- What you expected would happen
-- What actually happens
-- Notes (possibly including why you think this might be happening, or stuff you tried that didn't work)
+  - Give sample code if you can. 
+  - What you expected would happen
+  - What actually happens
+  - Notes (possibly including why you think this might be happening, or stuff you tried that didn't work)
 
-People *love* thorough bug reports. I'm not even kidding.
 
 ## License
 
-By contributing, you agree that your contributions will be licensed under its MIT License.
+By contributing, you agree that your contributions will be licensed under its  [MIT License](http://choosealicense.com/licenses/mit/).
+
 
 ## References
 

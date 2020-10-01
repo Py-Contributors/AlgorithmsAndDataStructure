@@ -1,4 +1,12 @@
-# [AlgorithmsAndDataStructure](/Algorithms/README.md)
+![header](https://capsule-render.vercel.app/api?type=rect&color=666666&height=100&section=header&text=Algorithms%20And%20DS&fontSize=90%&fontColor=ffffff)
+
+![python](https://img.shields.io/badge/language-Python-blue)
+![Cpp](https://img.shields.io/badge/language-C++-blue)
+![issues](https://img.shields.io/github/issues/Py-Contributors/AlgorithmsAndDataStructure)
+![forks](https://img.shields.io/github/forks/Py-Contributors/AlgorithmsAndDataStructure)
+![stars](https://img.shields.io/github/stars/Py-Contributors/AlgorithmsAndDataStructure)
+![license](https://img.shields.io/github/license/Py-Contributors/AlgorithmsAndDataStructure)
+![twitter](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FPy-Contributors%2FawesomeScripts)
 
 - [AlgorithmsAndDataStructure](#algorithmsanddatastructure)
   - [Introduction](#introduction)
@@ -41,7 +49,9 @@ Check [Contribution](/CONTRIBUTING.md) Guide Before Contribution.
 
 ## Project Progress
 
-### Data Structures
+<summary><h3>Data Structures</h3></summary>
+<details>
+
 | Data Structure 	| C++            	| Python          	| Status/Remarks     	|
 |----------------	|----------------	|-----------------	|--------------------	|
 | Linked List    	| Yes            	| Yes             	| Being improved #23 	|
@@ -49,8 +59,11 @@ Check [Contribution](/CONTRIBUTING.md) Guide Before Contribution.
 | Stack          	| Yes            	| In progress #13 	|                    	|
 | Queue          	| In progress #7 	| In progress #12 	|                    	|
 
+</details>
 
-### Algorithms
+<summary><h3>Algorithms</h3></summary>
+<details>
+
 | Algorithm                      	| C++             	| Python          	| Remarks 	      |
 |--------------------------------	|-----------------	|-----------------	|-----------------|
 | **Searching**                   |                 	|                 	|                	|
@@ -105,6 +118,7 @@ Check [Contribution](/CONTRIBUTING.md) Guide Before Contribution.
 | Decision Tree                  	| No              	| In progress #37 	|                	|
 | K-Nearest Neighbours           	| No              	| In progress #38 	|                	|
 
+</details>
 
 ## Contributing
 
