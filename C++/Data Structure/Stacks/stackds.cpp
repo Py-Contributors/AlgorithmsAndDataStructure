@@ -1,88 +1,81 @@
 //C++ Program to implement Stack Data Structure
-#include <bits/stdc++.h>
-//Setting a Max SIZE for Stack
-#define SIZE 100
+#include <iostream>
+#include<list>
 
 using namespace std;
 
-class Stack
+template <class T>
+class stack
 {
-    int item[SIZE];
-    int top;
-
+	list<T> obj;
 public:
-    Stack() //default constructor
-    {
-        top = -1;
-    }
-
-    bool isEmpty() //check if stack is Empty
-    {
-        if (top == -1)
-        {
-            cout << "Stack is Empty\n";
-            return true;
-        }
-        return false;
-    }
-
-    bool isFull()   //check if stack in Full   
-    {
-        if (top == SIZE - 1)
-        {
-            cout << "Stack is full\n";
-            return true;
-        }
-        return false;
-    }
-
-    void push(int val)  //push elements into the stack
-    {
-        if (isFull())
-        {
-            exit(0);
-        }
-        top++;
-        item[top] = val;
-    }
-
-    int pop()   //pop elements from the stack
-    {
-        int val;
-        if (isEmpty())
-        {
-            exit(0);
-        }
-        val = item[top];
-        top--;
-        return val;
-    }
-
-    int peek()  //return element at the top of stack
-    {
-        int val;
-        if (isEmpty())
-        {
-            exit(0);
-        }
-        val = item[top];
-        return val;
-    }
+	void push() // to push the element in the stack
+	{
+		T n;
+		cout<<"\n Enter any number :";
+		cin>>n;
+		obj.push_back(n);
+	}
+	void pop()  // to pop the element from the stack
+	{
+		cout<<"\n Poped Element is :"<<obj.back();
+		obj.pop_back();
+	}
 };
+
+template<class T>
+void menu(stack<T> obj) // menu driven program
+{
+	int x=0;
+	do
+	{
+		cout<<"\n Menu ";
+		cout<<"\n 1) Push ";
+		cout<<"\n 2) Pop ";
+		cout<<"\n 3) Back to main menu";
+		cout<<"\n ENter your choice:";
+		cin>>x;
+		switch(x)
+		{
+		case 1:
+			obj.push();
+			break;
+		case 2:
+			obj.pop();
+			break;
+		case 3:
+			break;
+		default :
+			cout<<"\n Invalid input ";
+		}
+	}while(x!=3);
+}
+
 
 int main()
 {
-    Stack s;
-    s.push(10);
-    s.push(30);
-    s.push(20);
-    s.push(5);
-    s.push(1);
-    cout << s.pop() << endl;
-    cout << s.pop() << endl;
-    cout << s.peek() << endl;
-    cout << s.pop() << endl;
-    cout << s.pop() << endl;
-    cout << s.pop() << endl;
-    return 0;
+	int x=0;
+	do
+	{
+		cout<<"\n Menu ";
+		cout<<"\n 1) Double ";
+		cout<<"\n 2) Float ";
+		cout<<"\n 3) Character";
+		cout<<"\n 3) Exit";
+		cout<<"\n ENter your choice:";
+		cin>>x;
+		switch(x)
+		{
+		case 1:
+			//stack<int> obj;
+			//menu(obj);
+			break;
+		case 2:
+			stack<int> obj1;
+			menu(obj1);
+			break;
+		}
+	}while (x!=3);
+
+	return 0;
 }
