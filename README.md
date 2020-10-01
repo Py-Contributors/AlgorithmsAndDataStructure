@@ -1,4 +1,29 @@
-# [AlgorithmsAndDataStructure](/Algorithms/README.md)
+![header](https://capsule-render.vercel.app/api?type=rect&color=666666&height=100&section=header&text=Algorithms%20And%20Data%20Structures&fontSize=55%&fontColor=ffffff)
+
+![python](https://img.shields.io/badge/language-Python-blue)
+![Cpp](https://img.shields.io/badge/language-C++-blue)
+![issues](https://img.shields.io/github/issues/Py-Contributors/AlgorithmsAndDataStructure)
+![forks](https://img.shields.io/github/forks/Py-Contributors/AlgorithmsAndDataStructure)
+![stars](https://img.shields.io/github/stars/Py-Contributors/AlgorithmsAndDataStructure)
+![license](https://img.shields.io/github/license/Py-Contributors/AlgorithmsAndDataStructure)
+![twitter](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FPy-Contributors%2FawesomeScripts)
+
+![python](https://img.shields.io/badge/language-Python-blue?style=for-the-badge)
+![C++](https://img.shields.io/badge/language-C++-blue?style=for-the-badge)
+
+![Discord](https://img.shields.io/discord/758030555005714512?style=for-the-badge)
+![last commit](https://img.shields.io/github/last-commit/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
+![contributors](https://img.shields.io/github/contributors/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
+
+![hacktober-issue](https://img.shields.io/github/hacktoberfest/2020/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
+![forks](https://img.shields.io/github/forks/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge)
+![stars](https://img.shields.io/github/stars/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge)
+![license](https://img.shields.io/github/license/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge)
+
+![open issues](https://img.shields.io/github/issues-raw/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge)
+![close issue](https://img.shields.io/github/issues-closed-raw/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
+![open_pr](https://img.shields.io/github/issues-pr-raw/Py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
+![open_pr](https://img.shields.io/github/issues-pr-closed-raw/Py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
 
 - [AlgorithmsAndDataStructure](#algorithmsanddatastructure)
   - [Introduction](#introduction)
@@ -41,18 +66,26 @@ Check [Contribution](/CONTRIBUTING.md) Guide Before Contribution.
 
 ## Project Progress
 
-### Data Structures
+<summary><h3>Data Structures</h3></summary>
+<details>
+
+<!-- Restrctions:maintainers only access -->
+
+
 | Data Structure 	| C++            	| Python          	| Status/Remarks     	|
-|----------------	|----------------	|-----------------	|--------------------	|
+|         :---    |        :----:   |  :---:            |  ---:               |
 | Linked List    	| Yes            	| Yes             	| Being improved #23 	|
 | Sets           	| Yes            	| Yes             	| Implemented        	|
 | Stack          	| Yes            	| In progress #13 	|                    	|
 | Queue          	| In progress #7 	| In progress #12 	|                    	|
 
+</details>
 
-### Algorithms
+<summary><h3>Algorithms</h3></summary>
+<details>
+
 | Algorithm                      	| C++             	| Python          	| Remarks 	      |
-|--------------------------------	|-----------------	|-----------------	|-----------------|
+|         :---                    |        :----:     |  :---:            |  ---:           |
 | **Searching**                   |                 	|                 	|                	|
 | Binary Search                  	| No              	| In progress #9  	|                	|
 | Jump Search                    	| In progress #39 	| In progress #10 	|                	|
@@ -105,17 +138,17 @@ Check [Contribution](/CONTRIBUTING.md) Guide Before Contribution.
 | Decision Tree                  	| No              	| In progress #37 	|                	|
 | K-Nearest Neighbours           	| No              	| In progress #38 	|                	|
 
+</details>
 
 ## Contributing
 
 Before submitting a bug, please do the following:
 Check [Contribution](/CONTRIBUTING.md) Guide Before Contribution.
 
-Perform basic troubleshooting steps:
-
-- Make sure you are on the latest version. If you are not on the most recent version, your problem may have been solved already! Upgrading is always the best first step.
-- Try older versions. If you are already on the latest release, try rolling back a few minor versions (e.g. if on 1.7, try 1.5 or 1.6) and see if the problem goes away. This will help the devs narrow down when the problem first arose in the commit log.
-- Try switching up dependency versions. If the software in question has dependencies (other libraries, etc) try upgrading/downgrading those as well.
+- Create separate issues for Python and C++.
+- You can only work on issues that you have been assigned to.
+- Use Flake8 locally for linting Python Code. `pip install flake8`. 
+  (We have linting checks so if your code fails it we will not merge the PR.)
 
 ## Authors and acknowledgment
 
@@ -131,3 +164,4 @@ For open-source projects, Under [MIT License](/LICENSE).
 - [ExpressHermes](https://github.com/ExpressHermes)
 - [Ayush Modi](https://github.com/hot9cups)
 - [rex_divakar](https://github.com/rexdivakar)
+- [Shubham Pawar](https://github.com/shubham5351)
