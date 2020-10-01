@@ -30,7 +30,7 @@ void permutation(string s, int left, int right)
 // 2nd approach
 void permutationWithSTL(string s)
 {
-    // We first sort the string, so that it is converted to lexicographically smallest permutatio
+    // We first sort the string, so that it is converted to lexicographically smallest permutation
     // ascennding order
     sort(s.begin(), s.end());
     // Keep printing next permutation while there next permutation exists
@@ -51,9 +51,9 @@ int main()
 
 /*
 Recursive tree for first function. string: ABC
-		        ABC
-	    /        |       \
-      ABC	    BAC	     CBA  --> A is fixed in ABC, B is fixed BAC, C is fiex in CBA
+		 ABC
+	 /        |       \
+      ABC	 BAC	  CBA  --> A is fixed in ABC, B is fixed BAC, C is fiex in CBA
     /   \      /   \     /  \
  ABC	ACB   BAC  BCA  CBA  CAB --> AB in ABC, AC in ACB, BA in BAC, BC in BCA, CB in CBA, CA in CAB are fixed
  
