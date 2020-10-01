@@ -1,3 +1,5 @@
+#DoublyLinkedList Programme in cpp
+
 #include<iostream.h>
 #include<conio.h>
 #include<stdlib.h>
@@ -10,7 +12,6 @@ class doublelist
       node *next,*prev;
     };
     struct node *start,*ptr,*temp,*i,*x;
-
  public:
 	linkedlist()
 	{
@@ -25,8 +26,7 @@ class doublelist
 	 void display();
      };
 
-
-      void doublelist::create()
+void doublelist::create()
       {
 	int no;
 	cout<<"\nEnter no:";
@@ -51,7 +51,6 @@ class doublelist
 	     }
 	     cout<<"node inserted";
 	     }
-
 
 	      void doublelist::infront()
 	   {
@@ -144,8 +143,7 @@ class doublelist
 	      }
 	   }
 
-
-	   void main()
+            void main()
 	   {
 
 	    clrscr();
@@ -193,43 +191,4 @@ class doublelist
 		}
 
 		getch();
-		}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	}
