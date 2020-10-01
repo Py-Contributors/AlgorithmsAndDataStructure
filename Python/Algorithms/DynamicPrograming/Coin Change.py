@@ -1,5 +1,5 @@
 #Coin Change Problem Solution
-# function to compute the number of combinations of different coins that make up that amount 
+# Program to create a function to compute the number of combinations of different coins that make up that amount 
 #By Abhinav Yadav
 
 class Solution:
