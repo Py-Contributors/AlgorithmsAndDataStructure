@@ -1,4 +1,9 @@
-"""Code to search and remove or include element in a list"""
+"""
+Linked List
+Title - Search and remove element in a linked list in python
+Code to search and remove or include element in a list
+GitHub: https://www.github.com/lucastrogo
+"""
 
 
 def remove_ord(key, list_i):
@@ -29,6 +34,7 @@ def include_ord(key, elem, list_i):
         else:
             pos += 1
     return list_i
+
 
 LIST_I = [1, 88, 45, 732, 22, 5646, 8732]
 
