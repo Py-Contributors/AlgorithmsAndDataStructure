@@ -1,4 +1,4 @@
-class BubbleSort:
+##class BubbleSort:
     """ BubbleSort Algorithm Implementation in Python 3.0+
 
         arr : Unorded list
