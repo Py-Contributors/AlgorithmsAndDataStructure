@@ -8,10 +8,10 @@ it will reverse any of type Character that you will provide
 def rs(st, n):
     if n > 0:
         print(st[n], end='')
-        rs(st, n-1)
+        rs(st, n - 1)
     elif n == 0:
         print(st[0])
 
 
 s = str(input('Enter the  string: '))
-rs(s, len(s)-1)
+rs(s, len(s) - 1)
