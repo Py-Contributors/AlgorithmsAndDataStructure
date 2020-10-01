@@ -62,8 +62,9 @@ Check [Contribution](/CONTRIBUTING.md) Guide Before Contribution.
 <details>
 
 <!-- Restrctions:maintainers only access -->
+
 | Data Structure 	| C++            	| Python          	| Status/Remarks     	|
-|         :---                    |        :----:     |  :---:            |  ---:           |
+|         :---    |        :----:   |  :---:            |  ---:               |
 | Linked List    	| Yes            	| Yes             	| Being improved #23 	|
 | Sets           	| Yes            	| Yes             	| Implemented        	|
 | Stack          	| Yes            	| In progress #13 	|                    	|
