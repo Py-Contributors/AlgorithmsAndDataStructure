@@ -3,6 +3,7 @@
     Given a number n, print all primes smaller than or equal to n.
 """
 
+
 def sieve_of_sundaram(n):
     n_cap = int((n - 1) / 2)
     marked = [0] * (n_cap + 1)
