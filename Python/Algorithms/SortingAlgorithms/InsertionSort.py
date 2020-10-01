@@ -4,8 +4,8 @@ class InsertionSort:
     arr : Unorded list
     output : Return list in ascending order.
     time complexity : O(n2)
-    
-    Example : 
+
+    Example :
     >>> sort = InsertionSort
     >>> sort([4,2,6,5,9,8])
     [2, 4, 5, 6, 8, 9]"""

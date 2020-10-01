@@ -6,7 +6,7 @@ class Set:
         self.dict = {}  # Each instance of set has it's own dict property
 
         if values is not None:
-            for value in value:
+            for value in values:
                 self.add(value)
 
     def __repr__(self):

@@ -1,8 +1,8 @@
 ## Pull Request Template
 
-### What have you Changed - 
+### What have you Changed(must) - 
 
-### Issue no.(must) -
+### Issue no.(must) - #
 
 ### Self Check(Tick After Making pull Request)
 
@@ -19,6 +19,6 @@ Title - Bubble sort Algorithm
 It will sort array
 time complexity - 
 """
-
 ```
 
+### README - [How to Contribute](https://github.com/Py-Contributors/AlgorithmsAndDataStructure/blob/master/CONTRIBUTING.md)
