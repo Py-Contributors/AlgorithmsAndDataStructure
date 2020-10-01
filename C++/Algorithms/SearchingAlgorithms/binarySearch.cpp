@@ -6,22 +6,27 @@
 //      2. Iterative approach : O(1)
 
 #include <iostream>
-#include<vector>
+#include <vector>
 using namespace std;
 
 // Recursive approach
-int binarySearchRecursive(const vector<int> &a, int l, int r, int t) {
-    if(l <= r) {
+int binarySearchRecursive(const vector<int> &a, int l, int r, int t)
+{
+    if (l <= r)
+    {
         // middle element
         int m = l + (r - l) / 2;
 
-        if(a[m] == t) {
+        if (a[m] == t)
+        {
             return m;
         }
-        else if(a[m] > t) {
+        else if (a[m] > t)
+        {
             return binarySearchRecursive(a, l, m - 1, t);
         }
-        else {
+        else
+        {
             return binarySearchRecursive(a, m + 1, r, t);
         }
     }
@@ -30,19 +35,23 @@ int binarySearchRecursive(const vector<int> &a, int l, int r, int t) {
     return -1;
 }
 
-
 // Iterative approach
-int binarySearchIterative(const vector<int> &a, int l, int r, int t) {
-    while(l <= r) {
+int binarySearchIterative(const vector<int> &a, int l, int r, int t)
+{
+    while (l <= r)
+    {
         int m = l + (r - l) / 2;
 
-        if(a[m] == t) {
+        if (a[m] == t)
+        {
             return m;
         }
-        else if(a[m] > t) {
+        else if (a[m] > t)
+        {
             r = m - 1;
         }
-        else {
+        else
+        {
             l = m + 1;
         }
     }
@@ -50,24 +59,26 @@ int binarySearchIterative(const vector<int> &a, int l, int r, int t) {
     return -1;
 }
 
-int main() {
+int main()
+{
     int n;
-  std::cout<<"Please enter the number of elements in the array\n";
-  std::cin >> n;
-  std::cout<<"Enter the sorted elements: ";
-  vector<int> a(n);
-  for (size_t i = 0; i < a.size(); i++) {
-    std::cin >> a[i];
-  }
-  std::cout<<"Enter the element to find";
-  int m;
-  std::cin >> m;
+    cout << "Please enter the number of elements in the array\n";
+    cin >> n;
+    cout << "Enter the sorted elements: ";
+    vector<int> a(n);
+    for (size_t i = 0; i < a.size(); i++)
+    {
+        cin >> a[i];
+    }
+    cout << "Enter the element to find";
+    int t;
+    cin >> t;
 
-    cout<<"By recursive approach the index of element "<<t<<" is : ";
-    cout<<binarySearchRecursive(a, 0, n - 1, t)<<endl;
+    cout << "By recursive approach the index of element " << t << " is : ";
+    cout << binarySearchRecursive(a, 0, n - 1, t) << endl;
 
-    cout<<"By iterative approach the index of element "<<t<<" is : ";
-    cout<<binarySearchIterative(a, 0, n - 1, t)<<endl;
+    cout << "By iterative approach the index of element " << t << " is : ";
+    cout << binarySearchIterative(a, 0, n - 1, t) << endl;
 
     return 0;
 }
