@@ -1,3 +1,10 @@
+"""
+Title - Linked List implementation in Python
+This file provides a class implementation of the linked list
+data structure in Python
+"""
+
+
 import unittest
 
 

@@ -1,8 +1,8 @@
-#  Copyright (c) 2020.
-#  __Author__   :  CodePerfectPlus
-#  __Package__  :  Python 3
-#  __GitHub__  : https://www.github.com/codeperfectplus
-#
+"""
+Title - Linked List implementation in Python
+The Node class is a supporting class for the
+implementation of the LinkedList class
+"""
 
 
 class Node:
