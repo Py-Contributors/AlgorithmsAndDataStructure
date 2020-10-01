@@ -1,8 +1,9 @@
 #Coin Change Problem Solution
+# function to compute the number of combinations of different coins that make up that amount 
 #By Abhinav Yadav
 
 class Solution:
-    #function to compute the number of combinations that make up that amount 
+    #function to compute the number of combinations of different coins that make up that amount 
     def change(self, s: int, l: List[int]) -> int:
         dp=[0]*(s+1) #creating a list of size(s+1) with initial values as '0'
         dp[0]=1
