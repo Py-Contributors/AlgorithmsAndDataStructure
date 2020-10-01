@@ -1,16 +1,17 @@
 ![header](https://capsule-render.vercel.app/api?type=rect&color=666666&height=100&section=header&text=Algorithms%20And%20DS&fontSize=90%&fontColor=ffffff)
 
-![hacktober-issue](https://img.shields.io/github/hacktoberfest/2020/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
-![forks](https://img.shields.io/github/forks/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge)
-![stars](https://img.shields.io/github/stars/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge)
-![license](https://img.shields.io/github/license/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge)
+![python](https://img.shields.io/badge/language-Python-blue?style=for-the-badge)
+![C++](https://img.shields.io/badge/language-C++-blue?style=for-the-badge)
 
 ![Discord](https://img.shields.io/discord/758030555005714512?style=for-the-badge)
 ![last commit](https://img.shields.io/github/last-commit/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
 ![contributors](https://img.shields.io/github/contributors/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
 
-![python](https://img.shields.io/badge/language-Python-blue?style=for-the-badge)
-![python](https://img.shields.io/badge/language-C++-blue?style=for-the-badge)
+![hacktober-issue](https://img.shields.io/github/hacktoberfest/2020/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
+![forks](https://img.shields.io/github/forks/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge)
+![stars](https://img.shields.io/github/stars/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge)
+![license](https://img.shields.io/github/license/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge)
+
 ![open issues](https://img.shields.io/github/issues-raw/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge)
 ![close issue](https://img.shields.io/github/issues-closed-raw/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
 ![open_pr](https://img.shields.io/github/issues-pr-raw/Py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
