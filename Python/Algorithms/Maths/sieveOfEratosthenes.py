@@ -2,9 +2,6 @@
 # It is an efficient algorithm used to find all the prime numbers smaller than or equal to a number(n)
 # We will create a list and add all the elements and then remove those elements which are not prime
 
-
-import math
-
 def sieveOfEratosthenes(n):
     # Creating an empty list
     primeList = []
@@ -14,7 +11,7 @@ def sieveOfEratosthenes(n):
         primeList.append(i)
 
     i = 2
-    while(i <= math.sqrt(n)):
+    while(i * i <= n):
         if i in primeList:
             # Here we will remove all the elements that are multiples of i less than n + 1 and greater than i
             for j in range(i * 2, n + 1, i):
