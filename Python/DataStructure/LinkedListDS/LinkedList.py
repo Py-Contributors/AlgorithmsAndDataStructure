@@ -62,3 +62,22 @@ class LinkedList:
                 self.head = self.head.nextNode
             else:
                 self.head.remove(data, self.head)
+
+    # O(N)
+    def nthNodeFromBeginning(self,n):
+    	count = 1
+    	tempNode = self.head
+    	while(count!=n):
+    		tempNode = tempNode.nextNode
+    		count += 1
+    	return tempNode
+
+    # O(N)
+    def  nthNodeFromEnd(self,n):
+    	n = self.counter - n + 1 #because nth node from end is the (counter-n+1)th node from beginning
+    	count = 1
+    	tempNode = self.head
+    	while(count!=n):
+    		tempNode = tempNode.nextNode
+    		count += 1
+    	return tempNode
