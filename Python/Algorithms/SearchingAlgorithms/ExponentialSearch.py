@@ -10,12 +10,12 @@ def ExponentialSearch(array, size, x):
     i = 1
     while (i < size) and (array[i] <= x):  # Expanding range
         i = i * 2
-    return BinarySearch(array, i/2, min(i, size), x)
+    return BinarySearch(array, i / 2, min(i, size), x)
 
 
 def BinarySearch(array, left, right, x):  # Basic Binary Search Algorithm
     if (right >= left):
-        mid = int(left + (right-left) / 2)
+        mid = int(left + (right - left) / 2)
         if (array[mid] == x):
             return mid
         if (array[mid] > x):
