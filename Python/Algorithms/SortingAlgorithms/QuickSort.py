@@ -1,19 +1,12 @@
 class QuickSort:
-     """ QuickSort Algorithm Implementation in Python 3.0+
-        arr : Unorded list
-        output : Return list in ascending order.
-        time complexity : O(n2)
-        Example :
-        >>> sort = BubbleSort()
-        >>> sort(arr,start, end)
-        [2, 4, 5, 6, 8, 9]
-    """
 
+    
     def __init__(self,array, start, end):
         print("QuickSort Sort Algorithm is Initialized")
         self.ar = array
         self.quick_sort(array,start, end)
-        print array
+        print(array)
+        
     def quick_sort(self, array, start, end):
         if start < end:
             pivot = self.partition(array,start,end)
@@ -24,7 +17,7 @@ class QuickSort:
         x = array[end]
         i = start-1
         for j in range(start, end+1, 1):
-             print array
+             print(array)
              if array[j] <= x:
                  i += 1
                  if i<j:
