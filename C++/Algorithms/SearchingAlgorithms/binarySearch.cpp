@@ -6,10 +6,11 @@
 //      2. Iterative approach : O(1)
 
 #include <iostream>
+#include<vector>
 using namespace std;
 
 // Recursive approach
-int binarySearchRecursive(int a[], int l, int r, int t) {
+int binarySearchRecursive(const vector<int> &a, int l, int r, int t) {
     if(l <= r) {
         // middle element
         int m = l + (r - l) / 2;
@@ -31,7 +32,7 @@ int binarySearchRecursive(int a[], int l, int r, int t) {
 
 
 // Iterative approach
-int binarySearchIterative(int a[], int l, int r, int t) {
+int binarySearchIterative(const vector<int> &a, int l, int r, int t) {
     while(l <= r) {
         int m = l + (r - l) / 2;
 
@@ -50,9 +51,17 @@ int binarySearchIterative(int a[], int l, int r, int t) {
 }
 
 int main() {
-    int n = 10;
-    int a[n] = {23, 37, 45, 67, 76, 78, 90, 93, 99, 100};
-    int t = 37;
+    int n;
+  std::cout<<"Please enter the number of elements in the array\n";
+  std::cin >> n;
+  std::cout<<"Enter the sorted elements: ";
+  vector<int> a(n);
+  for (size_t i = 0; i < a.size(); i++) {
+    std::cin >> a[i];
+  }
+  std::cout<<"Enter the element to find";
+  int m;
+  std::cin >> m;
 
     cout<<"By recursive approach the index of element "<<t<<" is : ";
     cout<<binarySearchRecursive(a, 0, n - 1, t)<<endl;
