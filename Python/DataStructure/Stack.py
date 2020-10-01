@@ -10,25 +10,25 @@ class stack:
     # Function to push an element
     # Time Complexity : O(1)
     def push(self, x):
-        self.ls.append(x);
+        self.ls.append(x)
     
     # Function to pop 
     # Time Complexity : O(1)
     def pop(self):
         if(len(self.ls)>0):
-            return self.ls.pop();
+            return self.ls.pop()
         else:
             # when stack is empty
-            return -1;
+            return -1
         
     # Function to return the top
     # Time Complexity : O(1)
     def top(self):
         if(len(self.ls)>0):
-            return self.ls[len(self.ls)-1];
+            return self.ls[len(self.ls)-1]
         else:
             # when stack is empty
-            return -1;
+            return -1
 
 s = stack() #LIFO 
 s.push(2)
