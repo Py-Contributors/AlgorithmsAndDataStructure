@@ -37,7 +37,7 @@ class Graph:
 
     def bellman_ford(self, source):
         source.dist = 0
-        for i in range(len(self.vertices)-1):
+        for i in range(len(self.vertices) - 1):
             for (src, dest) in self.edges:
                 self._relax_edge(src, dest)
 
