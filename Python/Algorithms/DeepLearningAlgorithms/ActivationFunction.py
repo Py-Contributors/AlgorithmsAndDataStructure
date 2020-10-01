@@ -41,7 +41,7 @@ class ReLU:
         return np.maximum(0,x)
     
     def gradient(self, x, dout):
-        return self.__call__(x) * dout
+        return np.where(x>=1, 1, 0) * dout
 
 
 class LeakyReLU:
