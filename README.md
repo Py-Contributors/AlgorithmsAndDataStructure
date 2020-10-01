@@ -61,8 +61,9 @@ Check [Contribution](/CONTRIBUTING.md) Guide Before Contribution.
 <summary><h3>Data Structures</h3></summary>
 <details>
 
+<!-- Restrctions:maintainers only access -->
 | Data Structure 	| C++            	| Python          	| Status/Remarks     	|
-|----------------	|----------------	|-----------------	|--------------------	|
+|         :---                    |        :----:     |  :---:            |  ---:           |
 | Linked List    	| Yes            	| Yes             	| Being improved #23 	|
 | Sets           	| Yes            	| Yes             	| Implemented        	|
 | Stack          	| Yes            	| In progress #13 	|                    	|
@@ -74,7 +75,7 @@ Check [Contribution](/CONTRIBUTING.md) Guide Before Contribution.
 <details>
 
 | Algorithm                      	| C++             	| Python          	| Remarks 	      |
-|--------------------------------	|-----------------	|-----------------	|-----------------|
+|         :---                    |        :----:     |  :---:            |  ---:           |
 | **Searching**                   |                 	|                 	|                	|
 | Binary Search                  	| No              	| In progress #9  	|                	|
 | Jump Search                    	| In progress #39 	| In progress #10 	|                	|
