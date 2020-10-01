@@ -10,8 +10,8 @@ def sieve_of_sundaram(n):
 
     for i in range(1, n_cap + 1):
         j = i
-        while((i+j+2*i*j) <= n_cap):
-            marked[i+j+2*i*j] = 1
+        while((i + j + 2 * i * j) <= n_cap):
+            marked[i + j + 2 * i * j] = 1
             j += 1
     primes = []
 
@@ -20,7 +20,7 @@ def sieve_of_sundaram(n):
 
     for i in range(1, n_cap + 1):
         if (marked[i] == 0):
-            primes.append(2*i+1)
+            primes.append(2 * i + 1)
 
     return primes
 
