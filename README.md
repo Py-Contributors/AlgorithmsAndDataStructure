@@ -41,7 +41,9 @@ Check [Contribution](/CONTRIBUTING.md) Guide Before Contribution.
 
 ## Project Progress
 
-### Data Structures
+<summary><h3>Data Structures</h3></summary>
+<details>
+
 | Data Structure 	| C++            	| Python          	| Status/Remarks     	|
 |----------------	|----------------	|-----------------	|--------------------	|
 | Linked List    	| Yes            	| Yes             	| Being improved #23 	|
@@ -49,8 +51,11 @@ Check [Contribution](/CONTRIBUTING.md) Guide Before Contribution.
 | Stack          	| Yes            	| In progress #13 	|                    	|
 | Queue          	| In progress #7 	| In progress #12 	|                    	|
 
+</details>
 
-### Algorithms
+<summary><h3>Algorithms</h3></summary>
+<details>
+
 | Algorithm                      	| C++             	| Python          	| Remarks 	      |
 |--------------------------------	|-----------------	|-----------------	|-----------------|
 | **Searching**                   |                 	|                 	|                	|
@@ -105,6 +110,7 @@ Check [Contribution](/CONTRIBUTING.md) Guide Before Contribution.
 | Decision Tree                  	| No              	| In progress #37 	|                	|
 | K-Nearest Neighbours           	| No              	| In progress #38 	|                	|
 
+</details>
 
 ## Contributing
 
