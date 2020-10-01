@@ -1,15 +1,13 @@
 ---
 name: Create an Issue
 about: For creating isssue for HacktoberFest
-title: ''
+title: 'Algorithm name | Category | Language'
 labels: good first issue, hacktoberfest
 assignees: ''
 
 ---
 
-Please fill all details for a better explanation of the issue. Add files to the proper folder. Ask for Assigned before making PR.
-
-**Title** -
+## **`Title`** -
 
 **what will change** -
 
@@ -29,12 +27,15 @@ Please add/delete options that are not relevant.
 - [x] Python
 - [x] C++
 
-**Note** - One Change in one Pull Request
+### Self Check 
 
-:star2: Star it 
+- Ask for issue assignment before making Pull Request.
+- Add your file in the proper folder
+- `Clean Code` and `Documentation` for better readability
+- Add `Title` and `Description` of the program in the file
 
-:fork_and_knife:Fork it
+:star2: Star it :fork_and_knife:Fork it :handshake: Contribute to it!
 
-:handshake: Contribute to it!
+Discord server ✉️ - https://discord.gg/FXyh2S3
 
 Happy Coding,
