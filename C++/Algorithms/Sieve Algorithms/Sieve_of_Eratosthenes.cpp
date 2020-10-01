@@ -1,3 +1,8 @@
+/*
+    Sieve of Eratosthenes:
+    Given a number n, print all prime numbers less than n
+*/
+
 #include <iostream>
 using namespace std;
 
