@@ -165,3 +165,5 @@ For open-source projects, Under [MIT License](/LICENSE).
 - [Ayush Modi](https://github.com/hot9cups)
 - [rex_divakar](https://github.com/rexdivakar)
 - [Shubham Pawar](https://github.com/shubham5351)
+- [Shantanu Kale](https://github.com/SSKale1)
+
