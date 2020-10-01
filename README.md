@@ -75,7 +75,7 @@ Check [Contribution](/CONTRIBUTING.md) Guide Before Contribution.
 | Recursive Sum                  	| No              	| Yes             	|                	|
 |                                	|                 	|                 	|                	|
 | **Sieve**                       |                 	|                 	|                	|
-| Sieve of Erosothenes           	| No              	| Yes             	|                	|
+| Sieve of Erosothenes           	| Yes              	| Yes             	|                	|
 |                                	|                 	|                 	|                	|
 | **Dynamic Programming**         |                 	|                 	|                	|
 | Knapsack Problem               	| No              	| Yes             	|                	|
