@@ -1,3 +1,6 @@
+// Binary search algorithm
+// This algorithm finds the index of an element in a sorted array
+
 #include <iostream>
 using namespace std;
 
