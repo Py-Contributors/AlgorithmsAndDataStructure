@@ -23,6 +23,7 @@ def hasCycle(head):
 
 	return fastptr
 
+
 # driver code for printing output
 ll = LinkedList()
 ll.insertEnd(1)
