@@ -10,12 +10,10 @@ def pancakesort(data):
             # This indexed max needs moving
             if maxindex != 0:
                 # Flip the max item to the left
-                if tutor: print('With: %r doflip  %i'
-                                % ( ' '.join(str(x) for x in data), maxindex+1 ))
+                if tutor: print('With: %r doflip  %i' % ( ' '.join(str(x) for x in data), maxindex+1 ))
                 data[:maxindex+1] = reversed(data[:maxindex+1])
             # Flip it into its final position
-            if tutor: print('With: %r  doflip %i'
-                                % ( ' '.join(str(x) for x in data), size ))
+            if tutor: print('With: %r  doflip %i' % ( ' '.join(str(x) for x in data), size ))
             data[:size] = reversed(data[:size])
     if tutor: print()
 
