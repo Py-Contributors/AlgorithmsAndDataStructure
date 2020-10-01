@@ -8,6 +8,25 @@
 ![license](https://img.shields.io/github/license/Py-Contributors/AlgorithmsAndDataStructure)
 ![twitter](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FPy-Contributors%2FawesomeScripts)
 
+![header](https://capsule-render.vercel.app/api?type=rect&color=666666&height=100&section=header&text=Algorithms%20And%20Data%20Structures&fontSize=55%&fontColor=ffffff)
+
+![python](https://img.shields.io/badge/language-Python-blue?style=for-the-badge)
+![C++](https://img.shields.io/badge/language-C++-blue?style=for-the-badge)
+
+![Discord](https://img.shields.io/discord/758030555005714512?style=for-the-badge)
+![last commit](https://img.shields.io/github/last-commit/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
+![contributors](https://img.shields.io/github/contributors/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
+
+![hacktober-issue](https://img.shields.io/github/hacktoberfest/2020/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
+![forks](https://img.shields.io/github/forks/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge)
+![stars](https://img.shields.io/github/stars/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge)
+![license](https://img.shields.io/github/license/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge)
+
+![open issues](https://img.shields.io/github/issues-raw/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge)
+![close issue](https://img.shields.io/github/issues-closed-raw/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
+![open_pr](https://img.shields.io/github/issues-pr-raw/Py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
+![open_pr](https://img.shields.io/github/issues-pr-closed-raw/Py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
+
 - [AlgorithmsAndDataStructure](#algorithmsanddatastructure)
   - [Introduction](#introduction)
   - [Data Structure](#data-structure)
@@ -52,8 +71,11 @@ Check [Contribution](/CONTRIBUTING.md) Guide Before Contribution.
 <summary><h3>Data Structures</h3></summary>
 <details>
 
+<!-- Restrctions:maintainers only access -->
+
+
 | Data Structure 	| C++            	| Python          	| Status/Remarks     	|
-|----------------	|----------------	|-----------------	|--------------------	|
+|         :---    |        :----:   |  :---:            |  ---:               |
 | Linked List    	| Yes            	| Yes             	| Being improved #23 	|
 | Sets           	| Yes            	| Yes             	| Implemented        	|
 | Stack          	| Yes            	| In progress #13 	|                    	|
@@ -65,7 +87,7 @@ Check [Contribution](/CONTRIBUTING.md) Guide Before Contribution.
 <details>
 
 | Algorithm                      	| C++             	| Python          	| Remarks 	      |
-|--------------------------------	|-----------------	|-----------------	|-----------------|
+|         :---                    |        :----:     |  :---:            |  ---:           |
 | **Searching**                   |                 	|                 	|                	|
 | Binary Search                  	| No              	| In progress #9  	|                	|
 | Jump Search                    	| In progress #39 	| In progress #10 	|                	|
@@ -144,3 +166,4 @@ For open-source projects, Under [MIT License](/LICENSE).
 - [ExpressHermes](https://github.com/ExpressHermes)
 - [Ayush Modi](https://github.com/hot9cups)
 - [rex_divakar](https://github.com/rexdivakar)
+- [Shubham Pawar](https://github.com/shubham5351)
