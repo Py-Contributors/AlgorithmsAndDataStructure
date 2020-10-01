@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cassert>
 #include <vector>
 
 using std::vector;
@@ -39,18 +38,16 @@ int linear_search(const vector<int> &a, int x) {
 
 int main() {
   int n;
+  std::cout<<"Please enter the number of elements in the array\n";
   std::cin >> n;
+  std::cout<<"Enter the sorted elements: ";
   vector<int> a(n);
   for (size_t i = 0; i < a.size(); i++) {
     std::cin >> a[i];
   }
+  std::cout<<"Enter the element to find";
   int m;
   std::cin >> m;
-  vector<int> b(m);
-  for (int i = 0; i < m; ++i) {
-    std::cin >> b[i];
-  }
-  for (int i = 0; i < m; ++i) {
-    std::cout << binary_search(a, b[i]) << ' ';
-  }
+  std::cout << binary_search(a,m) << ' ';
+  
 }
