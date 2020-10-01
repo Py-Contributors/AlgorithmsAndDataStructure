@@ -15,7 +15,7 @@ def Add(a, b):
         b = carry << 1
 
     return a
-
+      
 
 # Declear Print statement and Pass Parameter on them i.e Print(Add(20,10))
 print(Add(10, 20))
