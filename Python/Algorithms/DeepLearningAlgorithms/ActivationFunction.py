@@ -31,8 +31,17 @@ class TanH:
 
 
 class ReLU:
+    """
+    Argument:
+        x: relu input
+        dout: gradient error
+    """
+
     def __call__(self, x):
-        pass
+        return np.maximum(0,x)
+    
+    def gradient(self, x, dout):
+        return self.__call__(x) * dout
 
 
 class LeakyReLU:
