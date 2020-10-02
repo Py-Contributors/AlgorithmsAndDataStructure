@@ -52,12 +52,7 @@ class LinearRegression(Regression):
         False : batch optimization by least squares
     """
 
-    def __init__(
-                self,
-                n_iterations=100,
-                learning_rate=0.001,
-                gradient_descent=True
-                ):
+    def __init__(self, n_iterations=100, learning_rate=0.001, gradient_descent=True):
         self.gradient_descent = gradient_descent
         super(LinearRegression, self).__init__(
             n_iterations=n_iterations, learning_rate=learning_rate
