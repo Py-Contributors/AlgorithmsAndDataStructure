@@ -5,19 +5,19 @@
    in the same way interchanging enqueue and dequeue methods. */
 /* Time complexity for enqueue : O(n), for dequeue : O(1) */
 
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-stack<int>s1,s2;
+stack<int> s1, s2;
 
-void Enqueue(int n) 
+void Enqueue(int n)
 {
-    while(!s1.empty())
+    while (!s1.empty())
     {
         s2.push(s1.top()); //push all elements from s1 to s2
         s1.pop();
     }
     s1.push(n); // push the element to be enqueue to s1
-    while(!s2.empty())
+    while (!s2.empty())
     {
         s1.push(s2.top()); // push all elements from s2 to s1.
         s2.pop();
@@ -26,21 +26,21 @@ void Enqueue(int n)
 
 int Dequeue()
 {
-    while(1)
+    while (1)
     {
-        cout<<"Press 1 to dequeue ";
+        cout << "Press 1 to dequeue ";
         int op;
-        cin>>op;
-        if(op==1)
+        cin >> op;
+        if (op == 1)
         {
-            if(!s1.empty())
+            if (!s1.empty())
             {
-                cout<<s1.top()<<endl; // remove the top element
+                cout << s1.top() << endl; // remove the top element
                 s1.pop();
             }
             else
             {
-                cout<<"No element to dequeue";
+                cout << "No element to dequeue";
                 return 0;
             }
         }
@@ -53,14 +53,14 @@ int Dequeue()
 
 int main()
 {
-    int n,i;
-    cout<<"Enter the number digits to be added in queue : "<<endl;
-    cin>>n;
-    cout<<"Enter the digits : "<<endl;
-    for(i=0;i<n;i++)
+    int n, i;
+    cout << "Enter the number digits to be added in queue : " << endl;
+    cin >> n;
+    cout << "Enter the digits : " << endl;
+    for (i = 0; i < n; i++)
     {
         int num;
-        cin>>num;
+        cin >> num;
         Enqueue(num);
     }
     Dequeue();
