@@ -86,7 +86,7 @@ class LinkedList:
     def len_recursive(self, node):
         if node is None:
             return 0
-        return 1+self.len_recursive(node.next)
+        return 1 + self.len_recursive(node.next)
 
     def swap_node(self, key1, key2):
         if key1 == key2:
@@ -156,7 +156,6 @@ class LinkedList:
             else:
                 s = q
                 q = s.next
-            new_head = s
         while p and q:
             if p.data <= q.data:
                 s.next = p
@@ -305,11 +304,11 @@ class LinkedList:
             prev.append(q)
             q = q.next
             i += 1
-        q = prev[i-1]
+        q = prev[i - 1]
 
         count = 1
         while count <= i//1 + 1:
-            if prev[-count] != p.data:
+            if prev[- count] != p.data:
                 return False
         return True
 
