@@ -20,7 +20,7 @@ class SelectiontionSort:
             # Find the minimum element in remaining
             # unsorted array
             min_idx = i
-            for j in range(i+1, len(arr)):
+            for j in range(i + 1, len(arr)):
                 if arr[min_idx] > arr[j]:
                     min_idx = j
 
