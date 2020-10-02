@@ -1,6 +1,8 @@
+# Title - Gradient Descent
+
 import numpy as np
 
-# cost function
+# calculates cost function
 def cost_compute(X, y, theta):
     # X is the design matrix of shape (m x n+1)
     # y is the actual output vector of shape (m)
@@ -21,7 +23,7 @@ def cost_compute(X, y, theta):
     # returning the cost function
     return J
 
-
+# implements gradient descent
 def minimize_batch(X, y, theta, alpha, epochs):
     # X is the design matrix of shape (m x n+1)
     # y is the actual output vector of shape (m)
