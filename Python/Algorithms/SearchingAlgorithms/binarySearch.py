@@ -1,3 +1,9 @@
+"""
+Binary search program
+It will search the specified number using binary search
+Max no of operation taken by the algorithm will be log(sizeof(array))
+"""
+
 import math
 def binary_search(num_list,find_num):
     si = 0                          #startIndex
