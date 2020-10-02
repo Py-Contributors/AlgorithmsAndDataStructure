@@ -29,6 +29,7 @@ def create_spanning_tree(graph, starting_vertex):
 
     return mst
 
+
 example_graph = {
     'A': {'B': 2, 'C': 3},
     'B': {'A': 2, 'C': 1, 'D': 1, 'E': 4},
