@@ -4,23 +4,25 @@ Data structure to insert and search word efficiently
 time complexity - O(n) where n=len(word)
 """
 
-class LL:   ## Linked List Data structure to store level wise nodes of Trie
-    def __init__(self,val):
+class LL:   # Linked List Data structure to store level wise nodes of Trie
+    def __init__(self, val):
         self.val = val
         self.next = {}
         self.completed = False
-        
+
+
 class Trie:
     """
-    Trie is also called as prefix tree 
+    Trie is also called as prefix tree
     """
     def __init__(self):
         """
         Initialize your data structure here.
         """
         self.root = LL(None)
-        
-    def insert(self, word: str) -> None:   
+
+
+    def insert(self, word: str) -> None:
         """
         Inserts a word into the trie.
         """
@@ -41,8 +43,7 @@ class Trie:
                 return False
             node = node.next[i]
         return node.completed
-            
-        
+
 
     def startsWith(self, prefix: str) -> bool:
         """
@@ -55,9 +56,9 @@ class Trie:
             node = node.next[i]
         return True
 
-#obj = Trie()
-#obj.insert("python")
-#param_2 = obj.search("python")
-#param_3 = obj.startsWith("pyt")
-#print(param_2)
-#print(param_3)
+# obj = Trie()
+# obj.insert("python")
+# param_2 = obj.search("python")
+# param_3 = obj.startsWith("pyt")
+# print(param_2)
+# print(param_3)
