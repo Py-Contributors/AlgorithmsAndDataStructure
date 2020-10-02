@@ -307,7 +307,7 @@ class LinkedList:
         q = prev[i - 1]
 
         count = 1
-        while count <= i//1 + 1:
+        while count <= i // 1 + 1:
             if prev[- count] != p.data:
                 return False
         return True
