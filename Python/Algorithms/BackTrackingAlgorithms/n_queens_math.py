@@ -47,3 +47,16 @@ def depth_first_search(
             boards,
             n,
         )
+
+
+def n_queens_solution(n: int) -> None:
+    boards = []
+    depth_first_search([], [], [], boards, n)
+
+    """ Print all the boards """
+    for board in boards:
+        for column in board:
+            print(column)
+        print("")
+
+    print(len(boards), "solutions were found.")
