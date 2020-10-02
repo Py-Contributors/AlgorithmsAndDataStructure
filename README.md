@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=666666&height=100&section=header&text=Algorithms%20And%20Data%20Structures&fontSize=55%&fontColor=ffffff">
-  <h2 align="center">👉 A Collection of Awesome Problem Solving Scripts in Python.👈</h2>
+  <h2 align="center">👉 A Collection of Algorithm And Data Structures in Cpp and Python 👈</h2>
 </p>
 
 <p align="center">
@@ -77,7 +77,7 @@ Check [Contribution](/CONTRIBUTING.md) Guide Before Contribution.
 
 
 | Data Structure 	| C++            	| Python          	| Status/Remarks     	|
-|         :---    |        :----:   |  :---:            |  ---:               |
+|         :----    |        :----:   |  :----:            |  ----:               |
 | Linked List    	| Yes            	| Yes             	| Being improved #23 	|
 | Sets           	| Yes            	| Yes             	| Implemented        	|
 | Stack          	| Yes            	| In progress #13 	|                    	|
