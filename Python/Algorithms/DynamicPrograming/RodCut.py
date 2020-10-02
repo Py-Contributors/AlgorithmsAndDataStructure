@@ -1,3 +1,6 @@
+#RodCutting Problem
+# This program solves the rod cutting problem using a dynamic programming approach in python
+
 INT_MIN = -32767
   
 def RodCutting(price):
