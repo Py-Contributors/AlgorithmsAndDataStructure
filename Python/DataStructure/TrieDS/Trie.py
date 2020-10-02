@@ -1,3 +1,9 @@
+"""
+Title - Trie Data Structure
+Data structure to insert and search word efficiently
+time complexity - O(n) where n=len(word)
+"""
+
 class LL:   ## Linked List Data structure to store level wise nodes of Trie
     def __init__(self,val):
         self.val = val
