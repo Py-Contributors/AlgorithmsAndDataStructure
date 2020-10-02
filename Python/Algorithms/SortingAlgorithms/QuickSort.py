@@ -11,23 +11,18 @@ complexity	           :  O(n) auxiliary (naive)  O(log n) auxiliary (Sedgewick 1
 """
 
 class QuickSort:
-    def quicksort(self,list_a):
-        self.helper(list_a, 0 , len(list_a) - 1)
-    
-    def helper(self,list_a, first, last):
+    def quicksort(self, list_a):
+        self.helper(list_a, 0 , len(list_a) - 1)    
+    def helper(self, list_a, first, last):
         if first < last:
             split_point = self.partition(list_a, first,last)
             self.helper(list_a,first,split_point - 1)
             self.helper(list_a,split_point + 1,last)
-
     def partition(self,list_a, first, last):
         pivot = list_a[first]
-
         left = first + 1
         right = last
-
         done = False
-
         while not done:
             while left <= right and list_a[left] <= pivot:
                 left = left + 1
