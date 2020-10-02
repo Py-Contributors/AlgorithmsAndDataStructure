@@ -1,6 +1,7 @@
 """
 Returns the index of a key in a sorted array
 or returns -1 if it is not contained
+Time complexity - O(log n)
 """
 
 
