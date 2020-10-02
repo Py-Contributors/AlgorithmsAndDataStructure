@@ -35,7 +35,7 @@ def binarySearch(array, key, left, right):
 # Driver Code
 array = [2, 3, 4, 10, 40]
 x = 10
-result = binarySearch(array, x, 0, len(array)- 1)
+result = binarySearch(array, x, 0, len(array) - 1)
 if(result == -1):
     print("Element is not present in array")
 else:
@@ -46,7 +46,7 @@ else:
 # Driver Code
 array = [2, 3, 4, 10, 40]
 x = 1
-result = binarySearch(array, x, 0, len(array)- 1)
+result = binarySearch(array, x, 0, len(array) - 1)
 if(result == -1):
     print("Element is not present in array")
 else:
