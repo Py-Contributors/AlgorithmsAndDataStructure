@@ -10,7 +10,7 @@ import numpy as np
 
 
 class Sigmoid:
-    """ Softmax gives the probability of output function 
+    """ Softmax gives the probability of output function
         Range : 0 to 1
     """
 
@@ -23,7 +23,7 @@ class Sigmoid:
 
 class TanH:
     """TanH Gives the probability of output function
-        Range : - 1 to 1     
+        Range : - 1 to 1
      """
 
     def __call__(self, x):
