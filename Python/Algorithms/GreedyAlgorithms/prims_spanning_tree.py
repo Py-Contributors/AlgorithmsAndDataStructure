@@ -1,63 +1,35 @@
-import sys
+from collections import defaultdict
+import heapq
 
 
-class Graph():
+def create_spanning_tree(graph, starting_vertex):
+    mst = defaultdict(set)
+    visited = set([starting_vertex])
+    edges = [
+        (cost, starting_vertex, to)
+        for to, cost in graph[starting_vertex].items()
+    ]
+    heapq.heapify(edges)
 
-    def __init__(self, vertices):
+    while edges:
+        cost, frm, to = heapq.heappop(edges)
+        if to not in visited:
+            visited.add(to)
+            mst[frm].add(to)
+            for to_next, cost in graph[to].items():
+                if to_next not in visited:
+                    heapq.heappush(edges, (cost, to, to_next))
 
-        self.V = vertices
-        self.graph = [[0 for c in range(vertices)] for r in range(vertices)]
+    return mst
 
-    def printMST(self, parent):
+example_graph = {
+    'A': {'B': 2, 'C': 3},
+    'B': {'A': 2, 'C': 1, 'D': 1, 'E': 4},
+    'C': {'A': 3, 'B': 1, 'F': 5},
+    'D': {'B': 1, 'E': 1},
+    'E': {'B': 4, 'D': 1, 'F': 1},
+    'F': {'C': 5, 'E': 1, 'G': 1},
+    'G': {'F': 1},
+}
 
-        print("Edge \tWeight")
-
-        for i in range(1, self.V):
-            print(parent[i], "-", i, "\t", self.graph[i][parent[i]])
-
-    def minKey(self, key, mstSet):
-
-        min = sys.maxsize
-
-        for v in range(self.V):
-            if key[v] < min and mstSet[v] is False:
-                min = key[v]
-                min_index = v
-
-        return min_index
-
-    def primMST(self):
-
-        key = [sys.maxsize] * self.V
-        parent = [None] * self.V
-        key[0] = 0
-        mstSet = [False] * self.V
-        parent[0] = -1
-
-        for cout in range(self.V):
-
-            u = self.minKey(key, mstSet)
-            mstSet[u] = True
-
-            for v in range(self.V):
-                if (self.graph[u][v] > 0 and
-                        mstSet[v] is False and
-                        key[v] > self.graph[u][v]):
-                    key[v] = self.graph[u][v]
-                    parent[v] = u
-
-        self.primMST(parent)
-
-
-g = Graph(5)
-g.graph = [[0, 2, 0, 6, 0],
-
-           [2, 0, 3, 8, 5],
-
-           [0, 3, 0, 0, 7],
-
-           [6, 8, 0, 0, 9],
-
-           [0, 5, 7, 9, 0]]
-
-g.primMST()
+print(dict(create_spanning_tree(example_graph, 'A')))
