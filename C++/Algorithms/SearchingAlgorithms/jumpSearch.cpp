@@ -1,3 +1,9 @@
+/*
+Title - Jump search Algorithm
+It will sort array
+time complexity - O(N^0.5)
+*/
+
 #include<iostream>
 #include<cmath>
 
