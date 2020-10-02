@@ -27,8 +27,7 @@ class Network:
         self.num_layers = len(sizes)
         self.sizes = sizes
         self.biases = [np.random.randn(y, 1) for y in sizes[1:]]
-        self.weights = [np.random.randn(y, x)
-                        for x, y in zip(sizes[:-1], sizes[1:])]
+        self.weights = [np.random.randn(y, x) for x, y in zip(sizes[:-1], sizes[1:])]
 
     def feedforward(self, a):
         """Return the output of the network if ``a`` is input."""
@@ -50,7 +49,7 @@ class Network:
             for j in range(epochs):
                 random.shuffle(training_data)
                 mini_batches = [
-                    training_data[k: k + mini_batch_size]
+                    training_data[k : k + mini_batch_size]
                     for k in range(0, n, mini_batch_size)
                 ]
                 for mini_batch in mini_batches:
@@ -84,8 +83,9 @@ class Network:
 
     def backdrop(self, x, y):
         """Return a tuple ``(nabla_b, nabla_w)`` representing the gradient
-        for the cost function C_x. ``nabla_b`` and ``nabla_w`` are layer-by-layer
-        lists of numpy arrays, similar to ``self.biases`` and ``self.weights``."""
+        for the cost function C_x. ``nabla_b`` and ``nabla_w`` are
+        layer-by-layer lists of numpy arrays, similar to
+         ``self.biases`` and ``self.weights``."""
         nabla_b = [np.zeros(b.shape) for b in self.biases]
         nabla_w = [np.zeros(w.shape) for w in self.weights]
         # feedforward
@@ -98,12 +98,11 @@ class Network:
             activation = sigmoid(z)
             activations.append(activation)
             # backward pass
-            delta = self.cost_derivative(
-                activations[-1], y) * sigmoid_prime(zs[-1])
+            delta = self.cost_derivative(activations[-1], y) * sigmoid_prime(zs[-1])
             nabla_b[-1] = delta
             nabla_w[-1] = np.dot(delta, activations[-2].transpose())
-            # note that the variable l in the loop below is used a little differently.
-            # L =1 means the last layer of neurons, l = 2 is the
+            # note that the variable l in the loop below is used a little
+            # differently. L =1 means the last layer of neurons, l = 2 is the
             # second-last layer, and so on. it's a renumbering of the
             # scheme in the book, used here to take advantage of the fact
             # that Python can use negative indices in lists.
@@ -120,8 +119,7 @@ class Network:
             network outputs the correct result. Note that the neural
             network's output is assumed to be the index of whichever
             neuron in the final layer has the highest activation."""
-            test_results = [(np.argmax(self.feedforward(x)), y)
-                            for (x, y) in test_data]
+            test_results = [(np.argmax(self.feedforward(x)), y) for (x, y) in test_data]
             return sum(int(x == y) for (x, y) in test_results)
 
         def cost_derivative(self, output_activations, y):

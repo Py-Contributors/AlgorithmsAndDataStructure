@@ -5,8 +5,8 @@ import math
 class Regression:
     """ Base model :
     n_iterations : float
-        The number of training iterations the algorithm will tune the weights for.
-    learning_rate : float
+        The number of training iterations the algorithm will tune the weights
+        for learning_rate : float
         The step length that will be used when updating the weights.
     """
 
@@ -44,8 +44,8 @@ class Regression:
 class LinearRegression(Regression):
     """ Linear Regression Model Parameter
     n_iterations : float
-        The number of training iterations the algorithm will tune the weights for
-    learning rate : float
+        The number of training iterations the algorithm will tune the weights
+    for learning rate : float
 
     gradient_descent : boolean
         True : Gradient Descent
