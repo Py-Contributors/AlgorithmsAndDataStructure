@@ -1,3 +1,10 @@
+"""
+Title - Prim's Minimum Spanning Tree Algorithm
+It finds minimum spaning tree for a weighted undirected graph.
+time complexity - O(V^2)
+"""
+
+
 from collections import defaultdict
 import heapq
 
