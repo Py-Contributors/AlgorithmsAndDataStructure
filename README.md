@@ -2,6 +2,7 @@
 
 ![python](https://img.shields.io/badge/language-Python-blue?style=for-the-badge)
 ![C++](https://img.shields.io/badge/language-C++-blue?style=for-the-badge)
+![code_size](https://img.shields.io/github/languages/code-size/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
 
 ![Discord](https://img.shields.io/discord/758030555005714512?style=for-the-badge)
 ![last commit](https://img.shields.io/github/last-commit/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
