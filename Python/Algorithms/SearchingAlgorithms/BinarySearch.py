@@ -20,7 +20,7 @@ def binarySearch(array, key, left, right):
     else -1
     """
 
-    mid = left + (right - left)//2
+    mid = left + (right - left) // 2
     if left > right:
         return -1
 
