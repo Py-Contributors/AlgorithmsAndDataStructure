@@ -1,4 +1,3 @@
-# Title - all permutation of a given string
 def permutation(string, val, length):
     if val == length - 1:
         print(" ".join(string))
@@ -7,6 +6,7 @@ def permutation(string, val, length):
             string[val], string[i] = string[i], string[val]
             permutation(string, val + 1, length)
             string[val], string[i] = string[i], string[val]   # reversing the change(Backtracking)
+
 
 print("Enter your string :")
 get_string = input()
