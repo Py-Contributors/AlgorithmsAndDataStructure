@@ -108,6 +108,7 @@ int main()
 
     int a1, a2;
 
+    //Calling Recursive Implementation
     cout << "By recursive approach " << endl;
     a1 = interpolationSearchRecursive(a, 0, n - 1, t);
 
@@ -115,8 +116,8 @@ int main()
         cout << "Element not found \n";
     else
         cout << "Element " << t << " is present at index " << a1 <<"\n";
-    
 
+    //Calling Iterative Implementation
     cout << "By iterative approach\n";
     a2 = interpolationSearchIterative(a, n, t);
 
