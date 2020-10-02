@@ -4,6 +4,7 @@ Data structure to insert and search word efficiently
 time complexity - O(n) where n=len(word)
 """
 
+
 class LL:   # Linked List Data structure to store level wise nodes of Trie
     def __init__(self, val):
         self.val = val
@@ -20,7 +21,6 @@ class Trie:
         Initialize your data structure here.
         """
         self.root = LL(None)
-
 
     def insert(self, word: str) -> None:
         """
@@ -43,7 +43,6 @@ class Trie:
                 return False
             node = node.next[i]
         return node.completed
-
 
     def startsWith(self, prefix: str) -> bool:
         """
