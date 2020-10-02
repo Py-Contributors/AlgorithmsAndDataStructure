@@ -2,7 +2,7 @@ class Set:
     """ Set Implement in Python 3 """
 
     def __init__(self, values=None):
-        """ This is the constructor it gets called when you create a new Set."""
+        """this is the constructor it gets called when you create a new Set."""
         self.dict = {}  # Each instance of set has it's own dict property
 
         if values is not None:

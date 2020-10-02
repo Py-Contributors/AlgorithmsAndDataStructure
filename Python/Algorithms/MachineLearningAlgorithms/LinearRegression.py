@@ -5,8 +5,8 @@ import math
 class Regression:
     """ Base model :
     n_iterations : float
-        The number of training iterations the algorithm will tune the weights for.
-    learning_rate : float
+        The number of training iterations the algorithm will tune the weights
+        for learning_rate : float
         The step length that will be used when updating the weights.
     """
 
@@ -44,15 +44,20 @@ class Regression:
 class LinearRegression(Regression):
     """ Linear Regression Model Parameter
     n_iterations : float
-        The number of training iterations the algorithm will tune the weights for
-    learning rate : float
+        The number of training iterations the algorithm will tune the weights
+    for learning rate : float
 
     gradient_descent : boolean
         True : Gradient Descent
         False : batch optimization by least squares
     """
 
-    def __init__(self, n_iterations=100, learning_rate=0.001, gradient_descent=True):
+    def __init__(
+                self,
+                n_iterations=100,
+                learning_rate=0.001,
+                gradient_descent=True
+                ):
         self.gradient_descent = gradient_descent
         super(LinearRegression, self).__init__(
             n_iterations=n_iterations, learning_rate=learning_rate
