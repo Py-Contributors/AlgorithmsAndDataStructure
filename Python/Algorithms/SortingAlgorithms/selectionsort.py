@@ -1,3 +1,8 @@
+"""
+Insertion Sort
+Array or list will be sorted using this technique
+Sorted Array at each will be shown
+"""
 a=[4,8,9,5,1]
 
 #selectionsort 
