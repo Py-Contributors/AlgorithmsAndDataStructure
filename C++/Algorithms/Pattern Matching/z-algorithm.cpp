@@ -3,6 +3,7 @@
     Given a pattern and text, this 
     algorithm computes all the locations
     where pattern is present
+    Time Complexity - O(n + m)
 */
 
 #include <iostream>
