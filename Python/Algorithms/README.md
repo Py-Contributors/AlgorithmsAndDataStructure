@@ -12,7 +12,9 @@ List of Algorithms in Python contained in this repository
   - [Recursion Algorithms](#recursionalgorithms)
   - [Searching Algorithms](#searchingalgorithms)
   - [Sorting Algorithms](#sortingalgorithms)
-
+  - [Finding all permutation](#permutationalgorithms)
+  - [Spiral Matrix](#SpiralMatrix)
+  
 ### Backtracking Algorithms: 
 Backtracking is a technique for solving problems recursively by trying to build a solution incrementally, one piece at a time, removing those solutions that fail to satisfy the constraints of the problem at any point of time.
  Example of implementation- Soduku solving.
@@ -52,3 +54,11 @@ Examples of implementation- Binary Search, Linear Search, Fibonacci Search.
 ### Sorting Algorithms:
 A Sorting algorithm is an algorithm that puts elements of a list in a certain order. The most frequently used orders are numerical order and lexicographical order. Efficient sorting is important for optimizing the efficiency of other algorithms that require input data to be in sorted lists.
 Examples of implementation- Quick Sort, Merge Sort. 
+
+### Finding all permutation:
+In mathematics, a permutation of a set is, loosely speaking, an arrangement of its members into a sequence or linear order, or if the set is already ordered, a rearrangement of its elements. The word "permutation" also refers to the act or process of changing the linear order of an ordered set.
+Examples of implementation-Input :  str = 'ABC'  Output : ABC,ACB,BAC,BCA,CAB,CBA
+
+### Spiral Matrix:
+The Spiral Matrix problem takes a 2-Dimensional array of N-rows and M-columns as an input, and prints the elements of this matrix in spiral order. The spiral begins at the top left corner of the input matrix, and prints the elements it encounters, while looping towards the center of this matrix, in a clockwise manner.
+

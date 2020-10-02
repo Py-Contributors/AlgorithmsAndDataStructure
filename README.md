@@ -1,29 +1,30 @@
-![header](https://capsule-render.vercel.app/api?type=rect&color=666666&height=100&section=header&text=Algorithms%20And%20Data%20Structures&fontSize=55%&fontColor=ffffff)
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=666666&height=100&section=header&text=Algorithms%20And%20Data%20Structures&fontSize=55%&fontColor=ffffff">
+  <h2 align="center">👉 A Collection of Algorithm And Data Structures in Cpp and Python 👈</h2>
+</p>
 
-![python](https://img.shields.io/badge/language-Python-blue)
-![Cpp](https://img.shields.io/badge/language-C++-blue)
-![issues](https://img.shields.io/github/issues/Py-Contributors/AlgorithmsAndDataStructure)
-![forks](https://img.shields.io/github/forks/Py-Contributors/AlgorithmsAndDataStructure)
-![stars](https://img.shields.io/github/stars/Py-Contributors/AlgorithmsAndDataStructure)
-![license](https://img.shields.io/github/license/Py-Contributors/AlgorithmsAndDataStructure)
-![twitter](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FPy-Contributors%2FawesomeScripts)
-
-![python](https://img.shields.io/badge/language-Python-blue?style=for-the-badge)
-![C++](https://img.shields.io/badge/language-C++-blue?style=for-the-badge)
-
-![Discord](https://img.shields.io/discord/758030555005714512?style=for-the-badge)
-![last commit](https://img.shields.io/github/last-commit/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
-![contributors](https://img.shields.io/github/contributors/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
-
-![hacktober-issue](https://img.shields.io/github/hacktoberfest/2020/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
-![forks](https://img.shields.io/github/forks/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge)
-![stars](https://img.shields.io/github/stars/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge)
-![license](https://img.shields.io/github/license/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge)
-
-![open issues](https://img.shields.io/github/issues-raw/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge)
-![close issue](https://img.shields.io/github/issues-closed-raw/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
-![open_pr](https://img.shields.io/github/issues-pr-raw/Py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
-![open_pr](https://img.shields.io/github/issues-pr-closed-raw/Py-contributors/AlgorithmsAndDataStructure?style=for-the-badge)
+<p align="center">
+<img src="https://img.shields.io/badge/language-python-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/language-C++-blue?style=for-the-badge">
+<img src="https://img.shields.io/github/stars/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge" >
+<img src="https://img.shields.io/github/forks/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge" >
+<img src="https://img.shields.io/github/languages/code-size/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge" >
+  </p>
+  <p align="center">
+<img src="https://img.shields.io/github/issues-raw/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge" >
+<img src="https://img.shields.io/github/issues-closed-raw/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge" >
+<img src="https://img.shields.io/github/issues-pr-raw/Py-contributors/AlgorithmsAndDataStructure?style=for-the-badge" >
+<img src="https://img.shields.io/github/issues-pr-closed-raw/Py-contributors/AlgorithmsAndDataStructure?style=for-the-badge" >
+</p>
+<p align="center">
+<img src="https://img.shields.io/github/hacktoberfest/2020/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge">
+<img src="https://img.shields.io/github/license/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge">
+</p>
+<p align="center">
+<img src="https://img.shields.io/discord/758030555005714512?style=for-the-badge">
+<img src="https://img.shields.io/github/last-commit/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge">
+<img src="https://img.shields.io/github/contributors/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge">
+</p>
 
 - [AlgorithmsAndDataStructure](#algorithmsanddatastructure)
   - [Introduction](#introduction)
@@ -35,6 +36,9 @@
   - [License](#license)
   - [Project status](#project-status)
   - [Maintainers](#maintainers)
+
+#Note
+We have enabled an Interaction Limit till Monday(5th October). This is because we received a lot of duplicate issues and spam PRs, so we need some time to label them as invalid.
 
 ## Introduction
 
@@ -73,7 +77,7 @@ Check [Contribution](/CONTRIBUTING.md) Guide Before Contribution.
 
 
 | Data Structure 	| C++            	| Python          	| Status/Remarks     	|
-|         :---    |        :----:   |  :---:            |  ---:               |
+|---|---|:-:|---|
 | Linked List    	| Yes            	| Yes             	| Being improved #23 	|
 | Sets           	| Yes            	| Yes             	| Implemented        	|
 | Stack          	| Yes            	| In progress #13 	|                    	|
@@ -85,7 +89,7 @@ Check [Contribution](/CONTRIBUTING.md) Guide Before Contribution.
 <details>
 
 | Algorithm                      	| C++             	| Python          	| Remarks 	      |
-|         :---                    |        :----:     |  :---:            |  ---:           |
+|---|---|:-:|---|
 | **Searching**                   |                 	|                 	|                	|
 | Binary Search                  	| No              	| In progress #9  	|                	|
 | Jump Search                    	| In progress #39 	| In progress #10 	|                	|
