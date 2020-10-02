@@ -1,14 +1,22 @@
+/* Quick Sort is Divide and Conquer algorithm for sorting data.
+   In this algorithm we pick an element (in this case last element) as pivot
+   and partitions the array around the pivot such that LHS of pivot is less 
+   than the pivot and RHS of pivot is greater than the pivot.*/
+
+/* Time complexity: Worst case : O(n^2), Average case: O(nlogn), Best case: O(nlogn) */
+
 #include<bits/stdc++.h>
 using namespace std;
 #define MAX 100000
 
-void swap(int* a,int* b)
+void swap(int* a,int* b) //for swapping elements
 {
     int t=*a;
     *a=*b;
     *b=t;
 }
-int partition(int arr[],int low,int high)
+
+int partition(int arr[],int low,int high) //for chosing partitioning around pivot
 {
     int pivot=arr[high];
     int i=(low-1);
@@ -23,7 +31,8 @@ int partition(int arr[],int low,int high)
     swap(&arr[i+1],&arr[high]);
     return (i+1);
 }
-void quicksort(int arr[],int low,int high)
+
+void quicksort(int arr[],int low,int high) // recursive calls for partitioning.
 {
     if (low<high)
     {
@@ -32,12 +41,7 @@ void quicksort(int arr[],int low,int high)
         quicksort(arr,pi+1,high);
     }
 }
-void printArray(int arr[],int size)
-{
-    cout<<"\n";
-    
-    cout<<endl;
-}
+
 int main()
 {	
 	int n,num,x;
@@ -52,7 +56,7 @@ int main()
     	}
  	quicksort(arr,0,n-1);
     	cout<<"Array after sorting: ";
-    	for(int i=0;i<size;i++)
+    	for(int i=0;i<n;i++)
         cout<<arr[i]<<" ";
     	return 0;
 }
