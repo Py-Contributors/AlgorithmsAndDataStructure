@@ -6,6 +6,7 @@
 # If return value -1 then print "Not Found!"
 # else print position at which element found
 
+
 def Sequential_Search(dlist, item):
     pos = 0
     found = False

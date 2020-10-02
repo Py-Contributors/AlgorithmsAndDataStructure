@@ -1,9 +1,10 @@
 # Title : Python3 Program to add two numbers without using arithmetic operator
 
+
 def Add(a, b):
 
     # Iterate till there is no carry
-    while (b != 0):
+    while b != 0:
 
         # carry now contains common set bits of x and y
         carry = a & b

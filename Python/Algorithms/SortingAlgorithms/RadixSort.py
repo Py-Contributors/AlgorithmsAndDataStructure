@@ -11,21 +11,21 @@ class RadixSort:
         [1, 2, 5, 6, 10]"""
 
     def __init__(self):
-        print('Radix sort algorithm is initialized')
+        print("Radix sort algorithm is initialized")
 
     def __call__(self, arr):
         maxLength = False
         tmp = -1
         placement = 1
 
-        while(not maxLength):
+        while not maxLength:
             maxLength = True
             buckets = [list() for _ in range(10)]
 
             for i in arr:
                 tmp = int(i / placement)
                 buckets[tmp % 10].append(i)
-                if(maxLength and tmp > 0):
+                if maxLength and tmp > 0:
                     maxLength = False
             a = 0
             for b in range(10):
