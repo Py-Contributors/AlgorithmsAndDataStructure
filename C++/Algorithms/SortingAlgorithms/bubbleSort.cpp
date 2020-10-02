@@ -3,7 +3,6 @@ using namespace std;
 
 void bubbleSort(int array[], int size)
 {
-
     /* run loops two times
      * one for walking through the array
      * and the other for comparison 
