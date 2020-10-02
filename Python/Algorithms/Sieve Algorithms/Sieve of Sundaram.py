@@ -5,7 +5,7 @@
 
 
 def sieve_of_sundaram(n):
-    
+
     # For primes less than n, reduce n to half
     n_cap = int((n - 1) / 2)
     # Initially all elements are unmarked
@@ -19,7 +19,6 @@ def sieve_of_sundaram(n):
             marked[i + j + 2 * i * j] = 1
             j += 1
     primes = []
-    
     # Since 2 is a prime number
     if (n > 2):
         primes.append(2)
