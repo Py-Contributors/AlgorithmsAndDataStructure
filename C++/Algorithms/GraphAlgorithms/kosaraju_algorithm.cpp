@@ -91,6 +91,8 @@ int main()
         edges[u].push_back(v);
         edgesT[v].push_back(u);
     }
+
+    // Calling kosaraju
     kosaraju();
     return 0;
 }
