@@ -1,7 +1,14 @@
+"""This program creates a red black tree"""
+
+#  Date   02/10/2020.
+#   __Author__   :  Shivam
+#  __Package__  :  Python 3.7
+#  __GitHub__  : https://github.com/ugetshivam
+
 """Represents Node in this data structure"""
 
 
-class Node():
+class Node:
     def __init__(self, value, color):
         self.value = value
         self.left = None
@@ -12,7 +19,7 @@ class Node():
 """Red Black BST"""
 
 
-class RedBlackBST():
+class RedBlackBST:
     def __init__(self):
         self.root = None
         self.RED = True
