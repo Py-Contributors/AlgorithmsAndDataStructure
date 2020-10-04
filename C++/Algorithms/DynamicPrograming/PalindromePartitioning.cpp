@@ -1,9 +1,19 @@
-// Dynamic Programming Solution for Palindrome Partitioning Problem 
+// Dynamic Programming Optimized Solution for Palindrome Partitioning Problem 
+
+/*Given a string, a partitioning of the string is a palindrome partitioning if every substring of the partition is a palindrome. 
+For example, “aba|b|bbabb|a|b|aba” is a palindrome partitioning of “ababbbabbababa”. 
+Determine the fewest cuts needed for a palindrome partitioning of a given string. 
+For example, minimum of 3 cuts are needed for “ababbbabbababa”. The three cuts are “a|babbbab|b|ababa”.*/ 
+
+// Time Complexity: O(n2)
+
+
 #include <limits.h> 
 #include <stdio.h> 
-#include <string.h> 
+#include <string.h>
+#include <iostream> 
 
-//function to get minimum of two integers 
+using namespace std;
 int min(int a, int b) { 
 	return (a < b) ? a : b; 
 } 
@@ -12,7 +22,6 @@ int min(int a, int b) {
 	such that every part is a palindrome */
 int minPalPartion(char* str) 
 { 
-	// Get the length of the string 
 	int n = strlen(str); 
 
 	/* Create two arrays to build the solution in bottom-up manner 
@@ -23,9 +32,9 @@ int minPalPartion(char* str)
 	int C[n]; 
 	bool P[n][n]; 
 
-	int i, j, k, L; // different looping variables 
+	int i, j, k, L;
 
-	// Every substring of length 1 is a palindrome 
+	
 	for (i = 0; i < n; i++) { 
 		P[i][i] = true; 
 	} 
@@ -35,10 +44,11 @@ int minPalPartion(char* str)
 	for (L = 2; L <= n; L++) { 
 		// For substring of length L, set different possible starting indexes 
 		for (i = 0; i < n - L + 1; i++) { 
-			j = i + L - 1; // Set ending index 
-
-			// If L is 2, then we just need to compare two characters. Else 
-			// need to check two corner characters and value of P[i+1][j-1] 
+			j = i + L - 1; 
+			  
+			  // If L is 2, then we just need to compare two characters. Else 
+             // need to check two corner characters and value of P[i+1][j-1] 
+		
 			if (L == 2) 
 				P[i][j] = (str[i] == str[j]); 
 			else
@@ -62,11 +72,11 @@ int minPalPartion(char* str)
 	return C[n - 1]; 
 } 
 
-//main function with a test specified
+// driver function to test
 int main() 
 { 
 	char str[] = "adabbaabbaaca"; 
-	printf("Min cuts needed for Palindrome Partitioning is %d", 
-		minPalPartion(str)); 
+	cout<<"Min cuts needed for Palindrome Partitioning of "<<str<<" is "<<minPalPartion(str); 
 	return 0; 
 } 
+// The output is 3
