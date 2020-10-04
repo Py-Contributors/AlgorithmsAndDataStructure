@@ -2,19 +2,18 @@
 # instead of recursion.
 class SegmentTree:
     """
-    Segment Tree implementation in python.
+    Segment Tree data structure.
     [wikipedia](https://en.wikipedia.org/wiki/Segment_tree)
 
-    Segment trees are useful for storing information about ranges in a list of
-    values, or segments.
+    Segment trees are useful for storing information about ranges (also called
+    segments) in a list of values.
 
-    The `leaves` argument is intended to be a list of values that will be
-    queried.
+    The `leaves` argument is a list of values that will be queried.
 
-    The `accumulator` argument is a method that should compute some preperty
-    about intervals in the `leaves` list. In order for the segment tree to work
-    as intended, `accumulator` should take two inputs, and be commutative and
-    transitive. That is, for fixed leaves `a`, `b` and `c`:
+    The `accumulator` argument is a method that should compute some property of
+    a segment. In order for the segment tree to work as intended, `accumulator`
+    should take two inputs, and be commutative, and transitive. That is, for
+    fixed leaves `a`, `b` and `c`:
 
     - Commutativity: `accumulator(a, b) == accumulator(b, a)`
     - Transitivity: `accumulator(a, accumulator(b, c)) ==
