@@ -1,3 +1,6 @@
+# Title: Maximize Expression
+# Description: The aim of this algorithms is to maximize the expression by computing and maximizing the subsequences.
+
 import math
 from typing import List
 from operator import add, sub, mul
