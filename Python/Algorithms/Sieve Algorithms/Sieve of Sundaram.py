@@ -22,11 +22,12 @@ def sieve_of_sundaram(n):
     if (n > 2):
         primes.append(2)
 
-    # Numbers of the form 2 * i + 1 are prime 
+    # Numbers of the form 2 * i + 1 are prime
     for i in range(1, n_cap + 1):
         if (marked[i] == 0):
             primes.append(2 * i + 1)
 
     return primes
+
 
 print(sieve_of_sundaram(25))
