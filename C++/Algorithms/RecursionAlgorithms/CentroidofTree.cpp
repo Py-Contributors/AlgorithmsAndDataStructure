@@ -25,19 +25,24 @@ void dfs(int x,int prev){
 	if(n-sz[x] > n/2){
 		iscentroid = false;
 	}
-	if(iscentroid){
+	if(iscentroid){//if each subtree has nodes less then or equal to n/2, then only this node could be a centroid.
 		centroid.push_back(x);
 	}
 }
 int main(){
+	cout<<"Enter the total nodes in the tree"<<endl;
 	cin>>n;
-	for(int i=0;i<n-1;++i){//tree must have n-1 edges if all nodes are connected
+	cout<<"Enter the edges in the tree"<<endl;
+	//we are running the below loop n-1 times as a tree must have n-1 edges for each vertex to be connect to the order.
+	//if the number of edges is greater then n-1, then a cycle must exist and hence it is not a tree
+	//if the number of edges is less then n-1, then a tree of all the vertices cannot be formed.
+	for(int i=0;i<n-1;++i){
 		cin>>x>>y;
 		x--;y--;
 		l[x].push_back(y);
 		l[y].push_back(x);
 	}
-	sz = new int[n];//could be dclared globaly where n is maximum number of vertices
+	sz = new int[n];
 	dfs(1,-1);
 	//Every tree has atleast 1 centroid and atmost 2 centroid
 	for(auto i:centroid){
