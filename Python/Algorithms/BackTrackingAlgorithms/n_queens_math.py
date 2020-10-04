@@ -1,8 +1,9 @@
 r"""
 Problem:
-The n queens problem is of placing N queens on a N * N chess board such that no queen
-can attack any other queens placed on that chess board.  This means that one queen
-cannot have any other queen on its horizontal, vertical and diagonal lines.
+The n queens problem is of placing N queens on a N * N chess board such that
+no queen can attack any other queens placed on that chess board.  This means
+that one queen cannot have any other queen on its horizontal, vertical and
+diagonal lines.
 """
 
 from typing import List
@@ -27,7 +28,8 @@ def depth_first_search(
     row = len(possible_board)
 
     if row == n:
-        possible_board = [". " * i + "Q " + ". " * (n - 1 - i) for i in possible_board]
+        possible_board = [". " * i + "Q " + ". " * (n - 1 - i)
+                          for i in possible_board]
         boards.append(possible_board)
         return
 
