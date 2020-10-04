@@ -1,5 +1,8 @@
 {
     "files.associations": {
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "deque": "cpp",
+        "system_error": "cpp",
+        "vector": "cpp"
     }
 }

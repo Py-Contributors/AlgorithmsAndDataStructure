@@ -9,6 +9,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// declaring global variables
 vector<vector<int>> edges, edgesT;
 vector<bool> visited;
 stack<int> s;
