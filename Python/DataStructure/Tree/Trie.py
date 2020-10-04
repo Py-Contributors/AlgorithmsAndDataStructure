@@ -1,3 +1,6 @@
+# Program: Trie Implementation. Insertion, Search, Search prefix
+# __Author__: Ayush Jaipuriyar
+
 class Trie(object):
     """
     A class named Trie for the main tree
@@ -86,4 +89,3 @@ if __name__ == '__main__':
         else:
             break
 
-# The author of this program is Ayush Jaipuriyar
