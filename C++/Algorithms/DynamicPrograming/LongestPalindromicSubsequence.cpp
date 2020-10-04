@@ -37,7 +37,9 @@ int lps(string &str)
   
 int main() 
 { 
-    string str = "bebeeed"; 
-    printf ("The length of the LPS is %d", lps(str)); 
+    string str;
+    cin>>str;
+    if (str.length()==0) cout<<0; 
+    else printf ("The length of the LPS is %d", lps(str)); 
     return 0; 
 } 
