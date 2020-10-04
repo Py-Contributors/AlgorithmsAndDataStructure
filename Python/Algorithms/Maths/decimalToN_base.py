@@ -2,7 +2,7 @@ def conversion(value: int, base: int):
     data = []
     while value >= base:
         data.append(int(value % base))
-        value = int(value/base)
+        value = int(value / base)
     data.append(value)
     data.reverse()
     for i in range(0, len(data)):
