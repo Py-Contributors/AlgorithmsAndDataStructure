@@ -16,7 +16,7 @@ def interpolationSearch(arr, lo, hi, x):
 
 
 n = int(input("Enter number of elements : "))
-arr = list(map(int,input("\nEnter the numbers : ").strip().split()))[:n]
+arr = list(map(int, input("\nEnter the numbers : ").strip().split()))[:n]
 x = int(input("Enter the element to be searched :"))
 index = interpolationSearch(arr, 0, n - 1, x)
 if index != -1:
