@@ -15,9 +15,9 @@ def interpolationSearch(arr, lo, hi, x):
     return - 1
 
 
-arr = [10, 12, 13, 16, 18, 19, 20, 21, 22, 23, 24, 33, 35, 42, 47]
-n = len(arr)
-x = 18
+n = int(input("Enter number of elements : "))
+arr = list(map(int,input("\nEnter the numbers : ").strip().split()))[:n]
+x = int(input("Enter the element to be searched :"))
 index = interpolationSearch(arr, 0, n - 1, x)
 if index != -1:
     print("Element found at index", index)
