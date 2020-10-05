@@ -68,7 +68,7 @@ int minPalPartion(char* str)
 		} 
 	} 
 
-	// Return the min cut value for complete string. i.e., str[0..n-1] 
+	// Return the min cut value for complete string - str[0..n-1] 
 	return C[n - 1]; 
 } 
 
