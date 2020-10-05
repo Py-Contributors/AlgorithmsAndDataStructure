@@ -1,0 +1,63 @@
+<section id="header" class=" p-2 mb-4">
+    <div class="header container">
+      <div class="nav-bar">
+	<div class="d-flex mx-auto">
+		<div class="brand">
+		 <h3 class="mainHeading"><a class="text-white" href="/"><img src="/assets/img/logo/logo.png" style="height: 70px; width: 70px; background-color: white;" class="mr-3">Py-Contributors</a></h3>
+		</div>
+	</div>
+   
+<div class="nav-list">
+	 <div class="hamburger mt-4">
+		<div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+	</div>
+      <ul >
+        {% if page.active == "home" %}
+        <li class=" active"><a class="" href="/" data-after="Home">Home</a></li>
+    {% else %}
+        <li class=""><a class="" href="/" data-after="Home">Home</a></li>
+    {% endif %}
+
+    {% if page.active == "join-us" %}
+        <li class=" active"><a class="" href="/join-us/index.html" data-after="Join">Join Us</a></li>
+    {% else %}
+        <li class=""><a class="" href="/join-us/index.html" data-after="Join">Join Us</a></li>
+    {% endif %}
+
+    {% if page.active == "updates" %}
+        <li class=" active"><a class="" href="/updates/index.html" data-after="Updates">Updates</a></li>
+    {% else %}
+        <li class=""><a class="" href="/updates/index.html" data-after="Updates">Updates</a></li>
+    {% endif %}
+
+    {% if page.active == "developers" %}
+        <li class=" active"><a class="" href="/developers/index.html" data-after="Developers">Developers</a></li>
+    {% else %}
+        <li class=""><a class="" href="/developers/index.html" data-after="Developers">Developers</a></li>
+    {% endif %}
+    </ul>
+		</div>
+		  </div>
+    </div>
+  </section>
+
+<script>
+	const hamburger = document.querySelector('.header .nav-bar .nav-list .hamburger');
+const mobile_menu = document.querySelector('.header .nav-bar .nav-list ul');
+const menu_item = document.querySelectorAll('.header .nav-bar .nav-list ul li a');
+const header = document.querySelector('.header.container');
+
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('cross');
+	mobile_menu.classList.toggle('active');
+});
+
+menu_item.forEach((item) => {
+	item.addEventListener('click', () => {
+		hamburger.classList.toggle('cross');
+		mobile_menu.classList.toggle('active');
+	});
+});
+</script>
