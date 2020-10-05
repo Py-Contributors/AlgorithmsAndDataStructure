@@ -39,7 +39,8 @@
   - [Maintainers](#maintainers)
 
 #Note
-We have enabled an Interaction Limit till Monday(5th October). This is because we received a lot of duplicate issues and spam PRs, so we need some time to label them as invalid.
+~~We have enabled an Interaction Limit till Monday(5th October). This is because we received a lot of duplicate issues and spam PRs, so we need some time to label them as invalid.~~
+We are now open to everyone again!
 
 ## Introduction
 
