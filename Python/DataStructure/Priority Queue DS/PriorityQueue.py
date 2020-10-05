@@ -6,8 +6,8 @@ class Node:
         self.priority = priority
 
 # class for Priority queue
-
 class PriorityQueue:
+    
 
     def __init__(self):
         self.queue = list()
