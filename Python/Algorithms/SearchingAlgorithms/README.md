@@ -1,6 +1,6 @@
   <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=666666&height=100&section=header&text=Search%20Algorithms%20In%20Python&fontSize=55%&fontColor=ffffff">
-  <h2 align="center"> <img src="searchalgos.png" align="center" /></h2>
+  <h2 align="center"> <img src="../../../docs/assest/image/searchalgos.png" align="center" /></h2>
 </p>
 
 ## Introduction
@@ -24,7 +24,7 @@ Linear search is one of the simplest searching algorithms, and the easiest to un
 
 The algorithm consists of iterating over an array and returning the index of the first occurrence of an item once it is found.
 
-The time complexity of linear search is O(n), meaning that the time taken to execute increases with the number of items in our input list 
+The time complexity of linear search is O(n), meaning that the time taken to execute increases with the number of items in our input list
 
 ## Binary Search
 
@@ -44,7 +44,7 @@ Jump Search is similar to binary search in that it works on a sorted array, and 
 
 It can be classified as an improvement of the linear search algorithm since it depends on linear search to perform the actual comparison when searching for a value.
 
-Given a sorted array, instead of searching through the array elements incrementally, we search in jumps. 
+Given a sorted array, instead of searching through the array elements incrementally, we search in jumps.
 
 The time complexity of jump search is O(√n), where √n is the jump size, and n is the length of the list, placing jump search between the linear search and binary search algorithms in terms of efficiency.
 
@@ -53,7 +53,7 @@ The time complexity of jump search is O(√n), where √n is the jump size, and 
 Fibonacci search is another divide and conquer algorithm which bears similarities to both binary search and jump search. It gets its name because it uses Fibonacci numbers to calculate the block size or search range in each step.
 
 Fibonacci numbers start with zero and follow the pattern 0, 1, 1, 2, 3, 5, 8, 13, 21... where each element is the addition of the two numbers that immediately precede it.
-The algorithm works with three Fibonacci numbers at a time. 
+The algorithm works with three Fibonacci numbers at a time.
 
 The time complexity for Fibonacci search is O(log n); the same as binary search. This means the algorithm is faster than both linear search and jump search in most cases.
 
@@ -79,4 +79,3 @@ Interpolation search works best on uniformly distributed, sorted arrays. Whereas
 <p align="right">
   <img src="https://img.shields.io/badge/Language-Python-blue?style=for-the-badge">
 </p>
-
