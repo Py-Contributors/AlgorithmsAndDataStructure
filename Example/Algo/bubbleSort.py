@@ -8,4 +8,4 @@ __GitHub__         : https://www.github.com/codeperfectplus
 from Python.Algorithms.SortingAlgorithms.BubbleSort import BubbleSort
 
 sort = BubbleSort()
-print(sort([4,3,1]))
+print(sort([4, 3, 1]))
