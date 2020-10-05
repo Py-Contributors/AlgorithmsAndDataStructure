@@ -26,7 +26,7 @@
 <a href="https://api.github.com/repos/py-contributors/AlgorithmsAndDataStructure/contributors"><img src="https://img.shields.io/github/contributors/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge" alt="total contributors"></a>
 </p>
 
-  
+
 - [AlgorithmsAndDataStructure](#algorithmsanddatastructure)
   - [Introduction](#introduction)
   - [Data Structure](#data-structure)
@@ -46,7 +46,7 @@ We are now open to everyone again!
 
 Data structures & Algorithms are an essential part of programming. It comes under the fundamentals of computer science. It gives us the advantage of writing better and efficient code in less time. It is a key topic when it comes to Software Engineering interview questions so as developers, we must have knowledge of Data Structure and Algorithms
 
-:star2: Star it 
+:star2: Star it
 :fork_and_knife:Fork it
 :handshake: Contribute to it!
 
@@ -62,7 +62,7 @@ An algorithm is a set of instructions that are used to accomplish a task, such a
 
 Algorithms are not limited to computers. They are like a set of step-by-step instructions or an even a recipe, containing things you need, steps to do, the order to do them, conditions to look for, and expected results.
 
-## Languages 
+## Languages
 - C++
 - Python
 
@@ -153,7 +153,7 @@ Check [Contribution](/CONTRIBUTING.md) Guide Before Contribution.
 
 - Create separate issues for Python and C++.
 - You can only work on issues that you have been assigned to.
-- Use Flake8 locally for linting Python Code. `pip install flake8`. 
+- Use Flake8 locally for linting Python Code. `pip install flake8`.
   (We have linting checks so if your code fails it we will not merge the PR.)
 
 ## Authors and acknowledgment
