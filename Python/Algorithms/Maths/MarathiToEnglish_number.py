@@ -1,6 +1,8 @@
 '''
 English_digits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 Below is marathi numbers list
+
+This program will convert the input number into english number
 '''
 marathi_digits = ['०', '१', '२', '१', '४', '५', '६', '७', '८', '९']
 a = input("Enter marathi digit: ")
