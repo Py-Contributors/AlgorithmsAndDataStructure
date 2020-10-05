@@ -1,4 +1,3 @@
-
 def issubset(set, n, sum):
     subset = ([[False for i in range(sum + 1)]for i in range(n + 1)])
     for i in range(0, n + 1):
