@@ -1,12 +1,12 @@
 
 def issubset(set, n, sum):
-    subset = ([[False for i in range(sum+1)]for i in range(n+1)])
-    for i in range(0, n+1):
+    subset = ([[False for i in range(sum + 1)]for i in range(n + 1)])
+    for i in range(0, n + 1):
         subset[i][0] = True
-    for i in range(0, n+1):
-        for j in range(0, sum+1):
-            if j >= set[i-1]:
-                subset[i][j] = subset[i-1][j] or subset[i-1][j-set[i-1]]
+    for i in range(0, n + 1):
+        for j in range(0, sum + 1):
+            if j >= set[i - 1]:
+                subset[i][j] = subset[i - 1][j] or subset[i - 1][j - set[i - 1]]
 
     return(subset[n][sum])
 
