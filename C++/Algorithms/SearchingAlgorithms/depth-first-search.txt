@@ -1,0 +1,59 @@
+/* MY COMPETITIVE CODING TEMPLATE */
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long int
+#define fastio ios_base::sync_with_stdio(false);cin.tie(NULL);
+#define pb push_back
+#define pp pair<ll,ll>
+#define all(v) (v).begin(),(v).end()
+#define sz(v) (ll)(v).size()
+#define F first 
+#define S second 
+#define lc "\n"
+ll MAX=1e18 , MIN=-1e18 , MOD=1000000007;
+void YJ()
+{
+#ifndef ONLINE_JUDGE
+    freopen("input.txt","r",stdin);
+    freopen("output.txt","w",stdout);
+#endif
+}
+
+/*  CODE STARTS HERE */
+
+//Question: Find given source and destiation are connected or not?
+
+//DFS ALGO
+bool dfs(int s,int d,vector<int>adj[],vector<int>&vis)
+{
+    if(s==d) return true;
+    vis[s]=1;
+    for(auto i: adj[s])
+    {
+        if(!vis[i])
+        dfs(i,d,adj,vis);
+    }
+    return false;
+}
+
+int main() 
+{
+    YJ(); fastio
+    int n,m,i,j,u,v,s,d; 
+    cout<<"Enter no. of nodes and paths in a graph:"<<lc; 
+    cin>>n>>m;
+    vector<int>adj[n+1]; //For storing the graph;
+    vector<int>vis(n+1,0); 
+    cout<<"Enter all the paths of graph: "<<lc;
+    for(i=0;i<m;i++)
+    {
+        cin>>u>>v; 
+        adj[u].pb(v); adj[v].pb(u); 
+    }
+    cout<<"Enter source and destination nodes:"<<lc;
+    cin>>s>>d;
+    
+    if(dfs(s,d,adj,vis)) cout<<"Given source and destination are connected"<<lc;
+    else cout<<"Source and destiation are not connected"<<lc;
+    return 0;
+}
