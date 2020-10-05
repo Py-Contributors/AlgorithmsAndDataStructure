@@ -1,14 +1,21 @@
 # Author : Utsav Ramchandra Khatu
 # Binary Code to Gray Code Conversion
-
-n = int(input())
-a = []
-while n:
-    a.append(n % 2)
-    n //= 2
-a = a[::-1]
+print("Press b if you want to convert Binary code to Grey Code else Press i to convert Integer to Grey Code")
+s = input()
+while s != 'b' and s != 'i' :
+    print("Invalid Response Please Try Again")
+    s = input()
+if s == 'i' :
+    n = int(input())
+    a = []
+    while n:
+        a.append(n % 2)
+        n //= 2
+    a = a[::-1]
+else :
+    x = list(input())
+    a = [int(x[i]) for i in range(len(x))]
 gray_code = [0 for i in range(len(a))]
-print(a)
 for i in range(len(a)):
     if i == 0:
         gray_code[i] = a[i]
