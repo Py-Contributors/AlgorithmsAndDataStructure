@@ -16,8 +16,6 @@ class GradientDescent:
         The parameters for the regression function. This is a vector of
         shape (n+1, ).
 
-    Returns:
-        Cost
     """
 
     def __init__(self, X, y, theta):
