@@ -1,3 +1,5 @@
+#learn data structure and algorithms in your favourite language.
+
 ﻿<p align="center">
   <a href="https://py-contributors.github.io/awesomeScripts/"><img src="https://capsule-render.vercel.app/api?type=rect&color=666666&height=100&section=header&text=Algorithms%20And%20Data%20Structures&fontSize=55%&fontColor=ffffff" alt="website title image"></a>
   <h2 align="center">👉 A Collection of Algorithm And Data Structures in Cpp and Python 👈</h2>
