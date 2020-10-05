@@ -1,0 +1,140 @@
+package Tree;
+
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Scanner;
+import java.util.Stack;
+class node
+{
+	node left,right,next;
+	int data;
+	public node(int d)
+	{
+		left=right=next=null;
+		data=d;
+	}
+}
+class BT
+{
+	Scanner sc=new Scanner(System.in);
+	node root;
+	public BT()
+	{
+		root=null;
+	}
+	node temp;
+	void create()
+	{
+		int d,flag=0,dr,ch=0;
+		do
+		{
+		System.out.println("Enter data : ");
+		d=sc.nextInt();
+		temp=new node(d);
+		node ptr;
+		if(root==null)
+		{
+			root=temp;
+		}
+		else
+		{
+			ptr=root;
+			while(true)
+			{
+				System.out.println("Enter direction where you want to enter ");
+				System.out.println("Enter 1 for left direction");
+				System.out.println("Enter 2 for right direction");
+				dr=sc.nextInt();
+				System.out.println();
+				if(dr==1)
+				{
+					if(ptr.left!=null)
+						ptr=ptr.left;
+					else
+					{
+						ptr.left=temp;
+						 break;
+					}		
+				}
+				else
+					if(dr==2)
+					{
+						if(ptr.right!=null)
+							ptr=ptr.right;
+						else
+						{
+							ptr.right=temp;
+							break;
+						}
+					}
+			}
+		}
+		System.out.println("Do you want to add more nodes ?");
+		System.out.println("Enter 1. to continue and 0. to exit");
+		ch=sc.nextInt();
+		System.out.println();
+		}while(ch==1);
+	}
+  
+  void postOrder_recursive(node localRoot)
+	{
+	if(localRoot!=null)	
+	{
+		postOrder_recursive(localRoot.left);
+		postOrder_recursive(localRoot.right);
+		System.out.print(localRoot.data+" ");
+	}
+	}
+  
+  void postOrder()
+	{
+		Stack<node> s=new Stack<node>();
+		Stack<String> s1=new Stack<String>();
+		node ptr;
+		node p;
+		ptr=root;
+		String flag;
+		while(true)
+		{
+			while(ptr!=null)
+			{
+				s.push(ptr);
+					s1.push("L");
+				ptr=ptr.left;
+			}
+			if(s.isEmpty()==false)
+			{
+				ptr=s.pop();
+				flag=s1.pop();
+				if(flag.equals("L"))
+				{
+					s.push(ptr);
+					s1.push("R");
+					ptr=ptr.right;
+				}
+			else
+			{
+					System.out.print(ptr.data+" ");
+					ptr=null;
+			}
+			}
+			if(s.empty())
+				return;
+			
+		}
+    }
+    
+    public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		BT b=new BT();
+    b.create();
+			System.out.println();
+    System.out.println("Recursive PostOrder Traversal : ");
+    b.postOrder_recursive(b.root);
+			System.out.println();
+		System.out.println("Iterative PostOrder Traversal : ");
+    b.postOrder(b.root);
+			System.out.println();
+      }
+      }
