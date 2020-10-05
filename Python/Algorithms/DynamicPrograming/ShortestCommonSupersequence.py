@@ -18,17 +18,17 @@ def shortest_common_supersequence(str1, str2):
             str2. '''
 
         # Create a cache to hold lcs values for str lengths i and j
-        cache = [[0]*(n+2)] * (m+2)
+        cache = [[0] * (n + 2)] * (m + 2)
         # Fill values in cache in bottom up manner.
-        for i in range(1, n+1):
-            for j in range(1, m+1):
-                if str1[i-1] == str2[j-1]:
+        for i in range(1, n + 1):
+            for j in range(1, m + 1):
+                if str1[i - 1] == str2[j - 1]:
                     # case: the characters at ends of str1 and str2 are same
-                    cache[i][j] = 1 + cache[i-1][j-1]
+                    cache[i][j] = 1 + cache[i - 1][j - 1]
                 else:
                     # case: the characters at ends of str1 and str2 are
                     # different
-                    cache[i][j] = max(cache[i][j-1], cache[i-1][j])
+                    cache[i][j] = max(cache[i][j - 1], cache[i - 1][j])
         # We want to know the length of lcs for complete length of str1
         # and str2, hence, return appropriate cache value corresponding to
         # length n and m
@@ -48,7 +48,7 @@ def shortest_common_supersequence(str1, str2):
     # get the length of shortest supersequence, we just delete one set of lcs.
     # The string that is left after this operation is the Shortest Common
     # Supersequence. Return its length
-    return m+n-l_lcs
+    return m + n - l_lcs
 
 
 if __name__ == '__main__':
