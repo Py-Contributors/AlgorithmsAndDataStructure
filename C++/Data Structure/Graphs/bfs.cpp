@@ -99,5 +99,5 @@ int main(){
     g.add_Edge(4, 5);
 
     g.printGraph();
-    g.levelOrder(0);
+    g.bfs(0);
 }
