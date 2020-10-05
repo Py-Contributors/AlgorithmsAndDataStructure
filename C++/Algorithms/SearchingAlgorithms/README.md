@@ -77,5 +77,5 @@ The time complexity of interpolation search is O(log log n) when values are unif
 Interpolation search works best on uniformly distributed, sorted arrays. Whereas binary search starts in the middle and always divides into two, interpolation search calculates the likely position of the element and checks the index, making it more likely to find the element in a smaller number of iterations.
 
 <p align="right">
-  <img src="https://img.shields.io/badge/Language-Python-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Language-cpp-blue?style=for-the-badge">
 </p>
