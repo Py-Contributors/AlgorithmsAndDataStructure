@@ -1,19 +1,17 @@
 // DFS
 #include<bits/stdc++.h>
-#define take_input freopen("input.txt", "r", stdin)
 #define ll long long int 
 #define pb push_back
-#define fastIO ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
 #define fi first
 #define se second
 using namespace std;
-#define mod 1000000007
 
 class Graph{
     private:
         map<int, vector<int> > m;
         vector<bool> visited(1000000, false);
     public:
+        // add Edges to the graph, to get an undirected graph
         void add_Edge(int a, int b){
             m[a].pb(b);
             m[b].pb(a);
@@ -28,7 +26,7 @@ class Graph{
             }
         }
 
-        // stack dfs
+        // iterative dfs(using stack )
         void dfs_iterative(int src){
             stack<int> s;
             s.push(src);
@@ -48,7 +46,7 @@ class Graph{
             cout << "\n";
         }
 
-        // simple dfs
+        // recursive dfs
         void dfs_recursive(int src){
             visited[src] = true;
             for(int i: m[src]){
