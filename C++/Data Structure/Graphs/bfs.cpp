@@ -1,27 +1,12 @@
-// Graph Travrsal Algorithm
-// This is a way of visiting all the nodes in the graph
-// It can be of two types:
-// 1. BFS: Breadth First Search (Iterative Search)
-// 2. DFS: Depth First Search (Recursive Search)
 
 // BFS
-#include<iostream>
-#include<map>
-#include<list>
-#include<queue>
-using namespace std;
-
-template<typename T>
-
 #include<bits/stdc++.h>
-#define take_input freopen("input.txt", "r", stdin)
 #define ll long long int 
 #define pb push_back
-#define fastIO ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
 #define fi first
 #define se second
 using namespace std;
-#define mod 1000000007
+
 
 class Graph{
     private:
@@ -31,6 +16,7 @@ class Graph{
     	Graph(int size){
     		this->size = size;
     	}
+        // adding edges to the graph, forming a undirected graph
         void add_Edge(int a, int b){
             m[a].pb(b);
             m[b].pb(a);
