@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Environment files
+**/__pycache__
+**/.vscode
