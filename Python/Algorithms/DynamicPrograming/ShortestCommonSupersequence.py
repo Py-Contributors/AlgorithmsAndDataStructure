@@ -18,7 +18,7 @@ def shortest_common_supersequence(str1, str2):
             str2. '''
 
         # Create a cache to hold lcs values for str lengths i and j
-        cache = [[0] * (n + 2)] * (m + 2)
+        cache = [[0] * (m + 2) for i in range(n + 2)]
         # Fill values in cache in bottom up manner.
         for i in range(1, n + 1):
             for j in range(1, m + 1):
@@ -52,6 +52,7 @@ def shortest_common_supersequence(str1, str2):
 
 
 if __name__ == '__main__':
-    s1 = 'AGGTAB'
-    s2 = 'GXTXAYB'
-    print(shortest_common_supersequence(s1, s2))  # 9
+    print('Enter two strings:')
+    s1 = input('string 1: ')
+    s2 = input('string 2: ')
+    print(shortest_common_supersequence(s1, s2))
