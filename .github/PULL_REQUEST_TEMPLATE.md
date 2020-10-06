@@ -2,7 +2,7 @@
 
 ### What have you Changed(must)
 
-Write here what you have changed in cosebase
+Write here what you have changed in codebase
 
 ### Issue no.(must) - #
 
