@@ -5,13 +5,7 @@ description : Algorithms Description
 image :
 ---
 
-<h2> algorithm page </h2>
-{% include sidebar.html %}
-<ul>
-  <li><a href="backtracking/">backtracking</a></li>
-  <li><a href="divideandconquer">divideandconquer</a></li>
-  <li><a href="dyanamicprogramming">dyanamicprogramming</a></li>
-  <li><a href="machinelearning">machinelearning</a></li>
-  <li><a href="searchingalgorithm/">searchingalgorithm</a></li>
-  <li><a href="sortingalgorithm/">sortingalgorithm</a></li>
-</ul>
+{% for algo in site.data.algorithm %}
+<h2><a href="{{algo.algo_link}}">{{algo.algo_type}}</a></h2>
+<p>{{algo.algo_description}}</p>
+{% endfor %}
