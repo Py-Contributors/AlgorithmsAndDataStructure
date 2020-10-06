@@ -5,7 +5,7 @@
 
 
 def sieve_of_sundaram(n):
-    # For primes smaller than n reduce n to talf
+    # For primes smaller than n reduce n to half
     n_cap = int((n - 1) / 2)
     # Make all elements unmarked
     marked = [0] * (n_cap + 1)
@@ -29,5 +29,6 @@ def sieve_of_sundaram(n):
 
     return primes
 
-
-print(sieve_of_sundaram(25))
+num = int(input("Please enter the number: "))
+#print(sieve_of_sundaram(25))
+print(sieve_of_sundaram(num))
