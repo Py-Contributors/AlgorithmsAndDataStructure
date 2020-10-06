@@ -1,12 +1,2 @@
-<<<<<<< HEAD
-paginate : 5
-paginate_path : "/updates/page:num/"
 url: "https://py-contributors.github.io" # the base hostname & protocol for your site
-plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-feed
-=======
-url: "https://py-contributors.github.io" # the base hostname & protocol for your site
->>>>>>> f460e8348b802f87178327c402394a47c5b8e697
 site : https://py-contributors.github.io
