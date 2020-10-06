@@ -75,8 +75,12 @@ int minPalPartion(char* str)
 // driver function to test
 int main() 
 { 
-	char str[] = "adabbaabbaaca"; 
+
+	char str[100];
+	cout<<"Enter a string:\n";
+	cin>>str;
 	cout<<"Min cuts needed for Palindrome Partitioning of "<<str<<" is "<<minPalPartion(str); 
 	return 0; 
 } 
-// The output is 3
+/*Example str="adabbaabbaaca"
+ The output is 3*/
