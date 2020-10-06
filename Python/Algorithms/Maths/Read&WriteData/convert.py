@@ -9,7 +9,7 @@ marathi_digits = ['०', '१', '२', '३', '४', '५', '६', '७', '८',
 new_marathiList = []
 new_EnglishList = []
 # Reading data from the file
-with open("marathinum.txt", 'r', encoding='utf-8') as marathi_file:
+with open('Data_Marathidigits.txt', 'r', encoding='utf-8') as marathi_file:
     for line in marathi_file:
         line = line.replace('\n', ' ')
         mark = line.split(' ')
@@ -29,10 +29,17 @@ with open("marathinum.txt", 'r', encoding='utf-8') as marathi_file:
                 new_EnglishList.append(n1)
     # This will show you the marathi nnumbers in the file.
     # And their corresponding English numbers.
-    print(new_marathiList)
-    print(new_EnglishList)
+    """
+    Marathi numbers in list:
+    ['०', '१', '२', '३', '४३', '४', '६', '७', '८', '९']
+    Corresponding English numbers:
+    ['0', '1', '2', '3', '43', '4', '6', '7', '8', '9']
+
+    """
+    print("Marathi numbers in list      : ", new_marathiList)
+    print("Corresponding English numbers: ", new_EnglishList)
     # Writing data onoto another file.
-    with open("nomdigits.txt", 'w') as wData:
+    with open('Data_Englishdigits.txt', 'w') as wData:
         marathi_file.seek(0)
         for line in marathi_file:
             line = line.split(' ')
