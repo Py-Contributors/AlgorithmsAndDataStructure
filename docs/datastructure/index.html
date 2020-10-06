@@ -1,0 +1,11 @@
+---
+layout : default
+title : Data Structure | PyContributors
+description : Data Structure Description
+image :
+---
+
+{% for ds in site.data.datastructure %}
+<h2><a href="{{ds.ds_link}}">{{ds.ds_name}}</a></h2>
+<p>{{ds.ds_description}}</p>
+{% endfor %}
