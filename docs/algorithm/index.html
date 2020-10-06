@@ -5,6 +5,7 @@ description : Algorithms Description
 image :
 ---
 
+<<<<<<< HEAD
 <h2> algorithm page </h2>
 {% include sidebar.html %}
 <ul>
@@ -15,3 +16,9 @@ image :
   <li><a href="searchingalgorithm/">searchingalgorithm</a></li>
   <li><a href="sortingalgorithm/">sortingalgorithm</a></li>
 </ul>
+=======
+{% for algo in site.data.algorithm %}
+<h2><a href="{{algo.algo_link}}">{{algo.algo_type}}</a></h2>
+<p>{{algo.algo_description}}</p>
+{% endfor %}
+>>>>>>> f460e8348b802f87178327c402394a47c5b8e697

@@ -5,4 +5,7 @@ description : Data Structure Description
 image :
 ---
 
-data strucutre page
+{% for ds in site.data.datastructure %}
+<h2><a href="{{ds.ds_link}}">{{ds.ds_name}}</a></h2>
+<p>{{ds.ds_description}}</p>
+{% endfor %}
