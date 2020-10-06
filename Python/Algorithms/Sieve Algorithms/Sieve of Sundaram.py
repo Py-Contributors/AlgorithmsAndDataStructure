@@ -29,6 +29,7 @@ def sieve_of_sundaram(n):
 
     return primes
 
+
 num = int(input("Please enter the number: "))
-#print(sieve_of_sundaram(25))
+# print(sieve_of_sundaram(25))
 print(sieve_of_sundaram(num))
