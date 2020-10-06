@@ -1,0 +1,12 @@
+<ul>
+  <li>Data Strucuture</li>
+  {% for ds in site.data.datastructure %}
+  <li><a href="{{ds.link}}">{{ds.name}}</a></li>
+  {% endfor %}
+</ul>
+<ul>
+  <li>Algorithms</li>
+  {% for algo in site.data.algorithm %}
+  <li><a href="{{site.url}}/{{algo.link}}">{{algo.name}}</a></li>
+  {% endfor %}
+</ul>
