@@ -5,7 +5,7 @@ def shift(right_operand, comp2s):
     while i < right_operand:
         msb_l.append(0)
         i += 1
-    comp2s = comp2s[0:32-right_operand]
+    comp2s = comp2s[0: 32-right_operand]
     for bit in comp2s:
         msb_l.append(bit)
     return msb_l
