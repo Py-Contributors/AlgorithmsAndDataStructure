@@ -33,7 +33,7 @@ class PollardRho:
                 y = f(f(y, n), n)
                 d = math.gcd(abs(x - y), n)
             return d
-        except TypeError as e:
+        except TypeError:
             return False
 
 
