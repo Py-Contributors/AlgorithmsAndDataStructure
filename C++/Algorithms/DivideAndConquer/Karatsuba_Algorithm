@@ -1,0 +1,59 @@
+/*  C++ implementation of Karatsuba algorithm 
+    It is a fast multiplication Divide and Conquer algorithm.
+    It was discovered by Anatolii Alexeevitch Karatsuba in 1960 and published in 1962.
+    The idea is to recursively divide an n-digit number into two halves 
+    until they are small enough to be multiplied using the naive method. 
+    It reduces the multiplication of two n-digit numbers to at most 3n^(log <base 2> 3) approx 3n^1.585 
+ */
+#include<bits/stdc++.h>
+using namespace std; 
+
+#define long long int long
+
+//To calculate the length of the number(No. of digits)
+int getSize(long num)
+{
+	int c=0;
+    while (num != 0)
+	{
+	    c++;
+	    num /= 10;
+	}
+	return c;
+}
+
+//Recursive function to implement the algorithm 
+//To understand the implementation more clearly visit https://iq.opengenus.org/karatsuba-algorithm
+long multiply(long x, long y)
+{
+    long s1 = getSize(x);
+    long s2 = getSize(y);
+    long n = max(s1, s2);
+    
+    //If digits in both the numbers are less then 10, then directly return the result
+    //Base case of recursion
+    if (n<10)  
+        return x*y;
+        
+    n = (n/2)+(n%2);    // Max length divided and rounded up
+    long m = (long)pow(10, n);      //multiplier
+    
+    //Compute sub expression
+    long b = x/m;
+    long a = x-(b*m);
+    long d = y/m;
+    long c = y-(d*n);
+    
+    long z0 = multiply(a, c);
+    long z1 = multiply(a+b, c+d);
+    long z2 = multiply(b, d);          
+
+    return z0 + ((z1-z0-z2)*m) + (z2*(long)(pow(10, 2*n)));        
+}
+// Driver program to test above functions 
+int main() 
+{ 
+    cout<<multiply(2000, 1000)<<endl;
+    cout<<multiply(24061994, 28563)<<endl;
+	return 0;
+} 
