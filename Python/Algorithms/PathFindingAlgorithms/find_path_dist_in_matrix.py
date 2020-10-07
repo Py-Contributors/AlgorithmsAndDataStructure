@@ -67,9 +67,7 @@ def BFS(matrix, source, destination):
 
     while q:
         curr = q.popleft()
-
         pt = curr.pt
-
         # If we reached the destination point return the distance
         if pt.x == destination.x and pt.y == destination.y:
             return curr.dist
@@ -99,7 +97,7 @@ def main():
         [1, 0, 0, 0, 0, 0, 0, 0, 0, 1],
         [1, 0, 1, 1, 1, 1, 0, 1, 1, 1],
         [1, 1, 0, 0, 0, 0, 1, 0, 0, 1]
-        ]
+    ]
     source = Point(0, 0)
     destination = Point(5, 5)
 
