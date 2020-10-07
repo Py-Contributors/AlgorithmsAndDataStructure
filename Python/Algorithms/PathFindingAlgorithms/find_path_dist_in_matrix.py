@@ -52,8 +52,7 @@ colNum = [0, -1, 1, 0]
 def BFS(matrix, source, destination):
     ROW, COL = len(matrix), len(matrix[0])
 
-    if (matrix[source.x][source.y] != 1 or
-            matrix[destination.x][destination.y] != 1):
+    if (matrix[source.x][source.y] != 1 or matrix[destination.x][destination.y] != 1):
         return -1
 
     visited = [[False for i in range(COL)] for j in range(ROW)]
@@ -76,11 +75,9 @@ def BFS(matrix, source, destination):
             row = pt.x + rowNum[i]
             col = pt.y + colNum[i]
 
-            if (valid(row, col, ROW, COL) and
-                    matrix[row][col] == 1 and
-                    not visited[row][col]):
+            if (valid(row, col, ROW, COL) and matrix[row][col] == 1 and not visited[row][col]):
                 visited[row][col] = True
-                adj_cell = QueueNode(Point(row, col), curr.dist+1)
+                adj_cell = QueueNode(Point(row, col), curr.dist + 1)
                 q.append(adj_cell)
 
     return -1
