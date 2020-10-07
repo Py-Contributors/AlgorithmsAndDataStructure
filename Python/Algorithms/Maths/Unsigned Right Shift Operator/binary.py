@@ -6,7 +6,7 @@ def convert(left_operand):
     lis_32b = list()
     i = 0
     # Appending zero to make 32-bit
-    while i <= 31-len(lo_byte):
+    while i <= 31 - len(lo_byte):
         lis_32b.append(0)
         i += 1
     for num in lo_byte:
