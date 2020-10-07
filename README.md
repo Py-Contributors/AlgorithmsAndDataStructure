@@ -5,7 +5,7 @@
 
 <p align="center">
 <img src="https://img.shields.io/badge/language-python-blue?style=for-the-badge">
-<img src="https://img.shields.io/badge/language-C++-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/language-C++-ff69b4?style=for-the-badge">
 <a href="https://github.com/Py-Contributors/awesomeScripts/stargazers"><img src="https://img.shields.io/github/stars/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge" alt="github stars"></a>
 <a href="https://github.com/Py-Contributors/awesomeScripts/network/members"><img src="https://img.shields.io/github/forks/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge" alt="github forks"></a>
 <img src="https://img.shields.io/github/languages/code-size/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge" alt="code size">
