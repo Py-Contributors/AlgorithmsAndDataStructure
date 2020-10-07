@@ -34,7 +34,6 @@ class PollardRho:
                 d = math.gcd(abs(x - y), n)
             return d
         except TypeError as e:
-            print(e)
             return False
 
 
