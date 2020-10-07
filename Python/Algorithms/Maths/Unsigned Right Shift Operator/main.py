@@ -5,7 +5,7 @@ converted to 32-bit binary
 It's 1's complement
 It's 2's complement
 MSb shift
-Adding the sum and giving the output.
+Adding the sum of all the bits will give the output.
 
 """
 import binary
