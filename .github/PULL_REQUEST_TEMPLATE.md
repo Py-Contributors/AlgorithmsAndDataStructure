@@ -2,11 +2,11 @@
 
 ### What have you Changed(must)
 
-Write here what you have changed in cosebase
+Write here what you have changed in codebase
 
 ### Issue no.(must) - #
 
-Pr will be close and marked as spam. If issue number not found or issue was assigned to someone else. 
+Pr will be closed and marked as spam. If issue number not found or issue was assigned to someone else. 
 Marking as spam can block your account from HacktoberFest.
 ### Self Check(Tick After Making pull Request)
 

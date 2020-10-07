@@ -1,0 +1,32 @@
+[
+    {
+        "algo_type": "Sorting Algorithm",
+        "algo_link": "sortingalgorithm/",
+        "algo_description": "In computer science, a sorting algorithm is an algorithm that puts elements of a list in a certain order. The most frequently used orders are numerical order and lexicographical order. Efficient sorting is important for optimizing the efficiency of other algorithms (such as search and merge algorithms) that require input data to be in sorted lists. Sorting is also often useful for canonicalizing data and for producing human-readable output. More formally, the output of any sorting algorithm must satisfy two conditions:"
+    },
+    {
+        "algo_type": "Searching Algorithm",
+        "algo_link": "searchingalgorithm/",
+        "algo_description": ""
+    },
+    {
+        "algo_type": "BackTracking Algorithm",
+        "algo_link": "backtracking/",
+        "algo_description": ""
+    },
+    {
+        "algo_type": "Divide and Conquer",
+        "algo_link": "divideandconquer/",
+        "algo_description": ""
+    },
+    {
+        "algo_type": "Dynamic Programming",
+        "algo_link": "dynamicprogramming/",
+        "algo_description": ""
+    },
+    {
+        "algo_type": "Machine Learning",
+        "algo_link": "machinelearning/",
+        "algo_description": ""
+    }
+]
