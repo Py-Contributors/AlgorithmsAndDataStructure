@@ -39,7 +39,7 @@ def FibonacciSearch(arr, x, n):
     while (fibM > 1):
 
         # Check if fibMm2 is a valid location
-        i = min(offset+fibMMm2, n-1)
+        i = min(offset + fibMMm2, n - 1)
 
         # If x is greater than the value at
         # index fibMm2, cut the subarray array
@@ -63,8 +63,8 @@ def FibonacciSearch(arr, x, n):
             return i
 
     # comparing the last element with x
-    if(fibMMm1 and arr[offset+1] == x):
-        return offset+1
+    if(fibMMm1 and arr[offset + 1] == x):
+        return offset + 1
 
     # element not found. return -1
     return -1
