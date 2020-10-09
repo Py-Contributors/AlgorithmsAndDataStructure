@@ -3,7 +3,7 @@
 #  __Package__  :  Python 3
 #  __GitHub__  : https://www.github.com/adityalata
 
-from Python.DataStructure.Trees.Node import Node
+from Python.DataStructure.TreeDS.Node import Node
 
 
 # A utility function to check if 'c' is an operator
@@ -15,7 +15,7 @@ def isOperator(c):
 
 
 # Returns root of constructed tree for given postfix expression string
-def constructTree(postfix):
+def getExpressionTree(postfix):
     stack = []
 
     # Traverse through every character of input expression
