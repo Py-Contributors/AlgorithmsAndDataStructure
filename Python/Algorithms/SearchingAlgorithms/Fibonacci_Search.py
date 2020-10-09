@@ -76,7 +76,11 @@ arr = list(map(int, input().split()))
 print("Enter the element i.e to be searched.")
 x = int(input())
 n = len(arr)
-print("Found at index:", FibonacciSearch(arr, x, n))
+idx = FibonacciSearch(arr, x, n)
+if idx != -1:
+    print("Found at index:", FibonacciSearch(arr, x, n))
+else:
+    print("element not found")
 
 """
 input:
@@ -84,7 +88,6 @@ Enter the array in space seperated formate.
 12 16 23 40 70
 Enter the element i.e to be searched.
 23
-
 output:
 Found at index: 2
 """
