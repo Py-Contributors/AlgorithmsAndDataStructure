@@ -72,7 +72,7 @@ def FibonacciSearch(arr, x, n):
 
 # Driver Code
 print("Enter the array in space seperated formate.")
-arr = list(map(int,input().split()))
+arr = list(map(int, input().split()))
 print("Enter the element i.e to be searched.")
 x = int(input())
 n = len(arr)
@@ -88,4 +88,3 @@ Enter the element i.e to be searched.
 output:
 Found at index: 2
 '''
-
