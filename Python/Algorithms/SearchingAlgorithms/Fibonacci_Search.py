@@ -71,9 +71,21 @@ def FibonacciSearch(arr, x, n):
 
 
 # Driver Code
-arr = [10, 22, 35, 40, 45, 50, 80, 82, 85, 90, 100]
+print("Enter the array in space seperated formate.")
+arr = list(map(int,input().split()))
+print("Enter the element i.e to be searched.")
+x = int(input())
 n = len(arr)
-x = 85
 print("Found at index:", FibonacciSearch(arr, x, n))
 
-# output: Found at index: 8
+'''
+input:
+Enter the array in space seperated formate.
+12 16 23 40 70
+Enter the element i.e to be searched.
+23
+
+output:
+Found at index: 2
+'''
+
