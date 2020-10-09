@@ -10,12 +10,14 @@ def inOrder(t):
         print(t.value)
         inOrder(t.right)
 
+
 # A utility function to do postOrder traversal
 def postOrder(t):
     if t is not None:
         postOrder(t.left)
         postOrder(t.right)
         print(t.value)
+
 
 # A utility function to do preOrder traversal
 def preOrder(t):
