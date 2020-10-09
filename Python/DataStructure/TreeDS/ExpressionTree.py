@@ -21,8 +21,12 @@ def getExpressionTree(postfix):
     # Traverse through every character of input expression
     for char in postfix:
 
+        # for space separated postfix
+        if char == " ":
+            continue
+
         # if operand, simply push into stack
-        if not isOperator(char):
+        elif not isOperator(char):
             t = Node(char)
             stack.append(t)
 
@@ -45,3 +49,36 @@ def getExpressionTree(postfix):
     t = stack.pop()
 
     return t
+
+
+# Returns value evaluated from given root of valid(full binary tree) expression tree
+def evaluateExpressionTree(rootNode):
+    # empty tree
+    if rootNode is None:
+        return 0
+
+    # leaf node
+    if rootNode.left is None and rootNode.right is None:
+        return int(rootNode.value)
+
+    # evaluate left tree
+    leftSubtreeValue = evaluateExpressionTree(rootNode.left)
+
+    # evaluate right tree
+    rightSubtreeValue = evaluateExpressionTree(rootNode.right)
+
+    # check which operation to apply on non leaf node
+    if rootNode.value == '+':
+        return leftSubtreeValue + rightSubtreeValue
+
+    elif rootNode.value == '-':
+        return leftSubtreeValue - rightSubtreeValue
+
+    elif rootNode.value == '*':
+        return leftSubtreeValue * rightSubtreeValue
+
+    elif rootNode.value == '^':
+        return leftSubtreeValue ** rightSubtreeValue
+
+    elif rootNode.value == '/':
+        return leftSubtreeValue / rightSubtreeValue
