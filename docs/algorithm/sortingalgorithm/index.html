@@ -1,0 +1,10 @@
+---
+layout : default
+title : Sorting Algorithm | PyContributors
+description : Algorithms Description
+image :
+---
+
+{% for algo in site.data.sorting %}
+<h2><a href="{{algo.algo_link}}">{{algo.algo_name}}</a></h2>
+{% endfor %}

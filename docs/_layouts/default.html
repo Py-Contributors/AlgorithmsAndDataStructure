@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167457248-3"></script>
+			<script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date());gtag('config', 'UA-167457248-3');</script>
+			<title>{{ page.title }}</title>
+			<link rel="icon" href="/assets/img/logo/logo.png" type="image/gif" sizes="16x16">
+			<!--Code Preetify-->
+			<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/googlearchive/code-prettify/master/styles/sunburst.css">
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+			<!-- Fontawesome -->
+			<script src="https://kit.fontawesome.com/83ea256c90.js" crossorigin="anonymous"></script>
+			<!-- Bootstrap CDN -->
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+			<!-- Google Fonts	-->
+			<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap" rel="stylesheet">
+			<!-- Masonry -->
+			<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+			<!-- Animate.css -->
+			<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+			<!-- Meta tags -->
+			<meta name="title" content="{{ page.title }}">
+			<meta name="description" content="{{page.description}}">
+			<meta name="author" content="Deepak Raj">
+			<!-- Open Graph / Facebook -->
+			<meta property="og:type" content="website">
+			<meta property="og:url" content="{{site.url}}{{page.url}}">
+			<meta property="og:title" content="{{page.title}}">
+			<meta property="og:description" content="{% if page.description %}{{page.description}} {% else %}A open Source community for Python, Machine Learning and Artificial intelligence. Open-source contributions are welcome.{% endif %}">
+			<meta property="og:image" content="{% if page.image %}{{page.image}}{% else %}https://images.pexels.com/photos/3785927/pexels-photo-3785927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940{% endif %}">
+			<!-- Twitter -->
+			<meta property="twitter:card" content="summary_large_image">
+			<meta property="twitter:url" content="{{site.url}}{{page.url}}">
+			<meta property="twitter:title" content="{{page.title}}">
+			<meta property="twitter:description" content="{{page.description}}">
+			<meta property="twitter:image" content="{% if page.image %}{{page.image}}{% else %}https://images.pexels.com/photos/3785927/pexels-photo-3785927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940{% endif %}">
+		</head>
+		<body>
+			{% include navbar.html %}
+			<div class="container marginStyle bdrRadius">
+            <!-- Page content here -->
+						{{ content }}
+			</div><!-- /.container -->
+			{% include footer.html %}
+		<!-- Bootstrap script-->
+			<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+			<!-- codep prettify -->
+			<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+		<!--  Scroll reveal	-->
+		<script src="https://unpkg.com/scrollreveal"></script>
+		<!--custom js-->
+		<script src="/assets/js/main.js"></script>
+		<script>
+	 ScrollReveal().reveal('.blockquote', {
+    interval: 100, mobile: true, viewFactor: 0.3, delay:100
+  });
+	</script>
+  	</body>
+</html>

@@ -1,0 +1,11 @@
+---
+layout : default
+title : Algorithms | PyContributors
+description : Algorithms Description
+image :
+---
+
+{% for algo in site.data.algorithm %}
+<h2><a href="{{algo.algo_link}}">{{algo.algo_type}}</a></h2>
+<p>{{algo.algo_description}}</p>
+{% endfor %}
