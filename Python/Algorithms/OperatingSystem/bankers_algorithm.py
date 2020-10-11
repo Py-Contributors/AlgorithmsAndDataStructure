@@ -93,4 +93,3 @@ if __name__ == "__main__":
 
     #  check if system is in safe state
     isSafe(P, R, process_array, available_array, max_R, allotted)
-
