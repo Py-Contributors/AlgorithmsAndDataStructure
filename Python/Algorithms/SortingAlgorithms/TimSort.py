@@ -22,8 +22,8 @@ def minimum(n):
 def insertion_sort(arr, left, right):
     for i in range(left + 1, right + 1):
         j = i
-        while j > left and arr[j] < arr[j-1]:
-            arr[j], arr[j-1] = arr[j-1], arr[j]
+        while j > left and arr[j] < arr[j - 1]:
+            arr[j], arr[j - 1] = arr[j - 1], arr[j]
             j -= 1
 
 
@@ -78,8 +78,8 @@ def tim_sort(arr):
     # Merge from size min_run. Then increase the size to 64, 128 and so on ..
     size = min_run
     while size < n:
-        for left in range(0, n, 2*size):
-            mid = min(n-1, left + size - 1)
+        for left in range(0, n, 2 * size):
+            mid = min(n - 1, left + size - 1)
             right = min((left + 2 * size - 1), n - 1)
             merge(arr, left, mid, right)
         size = 2 * size
