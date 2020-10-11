@@ -1,9 +1,10 @@
 # Banker's Algorithm
-# This algorithm takes maximum number of processes and 
+# This algorithm takes maximum number of processes and
 # resources available to determine whether the system
 # is in a safe state and no deadlock can occur
 
 import sys
+
 
 def calculateNeed(P, R, need, maxm, alloted):
     """Finds need of each process
@@ -17,6 +18,7 @@ def calculateNeed(P, R, need, maxm, alloted):
         for j in range(R):
             need[i][j] = maxm[i][j] - alloted[i][j]
 
+
 def isSafe(P, R, processes, available_array, max_R, alloted):
     need = []
     for i in range(P):
@@ -25,7 +27,7 @@ def isSafe(P, R, processes, available_array, max_R, alloted):
             temp.append(0)
         need.append(temp)
 
-    calculateNeed(P,R, need, max_R, alloted)
+    calculateNeed(P, R, need, max_R, alloted)
 
     # mark all processes as unfinished
     finish = [0] * P
@@ -39,8 +41,8 @@ def isSafe(P, R, processes, available_array, max_R, alloted):
         work[i] = available_array[i]
 
     # while all processes not finished or system not in safe state
-    count =0
-    while(count<P):
+    count = 0
+    while(count < P):
         # find an unfinished process whose
         # needs can be satisfied
         found = False
@@ -52,16 +54,16 @@ def isSafe(P, R, processes, available_array, max_R, alloted):
                     if(need[p][j] > work[j]):
                         break
 
-                if(j== R-1):
+                if(j == R - 1):
 
                     for k in range(R):
                         work[k] += alloted[p][k]
                     safeSeq[count] = p
-                    count+=1
+                    count += 1
 
                     finish[p] = 1
                     found = True
-        if(found==False):
+        if found is False:
             print("System not in safe state")
             return False
 
@@ -83,11 +85,11 @@ if __name__ == "__main__":
 
     available_array = list(map(int, input("Enter total resources separated by space\n").split()))
 
-    max_R = [[0]*R]*P
+    max_R = [[0] * R] * P
     for i in range(P):
         max_R[i] = list(map(int, input(f"Enter max resources for process {process_array[i]}\n").split()))
 
-    allotted = [[0]*R]*P
+    allotted = [[0] * R] * P
     for i in range(P):
         allotted[i] = list(map(int, input(f"Enter alloted resources for process {process_array[i]}\n").split()))
 
