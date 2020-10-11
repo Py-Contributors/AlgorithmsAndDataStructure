@@ -4,7 +4,6 @@ Created on Wed Oct  8 20:09:09 2020
 
 @author: KAMESH
 """
-
 """
 Wiggle Sort.
 
@@ -14,8 +13,6 @@ For example:
 if input numbers = [3, 5, 2, 1, 6, 4]
 one possible Wiggle Sorted answer is [3, 5, 1, 6, 2, 4].
 """
-
-
 def wiggle_sort(nums: list) -> list:
     """
     Python implementation of wiggle.
@@ -35,7 +32,6 @@ def wiggle_sort(nums: list) -> list:
 
     return nums
 
-
 if __name__ == "__main__":
     print("Enter the array elements:")
     array = list(map(int, input().split()))
@@ -44,12 +40,7 @@ if __name__ == "__main__":
     print("Array after Wiggle sort:")
     print(wiggle_sort(array))
 
-
-
-
-
-"""
-
+    """
 Output ::
     
     Enter the array elements:
@@ -60,5 +51,4 @@ The unsorted array is:
 Array after Wiggle sort:
 [3, 5, 1, 6, 2, 4]
 
-
-"""
+    """
