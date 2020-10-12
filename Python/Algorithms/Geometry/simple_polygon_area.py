@@ -21,6 +21,7 @@ def simple_polygon_area(points: List[Point]) -> float:
     >>> simple_polygon_area([Point(3,4), Point(5,11), Point(12,8), Point(9,5), Point(5,6)])
     30.0
     >>> simple_polygon_area([Point(-3,-2), Point(-1,4), Point(6,1), Point(3,10), Point(-4,9)])
+    60.0
     """
 
     area = 0
