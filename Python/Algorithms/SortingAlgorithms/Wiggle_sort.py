@@ -1,4 +1,3 @@
-
 def wiggle_sort(nums: list) -> list:
     """
     Python implementation of wiggle.
@@ -26,4 +25,3 @@ if __name__ == "__main__":
     print(array)
     print("Array after Wiggle sort:")
     print(wiggle_sort(array))
-
