@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Oct  8 20:09:09 2020
-
-@author: KAMESH
-"""
 
 def wiggle_sort(nums: list) -> list:
     """
