@@ -13,7 +13,7 @@ def jumpSearch(arr , x , n):
     previous = 0
 
     # While you haven't found a block, keep on stepping
-    while arr[int(min(step, n)-1)] < x:
+    while arr[int(min(step, n) - 1)] < x:
         previous = step
         # Let the previous
         step += sqrt(n)
