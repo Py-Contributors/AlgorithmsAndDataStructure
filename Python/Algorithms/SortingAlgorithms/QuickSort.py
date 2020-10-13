@@ -8,7 +8,8 @@ class QuickSort:
         >>> sort = QuickSort()
         >>> sort([0, 5, 3, 2, 2])
         [0, 2, 2, 3, 5]
-        """
+    """
+
     def __init__(self):
         print("Quick Sort Algorithm is Initialized")
 
