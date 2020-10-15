@@ -1,20 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Oct 15 17:20:52 2020
-
-@author: KAMESH
-"""
-
-
-"""
-Round Robin is a scheduling algorithm.
-In Round Robin each process is assigned a fixed time slot in a cyclic way.
-https://en.wikipedia.org/wiki/Round-robin_scheduling
-"""
 from __future__ import annotations
-
 from statistics import mean
-
 
 def calculate_waiting_times(burst_times: list[int]) -> list[int]:
     """
