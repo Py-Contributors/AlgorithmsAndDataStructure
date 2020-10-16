@@ -1,4 +1,5 @@
-import Queue,csv
+import Queue
+import csv
 
 MaxTime = 300
 ContextSwitch = 0
