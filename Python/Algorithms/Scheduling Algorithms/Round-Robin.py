@@ -1,56 +1,46 @@
-from __future__ import annotations
-from statistics import mean
-
-def calculate_waiting_times(burst_times: list[int]) -> list[int]:
-    """
-    Calculate the waiting times of a list of processes that have a specified duration.
-    Return: The waiting time for each process.
-    >>> calculate_waiting_times([10, 5, 8])
-    [13, 10, 13]
-    >>> calculate_waiting_times([4, 6, 3, 1])
-    [5, 8, 9, 6]
-    >>> calculate_waiting_times([12, 2, 10])
-    [12, 2, 12]
-    """
-    quantum = 2
-    rem_burst_times = list(burst_times)
-    waiting_times = [0] * len(burst_times)
-    t = 0
-    while True:
-        done = True
-        for i, burst_time in enumerate(burst_times):
-            if rem_burst_times[i] > 0:
-                done = False
-                if rem_burst_times[i] > quantum:
-                    t += quantum
-                    rem_burst_times[i] -= quantum
-                else:
-                    t += rem_burst_times[i]
-                    waiting_times[i] = t - burst_time
-                    rem_burst_times[i] = 0
-        if done is True:
-            return waiting_times
-
-
-def calculate_turn_around_times(
-    burst_times: list[int], waiting_times: list[int]) -> list[int]:
-    """
-    >>> calculate_turn_around_times([1, 2, 3, 4], [0, 1, 3])
-    [1, 3, 6]
-    >>> calculate_turn_around_times([10, 3, 7], [10, 6, 11])
-    [20, 9, 18]
-    """
-    return [burst + waiting for burst, waiting in zip(burst_times, waiting_times)]
-
-
-if __name__ == "__main__":
-    burst_times = [3, 5, 7]
-    waiting_times = calculate_waiting_times(burst_times)
-    turn_around_times = calculate_turn_around_times(burst_times, waiting_times)
-    print("Process ID \tBurst Time \tWaiting Time \tTurnaround Time")
-    for i, burst_time in enumerate(burst_times):
-        print(
-            f"  {i + 1}\t\t  {burst_time}\t\t  {waiting_times[i]}\t\t  "
-            f"{turn_around_times[i]}")
-    print(f"\nAverage waiting time = {mean(waiting_times):.5f}")
-    print(f"Average turn around time = {mean(turn_around_times):.5f}")
+if __name__ == '__main__':
+    # Python program for implementation of RR Scheduling
+    print("Enter Total Process Number: ")
+    total_p_no = int(input())
+    total_time = 0 
+    total_time_counted = 0
+    # proc is process list
+    proc = []
+    wait_time = 0
+    turnaround_time = 0
+    for _ in range(total_p_no):
+        # Getting the input for process
+        print("Enter process arrival time and burst time") 
+        input_info = list(map(int, input().split(" ")))
+        arrival, burst, remaining_time = input_info[0], input_info[1], input_info[1]
+        # processes are appended to the proc list in following format
+        proc.append([arrival, burst, remaining_time, 0])
+        # total_time gets incremented with burst time of each process
+        total_time += burst
+    print("Enter time quantum")
+    time_quantum = int(input())
+    # Keep traversing in round robin manner until the total_time == 0
+    while total_time != 0:
+        # traverse all the processes
+        for i in range(len(proc)):
+            # proc[i][2] here refers to remaining_time for each process i.e "i"
+            if proc[i][2] <= time_quantum and proc[i][2] >= 0:
+                total_time_counted += proc[i][2]
+                total_time -= proc[i][2]
+                # the process has completely ended here thus setting it's remaining time to 0.
+                proc[i][2] = 0 
+            elif proc[i][2] > 0:
+                # if process has not finished, decrementing it's remaining time by time_quantum
+                proc[i][2] -= time_quantum
+                total_time -= time_quantum
+                total_time_counted += time_quantum
+            if proc[i][2] == 0 and proc[i][3] != 1:
+                # if remaining time of process is 0
+                # and 
+                # individual waiting time of process has not been calculated i.e flag
+                wait_time += total_time_counted - proc[i][0] - proc[i][1]
+                turnaround_time += total_time_counted - proc[i][0]
+                # flag is set to 1 once wait time is calculated
+                proc[i][3] = 1 
+    print("\nAvg Waiting Time is ", (wait_time * 1) / total_p_no)
+    print("Avg Turnaround Time is ", (turnaround_time * 1) / total_p_no)
