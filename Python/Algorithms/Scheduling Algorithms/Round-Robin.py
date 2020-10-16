@@ -33,8 +33,7 @@ def calculate_waiting_times(burst_times: list[int]) -> list[int]:
 
 
 def calculate_turn_around_times(
-    burst_times: list[int], waiting_times: list[int]
-) -> list[int]:
+    burst_times: list[int], waiting_times: list[int]) -> list[int]:
     """
     >>> calculate_turn_around_times([1, 2, 3, 4], [0, 1, 3])
     [1, 3, 6]
@@ -52,7 +51,6 @@ if __name__ == "__main__":
     for i, burst_time in enumerate(burst_times):
         print(
             f"  {i + 1}\t\t  {burst_time}\t\t  {waiting_times[i]}\t\t  "
-            f"{turn_around_times[i]}"
-        )
+            f"{turn_around_times[i]}")
     print(f"\nAverage waiting time = {mean(waiting_times):.5f}")
     print(f"Average turn around time = {mean(turn_around_times):.5f}")
