@@ -9,7 +9,6 @@ class Solution:
                 v += r[s[i]]
         return v
 
+
 val = input("Enter Roman numeral: ")
-print("Integer equivalent of", val,"is", Solution().romanToInt(val))
-
-
+print("Integer equivalent of ", val, "is", Solution().romanToInt(val))
