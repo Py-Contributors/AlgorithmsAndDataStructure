@@ -6,7 +6,6 @@
 - After sorting merge them.
 
 """
-import random
 
 MIN_MERGE = 32
 
@@ -86,7 +85,8 @@ def tim_sort(arr):
 
 
 if __name__ == "__main__":
-    arr = random.sample(range(1, 500), 10)
-    print("Array:", arr)
+    print("Enter your array (values should be space separated):")
+    arr = list(map(int, input().strip().split()))
+    print("Input Array:", arr)
     tim_sort(arr)
     print("Sorted Array:", arr)
