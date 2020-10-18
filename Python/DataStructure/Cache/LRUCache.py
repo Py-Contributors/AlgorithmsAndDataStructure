@@ -8,11 +8,12 @@
 LRU Cache Implementation :
 https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_recently_used_(LRU)
 
-Extensively tested implementation for LRU (Least Recently Used) 
-Cache DS from scratch, without using any external library, 
+Extensively tested implementation for LRU (Least Recently Used)
+Cache DS from scratch, without using any external library,
 collection or container. This implementation uses a doubly
 linked list and a simple hash-map.
 '''
+
 
 class Node:
     """
@@ -24,9 +25,10 @@ class Node:
         self.prev = None
         self.next = None
 
+
 class LRUCache:
     def __init__(self, capacity: int):
-        self.hmap = {} # key = int, value = Node
+        self.hmap = {}  # key = int, value = Node
 
         # Dummy Nodes
         self.head = Node(None, None)
@@ -62,10 +64,10 @@ class LRUCache:
             self.hmap[key] = new_node
             self.__addFirst(new_node)
             self.size += 1
-            
+
             if self.size > self.capacity:
-                self.__removeLRUEntry()    
-    
+                self.__removeLRUEntry()
+
     def __removeLRUEntry(self):
         """
         Evicts the least recently used item from cache
@@ -112,10 +114,10 @@ class LRUCache:
         """
         p = self.head.next
         while p.next:
-            print("[Key:{0}, Value:{1}]".format(p.key,p.data), end=" ")
+            print("[Key:{0}, Value:{1}]".format(p.key, p.data), end=" ")
             p = p.next
         print("")
-        
+
 # Your LRUCache object will be instantiated and called as such:
 # obj = LRUCache(capacity)
 # param_1 = obj.get(key)
