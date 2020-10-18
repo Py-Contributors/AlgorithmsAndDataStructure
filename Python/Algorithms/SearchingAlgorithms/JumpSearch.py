@@ -28,6 +28,7 @@ def jumpsearch(arr, num, n):
         return prev
     return -1
 
+
 # Drivers code
 if __name__ == "__main__":
     user_in = input("Enter numbers separated by spaces: ").strip()
@@ -39,6 +40,3 @@ if __name__ == "__main__":
         print("Number", num, "is not found")
     else:
         print("Number", num, "is found at index", index)
-
-      
-    
