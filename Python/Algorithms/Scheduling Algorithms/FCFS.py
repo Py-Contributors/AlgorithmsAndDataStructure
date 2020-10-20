@@ -33,6 +33,3 @@ def fcfs():
     avg_names = ["Average waiting time","Average turnaround time","Average response time"]
     print("{:<30} {:<30} {:<30}".format(avg_names[0],avg_names[1],avg_names[2]))
     print("{:<30.2f} {:<30.2f} {:<30.2f}".format(average_waiting_time,average_turnaround_time,average_response_time))
-
-if __name__ == '__main__':
-    fcfs()
