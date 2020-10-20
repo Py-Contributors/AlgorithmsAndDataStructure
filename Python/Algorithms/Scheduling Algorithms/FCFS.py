@@ -5,6 +5,7 @@ Created on Thu Oct 15 17:02:44 2020
 @author: KAMESH
 """
 
+
 list1 = []
 j=[]
 n = int(input("NO of processes : "))
