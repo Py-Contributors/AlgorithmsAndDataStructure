@@ -1,45 +1,27 @@
-
-a = []
-burst_time = []
-waiting_time = []
-turn_around_time = []
-total_waiting_time = 0
-total_turnaround_time = 0
-sum = 0 
-n = int(input("Enter the number of processes"))
-for i in range (n): 
-    a.append(input("Enter process id "))
-    burst_time.append(int(input("Enetr corresponding burst time")))
-
-for i in range (n):
-    for j in range (i,n):
-        if(a[i]>=a[j]):
-            temp1 = a[i]
-            a[i] = a[j]
-            a[j] = temp1
-            temp1 = burst_time[i]
-            burst_time[i]=burst_time[j]
-            burst_time[j] = temp1
-
-print("The turn-around times are ")
-for i in range (n):
-    sum = sum + burst_time[i]    
-    turn_around_time.append(sum)
-    total_turnaround_time = total_turnaround_time + sum
-    print(str(a[i])+" "+str(sum))
-print("The waiting times are ")
-for i in range (n):
-    temp = turn_around_time[i]-burst_time[i]
-    print(str(a[i])+" "+str(temp))
-    waiting_time.append(temp)
-    total_waiting_time = total_waiting_time + temp
-print( "Processes Burst time " + " Waiting time " + " Turn around time")
-for i in range (n):
-    print(" " + str(a[i]) + "\t\t" + 
-                    str(burst_time[i]) + "\t\t" + 
-                    str(waiting_time[i]) + "\t\t " + 
-                    str(turn_around_time[i])) 
-print("The average turnaround time is ")
-print(total_turnaround_time/n)
-print("The average waiting time is ")
-print(total_waiting_time/n)
+print("Enter number of processes")
+n=int(input(""))
+print("Enter ids")
+a=list(map(int,input().split()))
+print("Enter arrival times")
+b=list(map(int,input().split()))
+print("Enter burst times")
+c=list(map(int,input().split()))
+e=[]
+d=[]
+r=[]
+sum1=0
+for x in range(len(c)):
+    sum1+=c[x]
+    print (sum1,end=" ")
+    d.append(sum1)
+x=zip(d,b)
+for i,j in x:
+    e.append(i-j)
+print(e)
+t=sum(e)
+print("Average turnaround time is",t/n, end=" ")
+y=zip(e,c)
+for o,p in y:
+    r.append(o-p)
+z=sum(r)
+print("Average waiting time is",z/n,end=" ")
