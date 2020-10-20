@@ -1,5 +1,4 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
+# !/usr/bin/env python3.6
 '''
 Converts Roman Numeral into Decimal Number'''
 
@@ -16,8 +15,7 @@ mapping = (
     ('IX', 9),
     ('V', 5),
     ('IV', 4),
-    ('I', 1),
-    )
+    ('I', 1),)
 
 
 def romanToInt(s):
