@@ -39,8 +39,7 @@
   - [Maintainers](#maintainers)
 
 #Note
-~~We have enabled an Interaction Limit till Monday(5th October). This is because we received a lot of duplicate issues and spam PRs, so we need some time to label them as invalid.~~
-We are now open to everyone again!
+~~We are now open to everyone again!
 
 ## Introduction
 
@@ -65,6 +64,10 @@ Algorithms are not limited to computers. They are like a set of step-by-step ins
 ## Languages
 - C++
 - Python
+- Rubygem's (in progress)
+- JavaScript (in progress)
+- Java ( in progress)
+- Electron  (include)
 
 ## Support
 
