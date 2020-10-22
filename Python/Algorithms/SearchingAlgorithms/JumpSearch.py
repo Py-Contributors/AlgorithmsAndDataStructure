@@ -32,11 +32,12 @@ def jumpsearch(arr, num, n):
 # Drivers code
 if __name__ == "__main__":
     user_in = input("Enter numbers separated by spaces: ").strip()
-    arr = [int(item) for item in user_in.split(" ")]
+    arr1 = [int(item) for item in user_in.split(" ")]
+    arr = sorted(arr1)  # Sorting arr1 in ascending order
     num = int(input("Enter the number to be searched: "))
     n = len(arr)
     index = jumpsearch(arr, num, n)
     if index == -1:
         print("Number", num, "is not found")
     else:
-        print("Number", num, "is found at index", index)
+        print("Number", num, "is found at index", arr1.index(num))
