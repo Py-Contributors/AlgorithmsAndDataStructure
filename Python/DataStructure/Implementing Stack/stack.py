@@ -19,7 +19,7 @@ class Stack:
 
     def peek(self):
         if len(self.items) != 0:
-            return self.items[len(self.items)-1]
+            return self.items[len(self.items) - 1]
         else:
             print("Stack is empty")
 
