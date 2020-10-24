@@ -1,6 +1,6 @@
 # Handling categorical Variables
 
-#importing required libraries
+# importing required libraries
 import pandas as pd
 from sklearn import preprocessing
 
