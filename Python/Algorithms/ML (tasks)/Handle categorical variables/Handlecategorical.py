@@ -28,10 +28,11 @@ print(df2.head())
 """
 # Categorical module to get categorical Variables from given dataset
 
+
 def get_categorical():
     fil = input('Enter the filename:')
-    df = pd.read_csv(fil+'.csv')
-    cate =  df.select_dtypes(exclude=['float64', 'int64'])
+    df = pd.read_csv(fil + '.csv')
+    cate = df.select_dtypes(exclude=['float64', 'int64'])
     return cate
 
 
