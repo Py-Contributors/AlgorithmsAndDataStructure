@@ -3,7 +3,7 @@
 # importing required libraries
 import pandas as pd
 from sklearn import preprocessing
-
+"""
 # Reading csv file
 df = pd.read_csv('data_restaurant.csv')
 print(df.head())
@@ -24,3 +24,15 @@ le = preprocessing.LabelEncoder()
 df2 = df1.apply(le.fit_transform)
 
 print(df2.head())
+"""
+
+def get_categorical():
+    fil = input('Enter the filename:')
+    df = pd.read_csv(fil + '.csv')
+    cat = df.select_dtypes(include=['category'])
+
+print(df.head())
+
+get_categorical()
+
+print(cat.head())
