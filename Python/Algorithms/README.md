@@ -1,7 +1,7 @@
 # [AlgorithmsImplementation](/ALGORITHM.md)
 
 Data Structure and Algorithm Implementation in Python.
-
+Below are some techniques which is used for implementing data structures and algorithm.
 - [AlgorithmsImplementation](#algorithmsimplementation)
   - [BackTrackingAlgorithms](#backtrackingalgorithms)
   - [DeepLearningAlgorithms](#deeplearningalgorithms)
