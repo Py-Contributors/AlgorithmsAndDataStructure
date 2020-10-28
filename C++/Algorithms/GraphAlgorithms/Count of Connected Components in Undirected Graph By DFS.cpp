@@ -69,5 +69,7 @@ Input:
 5 6
 7 8
 
+Output:
+The Number of Connected Components are 3
 */
 
