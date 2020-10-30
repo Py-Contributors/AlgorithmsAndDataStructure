@@ -37,6 +37,41 @@ class Linked_list {
         }
     }
 
+// Insert at given Position
+    void insertatposition(int n,int pos){
+         node * tmp=new node;
+         node * p;
+         p= head;
+         tmp -> data = n;
+         tmp -> next = NULL;
+
+         for(int i=1;i<pos-1;i++)
+            p=p->next;
+        tmp->next=p->next;
+        p->next=tmp;
+   
+    };
+// Delete at given Position
+    void deleteatposition(int pos){
+        node *p;
+        int i,count=0;
+        p=head;
+        if(pos==1){
+            head=head->next;
+            free(p);
+            return;
+        }
+
+        for(i=1;i<pos-1;i++)
+           p=p->next;
+
+        
+        if(p->next==NULL)
+          p->next->next=NULL;
+        else
+          p->next=p->next->next;
+}
+
     void display() {
         node *tmp;
         tmp = head;
@@ -56,6 +91,12 @@ int main() {
     a.insert(4);
     a.insert(5);
     cout << "The linked list is: " << endl;
+    a.display();
+    cout << "\nThe linked list After Inserting 42 at position 2: " << endl;
+    a.insertatposition(42,2);
+    a.display();
+    cout << "\nThe linked list After Deleting 42 at position 2: " << endl;
+    a.deleteatposition(2);
     a.display();
     return 0;
 }
