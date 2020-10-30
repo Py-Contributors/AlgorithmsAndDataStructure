@@ -29,8 +29,8 @@ class QuickSort:
 
             # Separately sort elements before
             # partition and after partition
-            self.quickSort( arr, low, pi-1)
-            self.quickSort( arr, pi+1, high)
+            self.quickSort(arr, low, pi-1)
+            self.quickSort(arr, pi+1, high)
         return arr
 
 
