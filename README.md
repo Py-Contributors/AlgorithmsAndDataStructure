@@ -124,7 +124,10 @@ Check [Contribution](/CONTRIBUTING.md) Guide Before Contribution.
 | Fibonacci Number               	| No              	| Yes             	| Duplicate      	|
 | Naive Pattern Search           	| In progress #18 	| In progress #17 	|                	|
 | Rabin-Karp Algorithm           	| No              	|                 	|                	|
-|                                	|                 	|                 	|                	|
+|                                	|                 	|                 	|                	
+| **Greedy Algorithms*         |                 	|                 	|                	|
+| Knapsack Problem               	| Yes             	| No               	|                	
+|
 | **Backtracking**                |                 	|                 	|                	|
 | Suduko Solver                  	| In progress #21 	| No              	|                	|
 | The Knight's Tour              	| In progress #33 	| In progress #32 	|                	|
