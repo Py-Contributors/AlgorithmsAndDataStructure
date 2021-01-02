@@ -37,8 +37,8 @@ def segmentUnionLength(segments: list) -> int:
     points = [None] * (n * 2)
     # create a vector to store starting and ending points
     for i in range(n):
-        points[i*2] = (segments[i][0], False)
-        points[i*2 + 1] = (segments[i][1], True)
+        points[i * 2] = (segments[i][0], False)
+        points[i * 2 + 1] = (segments[i][1], True)
     # print (points)
     # print (len(points))
     # sorting all points by point value
@@ -51,7 +51,7 @@ def segmentUnionLength(segments: list) -> int:
     Counter = 0
     # print (points)
     # Traverse through all points
-    for i in range(0, n*2):
+    for i in range(0, n * 2):
         # If there are open points, then we add the
         # difference between previous and current point.
         # This is interesting as we don't check whether
