@@ -56,8 +56,8 @@ def segmentUnionLength(segments: list) -> int:
         # difference between previous and current point.
         # This is interesting as we don't check whether
         # current point is opening or closing
-        if (i > 0) & (points[i][0] > points[i-1][0]) & (Counter > 0):
-            result += (points[i][0] - points[i-1][0])
+        if (i > 0) & (points[i][0] > points[i - 1][0]) & (Counter > 0):
+            result += (points[i][0] - points[i - 1][0])
         # If this is an ending point, reduce, count of
         # open points.
         if points[i][1]:
