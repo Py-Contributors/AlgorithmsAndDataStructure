@@ -23,7 +23,7 @@ Solution:
     4) Now go through the entire array, with the counter “count” of
     overlapping segments.
     5) If count is greater than zero, then the result is added to the
-    difference between the points[i] – points[i-1].
+    difference between the points[i] and points[i - 1].
     6) If the current element belongs to the left end, we increase
     “count”, otherwise reduce it.
 """
