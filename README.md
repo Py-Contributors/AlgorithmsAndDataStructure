@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://py-contributors.github.io/awesomeScripts/"><img src="https://capsule-render.vercel.app/api?type=rect&color=666666&height=100&section=header&text=Algorithms%20And%20Data%20Structures&fontSize=55%&fontColor=ffffff&fontAlignY=65" alt="website title image"></a>
+  <a href="http://codeperfectplus.herokuapp.com/"><img src="https://capsule-render.vercel.app/api?type=rect&color=666666&height=100&section=header&text=Algorithms%20And%20Data%20Structures&fontSize=55%&fontColor=ffffff&fontAlignY=65" alt="website title image"></a>
   <h2 align="center">👉 A Collection of Algorithm And Data Structures in Cpp and Python 👈</h2>
 </p>
 
@@ -175,6 +175,13 @@ For open-source projects, Under [MIT License](/LICENSE).
 - [rex_divakar](https://github.com/rexdivakar)
 - [Shubham Pawar](https://github.com/shubham5351)
 - [Shantanu Kale](https://github.com/SSKale1)
+
+
+## Must Read Articles
+
+- [5 Tips for computer programming begineers](https://codeperfectplus.herokuapp.com/5-tips-for-computer-programming-beginners)
+- [What is HacktoberFest](https://codeperfectplus.herokuapp.com/what-is-hacktoberfest)
+- [What is Git and Github](https://codeperfectplus.herokuapp.com/what-is-git-and-gitHub)
 
 <p align="center">
 <a href="https://api.github.com/repos/py-contributors/AlgorithmsAndDataStructure/contributors"><img src="http://ForTheBadge.com/images/badges/built-by-developers.svg" alt="built by developers"></a>
