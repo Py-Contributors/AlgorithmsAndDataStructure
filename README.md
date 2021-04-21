@@ -39,7 +39,7 @@
 - [Maintainers](#maintainers)
 
 
-**Anyone Interested for manage repository for upcoming HacktoberFest2021.Email us on `codeperfectplus@gmail.com`**
+**Anyone Interested for manage repository for upcoming HacktoberFest2021.Email us on `pycontributors@gmail.com`**
 
 - Must be a Student
 - Must have knowledge of Git Commands ex- branching, merging etc
