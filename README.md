@@ -26,7 +26,6 @@
 <a href="https://api.github.com/repos/py-contributors/AlgorithmsAndDataStructure/contributors"><img src="https://img.shields.io/github/contributors/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge" alt="total contributors"></a>
 </p>
 
-
 - [Introduction](#introduction)
 - [Data Structure](#data-structure)
 - [Algorithms](#algorithms)
@@ -37,7 +36,6 @@
 - [Authors and acknowledgment](#authors-and-acknowledgment)
 - [License](#license)
 - [Maintainers](#maintainers)
-
 
 **Anyone Interested for manage repository for upcoming HacktoberFest2021.Email us on `pycontributors@gmail.com`**
 
@@ -53,7 +51,6 @@ Data structures & Algorithms are an essential part of programming. It comes unde
 :fork_and_knife:Fork it
 :handshake: Contribute to it!
 
-
 ## Data Structure
 
 In computer science, a data structure is a data organization, management, and storage format that enables efficient access and modification.
@@ -66,6 +63,7 @@ An algorithm is a set of instructions that are used to accomplish a task, such a
 Algorithms are not limited to computers. They are like a set of step-by-step instructions or an even a recipe, containing things you need, steps to do, the order to do them, conditions to look for, and expected results.
 
 ## Languages
+
 - C++
 - Python
 
@@ -79,7 +77,6 @@ Check [Contribution](/CONTRIBUTING.md) Guide Before Contribution.
 <details>
 
 <!-- Restrctions:maintainers only access -->
-
 
 | Data Structure | C++            |     Python      | Status/Remarks     |
 | -------------- | -------------- | :-------------: | ------------------ |
@@ -175,7 +172,6 @@ For open-source projects, Under [MIT License](/LICENSE).
 - [rex_divakar](https://github.com/rexdivakar)
 - [Shubham Pawar](https://github.com/shubham5351)
 - [Shantanu Kale](https://github.com/SSKale1)
-
 
 ## Must Read Articles
 
