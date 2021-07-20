@@ -1,4 +1,4 @@
-class patienceSort:
+class PatienceSort:
     """ Patience Sort Algorithm Implementation in Python 3.0+
         arr : Unorded list
         output : Returns one of the longest increasing subsequence.
@@ -36,5 +36,5 @@ class patienceSort:
         return [x[-1] for x in piles]
 
 
-sort = patienceSort()
+sort = PatienceSort()
 print(sort([10, 9, 5, 11, 2]))
