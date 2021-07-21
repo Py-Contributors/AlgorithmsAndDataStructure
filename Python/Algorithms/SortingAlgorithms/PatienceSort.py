@@ -17,7 +17,7 @@ class patienceSort:
             index = -1
 
             while left <= right:
-                mid = left + (right - left)//2
+                mid = left + (right - left) // 2
 
                 if piles[mid][-1] >= num:
                     index = mid
