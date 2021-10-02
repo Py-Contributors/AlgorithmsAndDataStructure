@@ -1,15 +1,18 @@
 """
-__FileCreationDate__  :  4/5/2020
-__Author__           :  CodePerfectPlus
+__FileCreationDate__  :  2/10/2021
+__Author__           :  thearkamitra
 __Package__         :  Python 3
-__GitHub__         : https://www.github.com/codeperfectplus
+__GitHub__         : https://www.github.com/thearkamitra
 """
 
 
 def factors(n, i):
-    if i <= n:
+    ## Using sqrt(n) reduces complexity from O(n) to O(sqrt(n))
+    if i*i <= n: 
         if n % i == 0:
             print(i, end="|")
+            if i*i!=n:
+                print(n//i, end="|")
         factors(n, i + 1)
 
 
