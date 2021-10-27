@@ -26,20 +26,18 @@ Algorithm:
 int lis( int arr[], int n )  
 {  
     // dp array, here max increasing subsequence, possible till a given index, inclusive of that index.
-    int dp[n]; 
-   // First element can have LIS of 1 only.
-    dp[0] = 1;    
+    int dp[n]={0}; 
+  .
+      
   
     /* Compute optimized LIS values in  
        bottom up manner */
     for (int i = 1; i < n; i++ )  
     { 
-        //initialize with min possible LIS i.e. 1
-        dp[i] = 1; 
-        // Check for LIS till all elements smaller than arr[i] and present on left side.
-        for (int j = 0; j < i; j++ )   
-            if ( arr[i] > arr[j] && dp[i] < dp[j] + 1)  
-                dp[i] = dp[j] + 1;  
+       //using binary search for O(NLOGN) code
+        int l=upper_bound(dp,dp+n+1,arr[i])-dp;
+        if(dp[l-1]<arr[i] and a[i] <dp[l])
+            dp[l]=arr[i];
     } 
   
     // Return maximum value in dp[] array. 
