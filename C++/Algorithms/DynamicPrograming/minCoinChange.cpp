@@ -5,11 +5,10 @@ int func(int arr[], int n , int v){
     int dp[v+1]; 
     dp[0] = 0; 
     
+    
     for(int i=1; i<=v; i++){
-        dp[i] = INT_MAX; 
-    }
-    for(int i=1; i<=v; i++){
-        for(int j=0; j<n ; j++){
+	    dp[i]=INT_MAX;
+	for(int j=0; j<n ; j++){
             if(arr[j]<=i && dp[i-arr[j]] != INT_MAX){
                 dp[i] = min(1+dp[i-arr[j]], dp[i]) ; 
             }
