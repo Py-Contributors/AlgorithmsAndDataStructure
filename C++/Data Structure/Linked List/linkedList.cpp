@@ -128,6 +128,22 @@ class Linked_list {
         head = NULL;
     }
 
+    void reverse()
+    {
+        node *aux, *current=head, *previous=NULL;
+
+        while(current!=NULL)
+        {
+            aux=current->next;
+            current->next=previous;
+            previous=current;
+            current=aux;
+        }
+        aux=tail;
+        tail=head;
+        head=aux;
+    }
+
     ~Linked_list(){
         // This is a destructor for Linked list class.
         // This will be called when a stack allocated object of this class will go out of scope.
@@ -149,6 +165,11 @@ int main() {
     cout << "\nThe linked list is: " << endl;
     list.display();
     cout << "\nSize of the list: " << list.count();
+
+    cout << "\nThe linked list after reverse() is: " << endl;
+    list.reverse();
+    list.display();
+    list.reverse();
 
     list.insertAt(1, 5);
     cout<< "\nThe linked list after insertAt(2,5)" << endl;
