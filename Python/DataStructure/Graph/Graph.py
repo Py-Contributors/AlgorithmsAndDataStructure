@@ -84,7 +84,8 @@ class WeightedGraph:
             output += f"{i}: "
 
             for j in range(0, len(self.edges[i])):
-                output += f"{self.edges[i][j][0]} (weight: {self.edges[i][j][1]}) "
+                output += f"{self.edges[i][j][0]} "
+                output += f"(weight: {self.edges[i][j][1]}) "
 
             output += "\n"
 
