@@ -62,7 +62,7 @@ def main():
 
             else:
                 print("The end condition must be greater than the initial"
-                      "condition x0: %d \n" % x0)
+                      " condition x0: %d \n" % x0)
                 loop = True
 
         except ValueError as e:
