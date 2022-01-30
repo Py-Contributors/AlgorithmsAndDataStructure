@@ -6,6 +6,7 @@ List of Algorithms in Python contained in this repository
   - [Deep Learning Algorithms](#deeplearningalgorithms)
   - [Divide And Conquer](#divideandconquer)
   - [Dynamic Programing](#dynamicprograming)
+  - [Graphing Algorithms](#graphingalgorithms)
   - [Greedy Algorithms](#greedyalgorithms)
   - [Machine Learning Algorithms](#machinelearningalgorithms)
   - [Path Finding Algorithms](#pathfindingalgorithms)
@@ -30,6 +31,10 @@ Example of implementation- Quick Sort, Merge Sort.
 ### Dynamic Programing:
 Dynamic Programming is primarily an optimization over plain recursion. Wherever we see a recursive solution that has repeated calls for same inputs, we can optimize it using Dynamic Programming. The idea is to store the results of subproblems, so that we do not have to re-compute them when needed later.
 Examples of implementation- Knapsack, Longest Common Subsequence.
+
+### Graphing Algorithms:
+Graphing algorithms compute a path or a value relevant to a graph data structure. Greedy algorithms like Prim's or Kruskal's algorithm are graphing algorithms because they operate on graphs
+Examples of implementation - Breadth-first search, Depth-first search, Dijkstra's algorithm
 
 ### Greedy Algorithms:
 A greedy algorithm is a simple, intuitive algorithm that is used in optimization problems. The algorithm makes the optimal choice at each step as it attempts to find the overall optimal way to solve the entire problem.
