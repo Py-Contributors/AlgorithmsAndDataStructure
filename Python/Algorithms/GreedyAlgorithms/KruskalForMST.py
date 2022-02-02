@@ -67,6 +67,7 @@ class Graph:
 
         self.displayMST(self.spanning_tree)
 
+
 # Used this Wiki Commons image of a completed MST using Krustal's Algorithm
 # https://commons.wikimedia.org/wiki/File:Kruskal_Algorithm_6.svg
 
@@ -76,7 +77,7 @@ print('''
 
 * Rough Sketch of Graph:
     * In the code node A = 0, B = 1, etc.
-    
+   
 
 
         (A) - 7 - (B) -- 8 -- (C)
@@ -91,20 +92,17 @@ print('''
 
 ''')
 
-
-
-e1 = Edge(7, 0, 1) # a_b
-e2 = Edge(5, 0, 3) # a_d
-e3 = Edge(9, 1, 3) # b_d
-e4 = Edge(8, 1, 2) # b_c
-e5 = Edge(7, 1, 4) # b_e
-e6 = Edge(5, 2, 4) # c_e
-e7 = Edge(15, 3, 4) # d_e
-e8 = Edge(6, 3, 5) # d_f
-e9 = Edge(8, 4, 5) # e_f
-e10 = Edge(11, 5, 6) # f_g
-e11 = Edge(9, 4, 6) # e_g
-
+e1 = Edge(7, 0, 1)  # a_b
+e2 = Edge(5, 0, 3)  # a_d
+e3 = Edge(9, 1, 3)  # b_d
+e4 = Edge(8, 1, 2)  # b_c
+e5 = Edge(7, 1, 4)  # b_e
+e6 = Edge(5, 2, 4)  # c_e
+e7 = Edge(15, 3, 4)  # d_e
+e8 = Edge(6, 3, 5)  # d_f
+e9 = Edge(8, 4, 5)  # e_f
+e10 = Edge(11, 5, 6)  # f_g
+e11 = Edge(9, 4, 6)  # e_g
 
 original_list = [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11]
 
