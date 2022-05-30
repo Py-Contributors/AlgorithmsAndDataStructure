@@ -177,6 +177,11 @@ For open-source projects, Under [MIT License](/LICENSE).
 - [Shantanu Kale](https://github.com/SSKale1)
 
 
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/codePerfectPlus/AlgorithmsAndDataStructure.svg)](https://starchart.cc/codePerfectPlus/AlgorithmsAndDataStructure)
+
 ## Must Read Articles
 
 - [5 Tips for computer programming begineers](https://codeperfectplus.herokuapp.com/5-tips-for-computer-programming-beginners)
