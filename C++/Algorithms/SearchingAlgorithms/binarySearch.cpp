@@ -1,3 +1,5 @@
+
+/* 바이너리 서치 알고리즘 cpp */
 // Binary search algorithm
 // This algorithm finds the index of an element in a sorted array
 // Time complexity : O(log n)
