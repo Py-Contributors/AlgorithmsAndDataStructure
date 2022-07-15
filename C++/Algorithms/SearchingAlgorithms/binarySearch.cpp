@@ -63,11 +63,15 @@ int binarySearchIterative(const vector<int> &a, int l, int r, int t)
 
 int main()
 {
+    //For fast input output
+    ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
+    
     int n;
     cout << "Please enter the number of elements in the array\n";
     cin >> n;
     cout << "Enter the sorted elements: ";
     vector<int> a(n);
+    
     for (size_t i = 0; i < a.size(); i++)
     {
         cin >> a[i];
@@ -77,10 +81,11 @@ int main()
     cin >> t;
 
     cout << "By recursive approach the index of element " << t << " is : ";
-    cout << binarySearchRecursive(a, 0, n - 1, t) << endl;
+    //\n is faster than endl
+    cout << binarySearchRecursive(a, 0, n - 1, t) << "\n";
 
     cout << "By iterative approach the index of element " << t << " is : ";
-    cout << binarySearchIterative(a, 0, n - 1, t) << endl;
+    cout << binarySearchIterative(a, 0, n - 1, t) << "\n";
 
     return 0;
 }
