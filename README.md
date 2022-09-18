@@ -73,82 +73,6 @@ Algorithms are not limited to computers. They are like a set of step-by-step ins
 
 Check [Contribution](/CONTRIBUTING.md) Guide Before Contribution.
 
-## Project Progress
-
-<summary><h3>Data Structures</h3></summary>
-<details>
-
-<!-- Restrctions:maintainers only access -->
-
-
-| Data Structure | C++            |     Python      | Status/Remarks     |
-| -------------- | -------------- | :-------------: | ------------------ |
-| Linked List    | Yes            |       Yes       | Being improved #23 |
-| Sets           | Yes            |       Yes       | Implemented        |
-| Stack          | Yes            | In progress #13 |                    |
-| Queue          | In progress #7 | In progress #12 |                    |
-
-</details>
-
-<summary><h3>Algorithms</h3></summary>
-<details>
-
-| Algorithm                      | C++             |     Python      | Remarks   |
-| ------------------------------ | --------------- | :-------------: | --------- |
-| **Searching**                  |                 |                 |           |
-| Binary Search                  | No              | In progress #9  |           |
-| Jump Search                    | In progress #39 | In progress #10 |           |
-| Fibonacci Search               | No              | In progress #11 |           |
-|                                |                 |                 |           |
-| **Sorting**                    |                 |                 |           |
-| Selection Sort                 | In progress #29 | In progress #30 |           |
-| Bubble Sort                    | Yes             |       Yes       |           |
-| Insertion Sort                 | In progress #2  |       Yes       |           |
-| Merge Sort                     | In progress #3  |       Yes       |           |
-| Quick Sort                     | In progress #4  |       Yes       |           |
-| Heap Sort                      | In progress #5  | In progress #6  |           |
-| Radix Sort                     | In progress #63 |       Yes       |           |
-|                                |                 |                 |           |
-| **Recursion**                  |                 |                 |           |
-| Fibonacci Numbers              | No              |       Yes       |           |
-| Fibonacci List                 | No              |       Yes       |           |
-| Factors                        | No              |       Yes       |           |
-| Recursion                      | No              |       Yes       |           |
-| Recursive Sum                  | No              |       Yes       |           |
-|                                |                 |                 |           |
-| **Sieve**                      |                 |                 |           |
-| Sieve of Erosothenes           | No              |       Yes       |           |
-|                                |                 |                 |           |
-| **Dynamic Programming**        |                 |                 |           |
-| Knapsack Problem               | No              |       Yes       |           |
-| Longest Common Subsequence     | No              |       Yes       |           |
-| Longest Increasing Subsequence | No              |       Yes       |           |
-| Merge Sort                     | No              |       Yes       | Duplicate |
-| Fibonacci Number               | No              |       Yes       | Duplicate |
-| Naive Pattern Search           | In progress #18 | In progress #17 |           |
-| Rabin-Karp Algorithm           | No              |                 |           |
-|                                |                 |                 |           |
-| **Backtracking**               |                 |                 |           |
-| Suduko Solver                  | In progress #21 |       No        |           |
-| The Knight's Tour              | In progress #33 | In progress #32 |           |
-| Subset Sum                     | In progress #36 | In progress #35 |           |
-|                                |                 |                 |           |
-| **Deep Learning**              |                 |                 |           |
-| Activation Function            | No              |       Yes       |           |
-| Feed Forward Normal Function   | No              |       Yes       |           |
-| Layers                         | No              |       Yes       |           |
-| Loss Function                  | No              |       Yes       |           |
-| Optimizers                     | No              |       Yes       |           |
-|                                |                 |                 |           |
-| **Machine Learning**           |                 |                 |           |
-| Gradient Descent               | No              |       Yes       |           |
-| Linear Regression              | No              |       Yes       |           |
-| Logistic Regression            | No              |       Yes       |           |
-| Decision Tree                  | No              | In progress #37 |           |
-| K-Nearest Neighbours           | No              | In progress #38 |           |
-
-</details>
-
 ## Contributing
 
 Before submitting a bug, please do the following:
@@ -176,7 +100,11 @@ For open-source projects, Under [MIT License](/LICENSE).
 - [Shubham Pawar](https://github.com/shubham5351)
 - [Shantanu Kale](https://github.com/SSKale1)
 
+## Contributors
 
+<a href="https://github.com/codePerfectPlus/AlgorithmsAndDataStructure/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=codePerfectPlus/AlgorithmsAndDataStructure" />
+</a>
 
 ## Stargazers over time
 
