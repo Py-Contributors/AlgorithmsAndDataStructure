@@ -6,24 +6,20 @@
 <p align="center">
 <img src="https://img.shields.io/badge/language-python-blue?style=for-the-badge">
 <img src="https://img.shields.io/badge/language-C++-ff69b4?style=for-the-badge">
-<a href="https://github.com/Py-Contributors/awesomeScripts/stargazers"><img src="https://img.shields.io/github/stars/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge" alt="github stars"></a>
-<a href="https://github.com/Py-Contributors/awesomeScripts/network/members"><img src="https://img.shields.io/github/forks/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge" alt="github forks"></a>
-<img src="https://img.shields.io/github/languages/code-size/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge" alt="code size">
+<a href="https://github.com/codeperfectplus/awesomeScripts/stargazers"><img src="https://img.shields.io/github/stars/codeperfectplus/AlgorithmsAndDataStructure?style=for-the-badge" alt="github stars"></a>
+<a href="https://github.com/codeperfectplus/awesomeScripts/network/members"><img src="https://img.shields.io/github/forks/codeperfectplus/AlgorithmsAndDataStructure?style=for-the-badge" alt="github forks"></a>
+<img src="https://img.shields.io/github/languages/code-size/codeperfectplus/AlgorithmsAndDataStructure?style=for-the-badge" alt="code size">
   </p>
   <p align="center">
-<a href="https://github.com/Py-Contributors/awesomeScripts/issues"><img src="https://img.shields.io/github/issues-raw/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge" alt="open issues"></a>
-<a href="https://github.com/Py-Contributors/awesomeScripts/issues"><img src="https://img.shields.io/github/issues-closed-raw/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge" alt="closed issues"><a/>
-<a href="https://github.com/Py-Contributors/awesomeScripts/pulls"><img src="https://img.shields.io/github/issues-pr-raw/Py-contributors/AlgorithmsAndDataStructure?style=for-the-badge" alt="open pull request"></a>
-<a href="https://github.com/Py-Contributors/awesomeScripts/pulls"><img src="https://img.shields.io/github/issues-pr-closed-raw/Py-contributors/AlgorithmsAndDataStructure?style=for-the-badge" alt="closed pull request"></a>
-</p>
-<p align="center">
-<img src="https://img.shields.io/github/hacktoberfest/2020/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge" alt="hacktoberfest">
-<a href="https://raw.githubusercontent.com/Py-Contributors/AlgorithmsAndDataStructure/master/LICENSE"><img src="https://img.shields.io/github/license/Py-Contributors/AlgorithmsAndDataStructure?style=for-the-badge" alt="MIT license"></a>
+<a href="https://github.com/codeperfectplus/awesomeScripts/issues"><img src="https://img.shields.io/github/issues-raw/codeperfectplus/AlgorithmsAndDataStructure?style=for-the-badge" alt="open issues"></a>
+<a href="https://github.com/codeperfectplus/awesomeScripts/issues"><img src="https://img.shields.io/github/issues-closed-raw/codeperfectplus/AlgorithmsAndDataStructure?style=for-the-badge" alt="closed issues"><a/>
+<a href="https://github.com/codeperfectplus/awesomeScripts/pulls"><img src="https://img.shields.io/github/issues-pr-raw/codeperfectplus/AlgorithmsAndDataStructure?style=for-the-badge" alt="open pull request"></a>
+<a href="https://github.com/codeperfectplus/awesomeScripts/pulls"><img src="https://img.shields.io/github/issues-pr-closed-raw/codeperfectplus/AlgorithmsAndDataStructure?style=for-the-badge" alt="closed pull request"></a>
 </p>
 <p align="center">
 <a href="https://discord.gg/JfbK3bS"><img src="https://img.shields.io/discord/758030555005714512.svg?label=Discord&logo=Discord&colorB=7289da&style=for-the-badge" alt="discord invite"></a>
-<img src="https://img.shields.io/github/last-commit/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge" alt="last contributions">
-<a href="https://api.github.com/repos/py-contributors/AlgorithmsAndDataStructure/contributors"><img src="https://img.shields.io/github/contributors/py-contributors/AlgorithmsAndDataStructure?style=for-the-badge" alt="total contributors"></a>
+<img src="https://img.shields.io/github/last-commit/codeperfectplus/AlgorithmsAndDataStructure?style=for-the-badge" alt="last contributions">
+<a href="https://api.github.com/repos/codeperfectplus/AlgorithmsAndDataStructure/contributors"><img src="https://img.shields.io/github/contributors/codeperfectplus/AlgorithmsAndDataStructure?style=for-the-badge" alt="total contributors"></a>
 </p>
 
 
