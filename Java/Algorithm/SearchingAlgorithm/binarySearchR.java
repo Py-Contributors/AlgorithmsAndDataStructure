@@ -3,6 +3,8 @@ public class binarySearchR {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
+        
+        System.out.print("define your array size: ");
         int n = sc.nextInt();
         
         int arr[] = new int[n];
@@ -10,6 +12,7 @@ public class binarySearchR {
         for(int i=0; i<n; i++)
             arr[i] = sc.nextInt();
         
+        System.out.println("your target is: ");
         int target= sc.nextInt();
         
         System.out.println(search(arr, target, 0, n-1));
