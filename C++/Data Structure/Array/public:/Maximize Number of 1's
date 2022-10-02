@@ -1,0 +1,24 @@
+public:
+    // m is maximum of number zeroes allowed to flip
+    // n is size of array
+    int findZeroes(int a[], int n, int m) {
+       int j=-1;
+       int count= 0;
+       int ans = 0;
+       for(int i=0;i<n;i++){
+           if(a[i]==0) count++;
+           while(count>m){
+               j++;
+               if(a[j]==0){
+                   count--;
+               }
+           }
+           int len = i-j;
+           if(len>ans){
+               ans = len;
+           }
+       }
+       return ans;
+       
+    }  
+};
