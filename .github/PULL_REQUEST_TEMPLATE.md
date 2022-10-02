@@ -1,3 +1,5 @@
+`Please fill all the details and checkbox, so we can merge PR faster.`
+
 ## Pull Request Template
 
 ### What have you Changed(must)
@@ -14,5 +16,8 @@ Marking as spam can block your account from HacktoberFest.
 - [ ] My file is in proper folder
 - [ ] I am following clean code and Documentation.My code is well linted and I am using flake8 standard for python
 - [ ] I have added title and what program will do first in the file
+
+## acknowledgment
+- [x] I have tested the script and distributed it under an MIT license.
 
 ### README - [How to Contribute](https://github.com/Py-Contributors/AlgorithmsAndDataStructure/blob/master/CONTRIBUTING.md)
