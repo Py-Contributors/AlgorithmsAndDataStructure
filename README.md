@@ -97,6 +97,7 @@ For open-source projects, Under [MIT License](/LICENSE).
 - [rex_divakar](https://github.com/rexdivakar)
 - [Shubham Pawar](https://github.com/shubham5351)
 - [Shantanu Kale](https://github.com/SSKale1)
+- [Vanshika Sharma](https://github.com/Vanshika2063)
 
 ## Contributors
 
