@@ -1,8 +1,21 @@
+import java.util.Scanner;
 public class binarySearchR {
     public static void main(String[] args) {
-        int[] arr= {2, 4, 5, 6,8, 9, 10,23,26, 29};
-        int target= 4;
-        System.out.println(search(arr, target, 0, arr.length-1));
+        
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("define your array size: ");
+        int n = sc.nextInt();
+        
+        int arr[] = new int[n];
+        
+        for(int i=0; i<n; i++)
+            arr[i] = sc.nextInt();
+        
+        System.out.println("your target is: ");
+        int target= sc.nextInt();
+        
+        System.out.println(search(arr, target, 0, n-1));
     }
     static int search(int[] arr, int target, int start, int end){
         if (start>end){
