@@ -96,13 +96,22 @@ For open-source projects, Under [MIT License](/LICENSE).
 
 ## Maintainers
 
-- [CodePerfectPlus](https://github.com/codePerfectPlus)
-- [ExpressHermes](https://github.com/ExpressHermes)
-- [Ayush Modi](https://github.com/hot9cups)
-- [rex_divakar](https://github.com/rexdivakar)
-- [Shubham Pawar](https://github.com/shubham5351)
-- [Shantanu Kale](https://github.com/SSKale1)
+### 2022 Team
+
+- [Deepak Raj](https://github.com/codePerfectPlus)
+- [Harshit Paneri](https://github.com/harshit-paneri)
+- [Romil jain](https://github.com/romiljain23)
 - [Vanshika Sharma](https://github.com/Vanshika2063)
+
+### 2020-2021 Team
+
+  - [Ayush Modi](https://github.com/hot9cups)
+  - [Deepak Raj](https://github.com/codePerfectPlus)
+  - [ExpressHermes](https://github.com/ExpressHermes)
+  - [Shantanu Kale](https://github.com/SSKale1)
+  - [rex_divakar](https://github.com/rexdivakar)
+  - [Shubham Pawar](https://github.com/shubham5351)
+  
 
 ## Contributors
 
