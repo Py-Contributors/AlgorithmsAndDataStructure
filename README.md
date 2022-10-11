@@ -4,6 +4,10 @@
 </p>
 
 <p align="center">
+ <a href="http://codeperfectplus.herokuapp.com/"><img src="https://capsule-render.vercel.app/api?type=rect&color=666444&height=40&section=header&text=Hacktoberfest%20Excluded&fontSize=35%&fontColor=ffffff&fontAlignY=65" alt="website title image"></a>
+</p>
+
+<p align="center">
 <img src="https://img.shields.io/badge/language-python-blue?style=for-the-badge">
 <img src="https://img.shields.io/badge/language-C++-green?style=for-the-badge">
 <img src="https://img.shields.io/badge/language-java-yellow?style=for-the-badge">
