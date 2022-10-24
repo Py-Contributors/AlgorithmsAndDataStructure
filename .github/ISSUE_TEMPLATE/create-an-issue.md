@@ -2,7 +2,7 @@
 name: Create an Issue
 about: For creating isssue for HacktoberFest
 title: 'Algorithm name | Category | Language'
-labels: good first issue, hacktoberfest
+labels: good first issue
 assignees: ''
 
 ---
