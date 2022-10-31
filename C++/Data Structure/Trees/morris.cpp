@@ -8,7 +8,7 @@ struct Node {
 using namespace std;
 class Solution {
 public:
-    vector<int> inOrder(Node* root)
+    vector<int> Morris(Node* root)
     {
         Node*cur=root;
         vector<int>v;
