@@ -101,6 +101,10 @@ For open-source projects, Under [MIT License](/LICENSE).
 
 ## Maintainers
 
+### 2023 Team
+
+- [Arjit Goyal](https://github.com/arjit1704)
+
 ### 2022 Team
 
 - [Deepak Raj](https://github.com/codePerfectPlus)
