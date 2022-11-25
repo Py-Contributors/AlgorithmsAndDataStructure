@@ -103,6 +103,10 @@ For open-source projects, Under [MIT License](/LICENSE).
 
 ### 2022 Team
 
+- [Arjit Goyal](https://github.com/arjit1704)
+
+### 2022 Team
+
 - [Deepak Raj](https://github.com/codePerfectPlus)
 - [Harshit Paneri](https://github.com/harshit-paneri)
 - [Romil jain](https://github.com/romiljain23)
