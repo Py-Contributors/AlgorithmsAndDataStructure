@@ -101,7 +101,7 @@ For open-source projects, Under [MIT License](/LICENSE).
 
 ## Maintainers
 
-### 2022 Team
+### 2023 Team
 
 - [Arjit Goyal](https://github.com/arjit1704)
 
