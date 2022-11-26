@@ -103,6 +103,7 @@ For open-source projects, Under [MIT License](/LICENSE).
 
 ### 2023 Team
 
+- [Kritika Gupta](https://github.com/Kritika30032002)
 - [Arjit Goyal](https://github.com/arjit1704)
 
 ### 2022 Team
