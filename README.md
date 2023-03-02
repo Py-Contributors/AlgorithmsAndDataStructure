@@ -33,7 +33,7 @@
 
 
 - [Introduction](#introduction)
-- [Data Structure](#data-structure)
+- [Data Structures](#data-structures) <!-- Data Structure hyperlink in the readme doesn't link #925 issue solved. P.S. It was a typo -->
 - [Algorithms](#algorithms)
 - [Languages](#languages)
 - [Support](#support)
