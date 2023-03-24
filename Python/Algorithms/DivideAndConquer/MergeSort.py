@@ -1,4 +1,16 @@
-def merge(self, left, right):
+from typing import List
+
+
+def merge(left: List[int], right: List[int]) -> List[int]:
+    """Merges two sorted lists into a single sorted list.
+
+    Args:
+        left (list): The left half of the list to be merged.
+        right (list): The right half of the list to be merged.
+
+    Returns:
+        list: The sorted list resulting from merging the left and right halves.
+    """
     if len(left) == 0:
         return right
 
@@ -26,23 +38,20 @@ def merge(self, left, right):
     return result
 
 
-def mergeSort(self, arr):
-    """ mergeSort Algorithm Implementation in Python 3
+def merge_sort(unsorted_list: List[int]) -> List[int]:
+    """Sorts a list of integers using the merge sort algorithm.
 
-        arr : Unorded list
-        output : Return list in ascending order.
-        time complexity : O(n log2n)
-        Note : O(n log2n) is the best possible worst-case runtime that can be
-        achieved by a sorting algorithm.
+    Args:
+        unsorted_list (list): The unsorted list to be sorted.
 
-        Example :
-        >>> mergeSort([4,2,6,5,9,8])
-        [2, 4, 5, 6, 8, 9]"""
+    Returns:
+        list: The sorted list.
+    """
+    if len(unsorted_list) < 2:
+        return unsorted_list
 
-    if len(arr) < 2:
-        return arr
+    midpoint = len(unsorted_list) // 2
 
-    midpoint = len(arr) // 2
+    return merge(left=merge_sort(unsorted_list[:midpoint]),
+                 right=merge_sort(unsorted_list[midpoint:]))
 
-    return merge(left=mergeSort(arr[:midpoint]),
-                 right=mergeSort(arr[midpoint:]))
