@@ -1,6 +1,6 @@
 <p align="center">
   <a href="http://codeperfectplus.herokuapp.com/"><img src="https://capsule-render.vercel.app/api?type=rect&color=666666&height=100&section=header&text=Algorithms%20And%20Data%20Structures&fontSize=55%&fontColor=ffffff&fontAlignY=65" alt="website title image"></a>
-  <h2 align="center">👉 A Collection of Algorithm And Data Structures in C++ and Python 👈</h2>
+  <h2 align="center">👉 A Collection of Algorithms And Data Structures in C++ and Python 👈</h2>
 </p>
 
 <p align="center">
@@ -52,7 +52,7 @@
 
 ## Introduction
 
-Data structures & algorithms are an essential part of programming. They both fall under the fundamentals of computer science. Understanding these gives us the advantage of writing better and more efficient code in less time. They are key topics when it comes to acing software engineering interview questions, so as developers, we must have knowledge of data Structure and algorithms.
+Data structures & algorithms are an essential part of programming. They both fall under the fundamentals of computer science. Understanding these gives us the advantage of writing better and more efficient code in less time. They are key topics when it comes to acing software engineering interview questions, so as developers, we must have knowledge of data structures and algorithms.
 
 :star2: Star it
 :fork_and_knife:Fork it
