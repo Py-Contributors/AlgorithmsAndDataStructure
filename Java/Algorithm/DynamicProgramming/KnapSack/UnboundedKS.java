@@ -2,7 +2,7 @@
 //this problem is quite similar to coinChange2
 
 public class UnboundedKS {
-    public static int Solve(int W, int N, int[] val, int[] wt) {
+    public static int solve(int W, int N, int[] val, int[] wt) {
         int[] dp = new int[W + 1];
         // dp[i] represents max Value achieved with sack of capacity of i
         for (int i = 0; i <= W; i++) {
@@ -22,7 +22,7 @@ public class UnboundedKS {
         int N = 3; // No of items
         int[] val = { 1, 2, 3 }; // values of items;
         int[] wt = { 3, 5, 1 }; // weights of items
-        int ans = Solve(W, N, val, wt);
+        int ans = solve(W, N, val, wt);
         System.out.println(ans);
     }
 }

@@ -3,8 +3,6 @@
 //we given an array jumps where jump[i] represents from ith step we can go to i+jumps[i] ith steps;
 //we have to start from 0th step and reach the nth step using jumps
 
-import java.util.Scanner;
-
 public class ClimbStairs2 {
     public static int getNoOfWays(int n, int[] jumps) {
         int[] dp = new int[n + 1];
@@ -20,7 +18,6 @@ public class ClimbStairs2 {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         int n = 6; // number of steps;
         int[] jumps = { 2, 3, 0, 1, 2, 3 };
         int ans = getNoOfWays(n, jumps);

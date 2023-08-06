@@ -1,5 +1,5 @@
 public class BoundedKnapSack {
-    public static int Solve(int W, int N, int[] val, int[] wt) {
+    public static int solve(int W, int N, int[] val, int[] wt) {
         int[][] dp = new int[N + 1][W + 1];
         // dp[i][j] represents max value achieved with sack of capacity j and i-1 items;
         for (int i = 1; i <= N; i++) {
@@ -23,7 +23,7 @@ public class BoundedKnapSack {
         int[] val = { 1, 2, 3 }; // values of items;
         int[] wt = { 3, 5, 1 }; // weights of items
 
-        int ans = Solve(W, N, val, wt);
+        int ans = solve(W, N, val, wt);
         System.out.println(ans);
     }
 }

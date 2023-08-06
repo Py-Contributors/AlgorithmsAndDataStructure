@@ -21,7 +21,6 @@ public class ClimbStairs3 {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         int n = 6; // number of steps;
         int[] jumps = { 2, 3, 0, 1, 2, 3 };
         int ans = getNoOfWays(n, jumps);

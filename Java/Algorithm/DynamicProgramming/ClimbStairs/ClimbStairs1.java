@@ -26,7 +26,7 @@ public class ClimbStairs1 {
         int n = sc.nextInt();
         int ans = solution(n);
         System.out.println(ans);
-        // sc.close();
+        sc.close();
 
     }
 
