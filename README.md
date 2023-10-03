@@ -1,10 +1,10 @@
 <p align="center">
-  <a href="http://codeperfectplus.herokuapp.com/"><img src="https://capsule-render.vercel.app/api?type=rect&color=666666&height=100&section=header&text=Algorithms%20And%20Data%20Structures&fontSize=55%&fontColor=ffffff&fontAlignY=65" alt="website title image"></a>
+  <a href="http://codeperfectplus.com/"><img src="https://capsule-render.vercel.app/api?type=rect&color=666666&height=100&section=header&text=Algorithms%20And%20Data%20Structures&fontSize=55%&fontColor=ffffff&fontAlignY=65" alt="website title image"></a>
   <h2 align="center">👉 A Collection of Algorithms And Data Structures in C++ and Python 👈</h2>
 </p>
 
 <p align="center">
- <a href="http://codeperfectplus.herokuapp.com/"><img src="https://capsule-render.vercel.app/api?type=rect&color=666444&height=40&section=header&text=Hacktoberfest%20Excluded&fontSize=35%&fontColor=ffffff&fontAlignY=65" alt="website title image"></a>
+ <a href="http://codeperfectplus.com/"><img src="https://capsule-render.vercel.app/api?type=rect&color=666444&height=40&section=header&text=Hacktoberfest%20Excluded&fontSize=35%&fontColor=ffffff&fontAlignY=65" alt="website title image"></a>
 </p>
 
 <p align="center">
@@ -31,7 +31,6 @@
 <a href="https://api.github.com/repos/codeperfectplus/AlgorithmsAndDataStructure/contributors"><img src="https://img.shields.io/github/contributors/codeperfectplus/AlgorithmsAndDataStructure?style=for-the-badge" alt="total contributors"></a>
 </p>
 
-
 - [Introduction](#introduction)
 - [Data Structures](#data-structures) <!-- Data Structure hyperlink in the readme doesn't link #925 issue solved. P.S. It was a typo -->
 - [Algorithms](#algorithms)
@@ -39,16 +38,9 @@
 - [Support](#support)
 - [Project Progress](#project-progress)
 - [Contributing](#contributing)
-- [Authors and acknowledgment](#authors-and-acknowledgment)
+- [Authors and acknowledgement](#authors-and-acknowledgement)
 - [License](#license)
 - [Maintainers](#maintainers)
-
-
-**Anyone Interested in managing the repository for the upcoming HacktoberFest2021, email us at `pycontributors@gmail.com`**
-
-- Must be a student
-- Must have knowledge of Git Commands ex- branching, merging etc
-- Must have Python/C++ DS and Algo knowledge to review code.
 
 ## Introduction
 
@@ -57,7 +49,6 @@ Data structures & algorithms are an essential part of programming. They both fal
 :star2: Star it
 :fork_and_knife:Fork it
 :handshake: Contribute to it!
-
 
 ## Data Structures
 
@@ -89,9 +80,9 @@ Check [Contribution](/CONTRIBUTING.md) Guide Before Contribution.
 - Create separate issues for Python and C++.
 - You can only work on issues that you have been assigned to.
 - Use Flake8 locally for linting Python Code. `pip install flake8`.
-  (We have linting checks so if your code fails it we will not merge the PR.)
+  (We have linting checks so if your code fails we will not merge the PR.)
 
-## Authors and acknowledgment
+## Authors and acknowledgement
 
 Show your appreciation to those who have contributed to the project.
 
@@ -135,9 +126,9 @@ For open-source projects, Under [MIT License](/LICENSE).
 
 ## Must Read Articles
 
-- [5 Tips for computer programming begineers](https://codeperfectplus.herokuapp.com/5-tips-for-computer-programming-beginners)
-- [What is HacktoberFest](https://codeperfectplus.herokuapp.com/what-is-hacktoberfest)
-- [What is Git and Github](https://codeperfectplus.herokuapp.com/what-is-git-and-gitHub)
+- [How to Solve Linear Equations with Matrix Inversion](https://codeperfectplus.com/how-to-solve-linear-equations-with-matrix-inversion)
+- [HackerRank Algorithms Solutions using Python and C++](https://codeperfectplus.com/hackerrank-algorithms-solutions-using-python-and-c-cpp)
+- [30 Days of Code - HackerRank](https://codeperfectplus.com/category/hackerank-30daysofcode/)
 
 <p align="center">
 <a href="https://api.github.com/repos/py-contributors/AlgorithmsAndDataStructure/contributors"><img src="http://ForTheBadge.com/images/badges/built-by-developers.svg" alt="built by developers"></a>
