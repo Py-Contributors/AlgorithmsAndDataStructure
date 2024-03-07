@@ -1,7 +1,23 @@
-public class InsertionSort {
+import java.util.Arrays;
+
+class InsertionSort {
+
+    public static void main(String [] kichu){
+        int [] arr = {7,6,5,3,4,2,1};
+        insertionSort(arr);
+        System.out.println(Arrays.toString(arr));
+
+        insertionSortRicorsive(arr, 7);
+        System.out.println(Arrays.toString(arr));
+        
+    }
     
     public static int insertionSort(int[] v){
-		int i, j, t, numIteration=0;
+		int i=0;
+        int j=0;
+        int t=0;
+        int numIteration=0;
+        
 		for(i=1; i<=v.length-1; i++){
 			t = v[i];
 			j=i;
