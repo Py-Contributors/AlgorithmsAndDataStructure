@@ -1,21 +1,35 @@
-function binarySearch(sortedArray, key){
-    let start = 0;
-    let end = sortedArray.length - 1;
+function binarySearch(arr, target) {
+    let left = 0;
+    let right = arr.length - 1;
 
-    while (start <= end) {
-        let middle = Math.floor((start + end) / 2);
+    while (left <= right) {
+        let mid = Math.floor((left + right) / 2);
 
-        if (sortedArray[middle] === key) {
-            // found the key
-            return middle;
-        } else if (sortedArray[middle] < key) {
-            // continue searching to the right
-            start = middle + 1;
-        } else {
-            // search searching to the left
-            end = middle - 1;
+        // Check if target is present at mid
+        if (arr[mid] === target) {
+            return mid;
+        }
+
+        // If target is greater, ignore left half
+        if (arr[mid] < target) {
+            left = mid + 1;
+        }
+        // If target is smaller, ignore right half
+        else {
+            right = mid - 1;
         }
     }
-	// key wasn't found
+
+    // If we reach here, then the element was not present
     return -1;
+}
+
+// Example usage:
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const target = 5;
+const resultIndex = binarySearch(arr, target);
+if (resultIndex !== -1) {
+    console.log(`Element ${target} found at index ${resultIndex}`);
+} else {
+    console.log(`Element ${target} not found`);
 }
